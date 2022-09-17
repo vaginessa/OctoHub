@@ -35,7 +35,7 @@ class IssueTimelineViewHolder private constructor(
                 false, isEnterprise(issueEventModel.url)
             )
         } else {
-            if (event !== IssueEventType.committed) {
+            if (event !== IssueEventType.COMMITTED) {
                 avatarLayout!!.visibility = View.VISIBLE
                 if (issueEventModel.actor != null) {
                     avatarLayout.setUrl(

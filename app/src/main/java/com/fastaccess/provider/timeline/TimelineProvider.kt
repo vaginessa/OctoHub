@@ -31,13 +31,16 @@ object TimelineProvider {
         val date =
             if (issueEventModel.createdAt != null) issueEventModel.createdAt else if (issueEventModel.author != null) issueEventModel.author!!.date else null
         if (event != null) {
+
+            val eventName = event.name.replaceAndLowercase()
+
             val to = context.getString(R.string.to)
             val from = context.getString(R.string.from)
             val thisString = context.getString(R.string.this_value)
             val `in` = context.getString(R.string.in_value)
-            if (event === IssueEventType.labeled || event === IssueEventType.unlabeled) {
+            if (event === IssueEventType.LABELED || event === IssueEventType.UNLABELED) {
                 spannableBuilder.bold(if (issueEventModel.actor != null) issueEventModel.actor!!.login!! else "anonymous")
-                spannableBuilder.append(" ").append(event.name.replace("_".toRegex(), " "))
+                spannableBuilder.append(" ").append(eventName)
                 val labelModel = issueEventModel.label!!
                 val color = Color.parseColor("#" + labelModel.color)
                 spannableBuilder.append(" ").append(
@@ -45,7 +48,7 @@ object TimelineProvider {
                     CodeSpan(color, ViewHelper.generateTextColor(color), 5F)
                 )
                 spannableBuilder.append(" ").append(getDate(issueEventModel.createdAt))
-            } else if (event === IssueEventType.committed) {
+            } else if (event === IssueEventType.COMMITTED) {
                 spannableBuilder.append(issueEventModel.message!!.replace("\n".toRegex(), " "))
                     .append(" ")
                     .url(substring(issueEventModel.sha))
@@ -61,8 +64,8 @@ object TimelineProvider {
                 if (user != null) {
                     spannableBuilder.bold(user.login!!)
                 }
-                if ((event === IssueEventType.review_requested || event === IssueEventType.review_dismissed ||
-                            event === IssueEventType.review_request_removed) && user != null
+                if ((event === IssueEventType.REVIEW_REQUESTED || event === IssueEventType.REVIEW_DISMISSED ||
+                            event === IssueEventType.REVIEW_REQUEST_REMOVED) && user != null
                 ) {
                     appendReviews(
                         issueEventModel,
@@ -71,13 +74,13 @@ object TimelineProvider {
                         from,
                         issueEventModel.reviewRequester!!
                     )
-                } else if (event === IssueEventType.closed || event === IssueEventType.reopened) {
+                } else if (event === IssueEventType.CLOSED || event === IssueEventType.REOPENED) {
                     if (isMerged) {
-                        spannableBuilder.append(" ").append(IssueEventType.merged.name)
+                        spannableBuilder.append(" ").append(IssueEventType.MERGED.name)
                     } else {
                         spannableBuilder
                             .append(" ")
-                            .append(event.name.replace("_".toRegex(), " "))
+                            .append(eventName)
                             .append(" ")
                             .append(thisString)
                     }
@@ -88,47 +91,47 @@ object TimelineProvider {
                             .append(" ")
                             .url(substring(issueEventModel.commitId))
                     }
-                } else if (event === IssueEventType.assigned || event === IssueEventType.unassigned) {
+                } else if (event === IssueEventType.ASSIGNED || event === IssueEventType.UNASSIGNED) {
                     spannableBuilder
                         .append(" ")
                     if (user != null && issueEventModel.assignee != null && user.login
                             .equals(issueEventModel.assignee!!.login, ignoreCase = true)
                     ) {
                         spannableBuilder
-                            .append(if (event === IssueEventType.assigned) "self-assigned this" else "removed their assignment")
+                            .append(if (event === IssueEventType.ASSIGNED) "self-assigned this" else "removed their assignment")
                     } else {
                         spannableBuilder
-                            .append(if (event === IssueEventType.assigned) "assigned" else "unassigned")
+                            .append(if (event === IssueEventType.ASSIGNED) "assigned" else "unassigned")
                         spannableBuilder
                             .append(" ")
                             .bold(if (issueEventModel.assignee != null) issueEventModel.assignee!!.login!! else "")
                     }
-                } else if (event === IssueEventType.locked || event === IssueEventType.unlocked) {
+                } else if (event === IssueEventType.LOCKED || event === IssueEventType.UNLOCKED) {
                     spannableBuilder
                         .append(" ")
                         .append(
-                            if (event === IssueEventType.locked) "locked and limited conversation to collaborators" else "unlocked this " +
+                            if (event === IssueEventType.LOCKED) "locked and limited conversation to collaborators" else "unlocked this " +
                                     "conversation"
                         )
-                } else if (event === IssueEventType.head_ref_deleted || event === IssueEventType.head_ref_restored) {
+                } else if (event === IssueEventType.HEAD_REF_DELETED || event === IssueEventType.HEAD_REF_RESTORED) {
                     spannableBuilder.append(" ").append(
-                        event.name.replace("_".toRegex(), " "),
+                        eventName,
                         BackgroundColorSpan(getWindowBackground(themeType))
                     )
-                } else if (event === IssueEventType.milestoned || event === IssueEventType.demilestoned) {
+                } else if (event === IssueEventType.MILESTONED || event === IssueEventType.DEMILESTONED) {
                     spannableBuilder.append(" ")
-                        .append(if (event === IssueEventType.milestoned) "added this to the" else "removed this from the")
+                        .append(if (event === IssueEventType.MILESTONED) "added this to the" else "removed this from the")
                         .append(" ")
                         .bold(issueEventModel.milestone!!.title!!)
                         .append(" ")
                         .append("milestone")
-                } else if (event === IssueEventType.deployed) {
+                } else if (event === IssueEventType.DEPLOYED) {
                     spannableBuilder.append(" ")
                         .bold("deployed")
                 } else {
-                    spannableBuilder.append(" ").append(event.name.replace("_".toRegex(), " "))
+                    spannableBuilder.append(" ").append(eventName)
                 }
-                if (event === IssueEventType.renamed) {
+                if (event === IssueEventType.RENAMED) {
                     spannableBuilder
                         .append(" ")
                         .append(from)
@@ -138,13 +141,13 @@ object TimelineProvider {
                         .append(to)
                         .append(" ")
                         .bold(issueEventModel.rename!!.toValue!!)
-                } else if (event === IssueEventType.referenced || event === IssueEventType.merged) {
+                } else if (event === IssueEventType.REFERENCED || event === IssueEventType.MERGED) {
                     spannableBuilder
                         .append(" ")
                         .append("commit")
                         .append(" ")
                         .url(substring(issueEventModel.commitId))
-                } else if (event === IssueEventType.cross_referenced) {
+                } else if (event === IssueEventType.CROSS_REFERENCED) {
                     val sourceModel = issueEventModel.source
                     if (sourceModel != null) {
                         var type = sourceModel.type
@@ -189,10 +192,10 @@ object TimelineProvider {
         val reviewer = issueEventModel.requestedReviewer
         if (reviewer != null && user.login.equals(reviewer.login, ignoreCase = true)) {
             spannableBuilder
-                .append(if (event === IssueEventType.review_requested) "self-requested a review" else "removed their request for review")
+                .append(if (event === IssueEventType.REVIEW_REQUESTED) "self-requested a review" else "removed their request for review")
         } else {
             spannableBuilder
-                .append(if (event === IssueEventType.review_requested) "Requested a review" else "dismissed the review")
+                .append(if (event === IssueEventType.REVIEW_REQUESTED) "Requested a review" else "dismissed the review")
                 .append(" ")
                 .append(
                     if (reviewer != null && !reviewer.login.equals(
@@ -231,4 +234,6 @@ object TimelineProvider {
         }
         return if (value.length <= 7) value else value.substring(0, 7)
     }
+
+    private fun String.replaceAndLowercase() = replace("_".toRegex(), " ").lowercase()
 }

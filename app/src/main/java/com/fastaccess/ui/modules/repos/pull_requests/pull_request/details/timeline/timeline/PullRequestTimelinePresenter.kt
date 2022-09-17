@@ -126,7 +126,7 @@ class PullRequestTimelinePresenter : BasePresenter<PullRequestTimelineMvp.View>(
                         isEnterprise = isEnterprise,
                         criteria = "assignee:\"" + issueEventModel.assignee!!.login + "\""
                     )
-                } else if (issueEventModel.event === IssueEventType.committed) {
+                } else if (issueEventModel.event === IssueEventType.COMMITTED) {
                     launchUri(v!!.context, issueEventModel.url!!.replace("git/", ""))
                 } else {
                     val sourceModel = issueEventModel.source

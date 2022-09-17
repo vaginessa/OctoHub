@@ -35,7 +35,7 @@ open class TimelineModel : Parcelable {
 
     constructor(comment: Comment?) {
         this.comment = comment
-        event = IssueEventType.commented
+        event = IssueEventType.COMMENTED
     }
 
     constructor(statusModel: PullRequestStatusModel?) {
@@ -47,10 +47,10 @@ open class TimelineModel : Parcelable {
     val type: Int
         get() = if (event != null) {
             when (event) {
-                IssueEventType.commented -> COMMENT
-                IssueEventType.reviewed, IssueEventType.changes_requested -> REVIEW
+                IssueEventType.COMMENTED -> COMMENT
+                IssueEventType.REVIEWED, IssueEventType.CHANGES_REQUESTED -> REVIEW
                 IssueEventType.GROUPED -> GROUP
-                IssueEventType.commit_commented -> COMMIT_COMMENTS
+                IssueEventType.COMMIT_COMMENTED -> COMMIT_COMMENTS
                 else -> EVENT
             }
         } else {

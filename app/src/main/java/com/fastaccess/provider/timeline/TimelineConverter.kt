@@ -27,7 +27,7 @@ object TimelineConverter {
                 if (!InputHelper.isEmpty(event)) {
                     val type = IssueEventType.getType(event)
                     timeline.event = type
-                    if (type == IssueEventType.commented) {
+                    if (type == IssueEventType.COMMENTED) {
                         timeline.comment = getComment(jsonObject, gson)
                     } else {
                         timeline.genericEvent = getGenericEvent(jsonObject, gson)
@@ -53,10 +53,10 @@ object TimelineConverter {
             if (!InputHelper.isEmpty(event)) {
                 val type = IssueEventType.getType(event)
                 timeline.event = type
-                if (type == IssueEventType.commented) {
+                if (type == IssueEventType.COMMENTED) {
                     timeline.comment = getComment(jsonObject, gson)
                     list.add(timeline)
-                } else if (type == IssueEventType.commit_commented) {
+                } else if (type == IssueEventType.COMMIT_COMMENTED) {
                     val commit = getCommit(jsonObject, gson)
                     if (commit != null) {
                         val comment = commit.comments?.firstOrNull()
@@ -69,8 +69,8 @@ object TimelineConverter {
                         timeline.commit = commit
                         list.add(timeline)
                     }
-                } else if (type == IssueEventType.reviewed || type == IssueEventType
-                        .changes_requested
+                } else if (type == IssueEventType.REVIEWED || type == IssueEventType
+                        .CHANGES_REQUESTED
                 ) {
                     val review = getReview(jsonObject, gson)
                     if (review != null) {
@@ -125,7 +125,7 @@ object TimelineConverter {
     }
 
     private fun filterEvents(type: IssueEventType?): Boolean {
-        return type != null && type != IssueEventType.subscribed && type != IssueEventType.unsubscribed && type != IssueEventType.mentioned
+        return type != null && type != IssueEventType.SUBSCRIBED && type != IssueEventType.UNSUBSCRIBED && type != IssueEventType.MENTIONED
     }
 
     private fun getReview(jsonObject: JsonObject, gson: Gson): ReviewModel? {
