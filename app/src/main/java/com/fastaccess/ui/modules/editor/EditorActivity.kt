@@ -37,7 +37,7 @@ class EditorActivity : BaseActivity<EditorMvp.View, EditorPresenter>(), EditorMv
     private var participants: ArrayList<String>? = null
     private val sentFromFastHub: String by lazy {
         "\n\n_" + getString(R.string.sent_from_fasthub, AppHelper.deviceName, "",
-                "[" + getString(R.string.app_name) + "](https://github.com/LightDestory/FastHub-RE/)") + "_"
+                "[" + getString(R.string.app_name) + "](https://github.com/HardcodedCat/FastHub-RE/)") + "_"
     }
 
     private val replyQuote: LinearLayout by lazy { viewFind(R.id.replyQuote)!! }

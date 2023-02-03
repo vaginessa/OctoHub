@@ -231,7 +231,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
             }
         }
         presenter!!.checkAuthority(login!!, repoId!!)
-        if (isFeedback || "LightDestory".equals(login, ignoreCase = true) && repoId.equals(
+        if (isFeedback || "HardcodedCat".equals(login, ignoreCase = true) && repoId.equals(
                 "FastHub-RE",
                 ignoreCase = true
             )
@@ -405,7 +405,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
                     .put(BundleConstant.ID, repoId)
                     .put(
                         BundleConstant.EXTRA_TWO,
-                        login.equals("LightDestory", ignoreCase = true) && repoId.equals(
+                        login.equals("HardcodedCat", ignoreCase = true) && repoId.equals(
                             "FastHub-RE",
                             ignoreCase = true
                         )
@@ -494,7 +494,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
         }
 
         fun startForResult(activity: Activity): Intent {
-            val login = "LightDestory" // FIXME: 23/02/2017 hardcoded
+            val login = "HardcodedCat" // FIXME: 23/02/2017 hardcoded
             val repoId = "FastHub-RE" // FIXME: 23/02/2017 hardcoded
             val intent = Intent(activity, CreateIssueActivity::class.java)
             intent.putExtras(

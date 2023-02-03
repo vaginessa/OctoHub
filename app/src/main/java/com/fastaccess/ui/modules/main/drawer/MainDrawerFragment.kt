@@ -86,7 +86,7 @@ class MainDrawerFragment :
                         )
                     )
                     R.id.openFastHub -> activity.startActivity(
-                        RepoPagerActivity.createIntent(activity, "FastHub-RE", "LightDestory", RepoPagerMvp.CODE)
+                        RepoPagerActivity.createIntent(activity, "FastHub-RE", "HardcodedCat", RepoPagerMvp.CODE)
                     )
                     R.id.faq -> activity.startActivity(
                         Intent(

@@ -98,7 +98,7 @@ class FastHubAboutActivity : MaterialAboutActivity() {
                 .subText(R.string.app_description)
                 .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
                 .setOnClickAction {
-                    startActivity(RepoPagerActivity.createIntent(this, "FastHub-RE", "LightDestory"))
+                    startActivity(RepoPagerActivity.createIntent(this, "FastHub-RE", "HardcodedCat"))
                 }
                 .build())
             .addItem(MaterialAboutActionItem.Builder()

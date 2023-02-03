@@ -598,7 +598,7 @@
         <p>If you are unable to edit Issues/PRs in a Public Organization\'s repository, please contact your Organization to grant access to FastHub. Alternatively you can sign in with an Access Token.</p>
 
         <h5>• I\'m having problems! / I want to suggest you some things!</h5>
-        <p>Head to https://github.com/LightDestory/FastHub-RE/issues/new and create a new issue for any bugs and feature requests. I really do encourage you to
+        <p>Head to https://github.com/HardcodedCat/FastHub-RE/issues/new and create a new issue for any bugs and feature requests. I really do encourage you to
         search for similar issues before opening a new one. Any duplicated ticket will be labeled as duplicated and closed immediately.</p>
     ]]></string>
     <string name="faq">FAQ</string>

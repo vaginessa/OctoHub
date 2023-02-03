@@ -606,7 +606,7 @@ object SchemeParser {
         if ("issues" == segments[2]) {
             val owner = segments[0]
             val repo = segments[1]
-            val isFeedback = "LightDestory/FastHub-RE".equals("$owner/$repo", ignoreCase = true)
+            val isFeedback = "HardcodedCat/FastHub-RE".equals("$owner/$repo", ignoreCase = true)
             return CreateIssueActivity.getIntent(context, owner, repo, isFeedback)
         }
         return null
