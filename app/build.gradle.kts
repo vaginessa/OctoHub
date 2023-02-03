@@ -13,6 +13,8 @@ fun loadConfig(): HashMap<String, String> {
     configs["GITHUB_SECRET"] = "b2d158f949d3615078eaf570ff99eba81cfa1ff9"
     configs["IMGUR_CLIENT_ID"] = "5fced7f255e1dc9"
     configs["IMGUR_SECRET"] = "03025033403196a4b68b48f0738e67ef136ad64f"
+    configs["KEY_ALIAS"] = "alias"
+    configs["PASSWORD"] = "xrj45yWGLbsO7W0v"
     try {
         val inputFile = rootProject.file("${rootProject.projectDir}\\app\\secrets.properties")
         println("Secrets found!\nLoading FastHub-RE credentials...")
@@ -36,8 +38,8 @@ android {
         applicationId = "com.fastaccess.github.revival"
         minSdk = 25
         targetSdk = 31
-        versionCode = 477
-        versionName = "4.7.7"
+        versionCode = 480
+        versionName = "4.8.0"
         buildConfigField("String", "GITHUB_APP_ID", "\"com.fastaccess.github.revival\"")
         buildConfigField("String", "GITHUB_CLIENT_ID", "\"${config["GITHUB_CLIENT_ID"]}\"")
         buildConfigField("String", "GITHUB_SECRET", "\"${config["GITHUB_SECRET"]}\"")
