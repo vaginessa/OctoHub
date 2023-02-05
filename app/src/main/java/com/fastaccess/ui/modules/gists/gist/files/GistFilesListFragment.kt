@@ -10,8 +10,6 @@ import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.FileHelper
 import com.fastaccess.helper.InputHelper.isEmpty
-import com.fastaccess.helper.PrefGetter.isAllFeaturesUnlocked
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.markdown.MarkDownProvider.isImage
 import com.fastaccess.provider.rest.RestProvider
 import com.fastaccess.ui.adapter.GistFilesAdapter
@@ -21,7 +19,6 @@ import com.fastaccess.ui.modules.code.CodeViewerActivity.Companion.startActivity
 import com.fastaccess.ui.modules.gists.create.dialog.AddGistBottomSheetDialog.Companion.TAG
 import com.fastaccess.ui.modules.gists.create.dialog.AddGistBottomSheetDialog.Companion.newInstance
 import com.fastaccess.ui.modules.gists.gist.GistFragmentHelper
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.widgets.StateLayout
 import com.fastaccess.ui.widgets.dialog.MessageDialogView
 import com.fastaccess.ui.widgets.dialog.MessageDialogView.Companion.newInstance
@@ -110,11 +107,9 @@ class GistFilesListFragment : BaseFragment<GistFilesListMvp.View, GistFilesListP
     }
 
     override fun onAddNewFile() {
-        if (adapter!!.itemCount == 0 || isProEnabled || isAllFeaturesUnlocked) {
+        if (adapter!!.itemCount == 0) {
             newInstance(null, -1)
                 .show(childFragmentManager, TAG)
-        } else {
-            startActivity(requireContext())
         }
     }
 

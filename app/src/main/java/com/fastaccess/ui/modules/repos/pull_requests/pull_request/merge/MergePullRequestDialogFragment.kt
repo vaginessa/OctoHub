@@ -10,10 +10,8 @@ import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler.Companion.start
 import com.fastaccess.helper.InputHelper.isEmpty
 import com.fastaccess.helper.InputHelper.toString
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.ui.base.BaseDialogFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.pull_requests.pull_request.merge.MergePullRequestMvp.MergeCallback
 import com.fastaccess.utils.setOnThrottleClickListener
 import com.google.android.material.textfield.TextInputLayout
@@ -59,9 +57,7 @@ class MergePullRequestDialogFragment :
                 position: Int,
                 id: Long
             ) {
-                onItemSelect(position)
             }
-
             override fun onNothingSelected(parent: AdapterView<*>?) {
             }
 
@@ -89,15 +85,6 @@ class MergePullRequestDialogFragment :
             )
         }
         dismiss()
-    }
-
-    fun onItemSelect(position: Int) {
-        if (position > 0) {
-            if (!isProEnabled) {
-                mergeMethod!!.setSelection(0)
-                startActivity(requireContext())
-            }
-        }
     }
 
     companion object {

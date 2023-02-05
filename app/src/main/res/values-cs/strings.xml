@@ -124,7 +124,6 @@
     <string name="thank_you_for_feedback">Děkuji za Vaši odezvu!</string>
     <string name="current_version">Současná verze</string>
     <string name="version">Verze</string>
-    <string name="support_development_enable_ads">Pro podporu vývoje povolte reklamy</string>
     <string name="username">Uživatelské jméno</string>
     <string name="password">Heslo</string>
     <string name="twoFactor">Dvoufaktorový ověřovací kód</string>
@@ -245,7 +244,6 @@
     <string name="theme_color_title">Barva zvýraznění motivu</string>
     <string name="website">Webová stránka</string>
     <string name="support_development">Podpořit vývoj</string>
-    <string name="success_purchase_message">Děkujeme, jste opravdu úžasný!</string>
     <string name="change_theme_warning">Pokud se téma nepodařilo správně aplikovat, ručně zavřete aplikaci a otevřete ji znovu.</string>
     <string name="pin">Připnout</string>
     <string name="pinned">Připnuto</string>
@@ -270,7 +268,6 @@
     <string name="read_write_permission_explanation">Prosím, povolte oprávnění pro povolení službě FastHub
         ukládat soubory do vašeho zařízení pro jejich pozdější zobrazení</string>
     <string name="public_gists">Veřejné gisty</string>
-    <string name="enable_ads">Povolit reklamy</string>
     <string name="no_issues">Žádné problémy</string>
     <string name="no_unread_notifications">Žádná nepřečtená oznámení.</string>
     <string name="my_gists">Moje Gisty</string>

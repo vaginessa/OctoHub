@@ -130,7 +130,6 @@
     <string name="thank_you_for_feedback">Grazie per il tuo feedback!</string>
     <string name="current_version">Versione corrente</string>
     <string name="version">Versione</string>
-    <string name="support_development_enable_ads">Supporta lo sviluppo, abilita la pubblicità</string>
     <string name="username">Nome utente</string>
     <string name="password">Password</string>
     <string name="twoFactor">Codice autenticazione a due fattori</string>
@@ -251,7 +250,6 @@
     <string name="theme_color_title">Colore in evidenza del tema</string>
     <string name="website">Sito Web</string>
     <string name="support_development">Supporta lo sviluppo</string>
-    <string name="success_purchase_message">Grazie di essere stato così estremamente fantastico!</string>
     <string name="change_theme_warning">Se il tema non è stato applicato correttamente, per favore chiudi e riapri l\'app manualmente.</string>
     <string name="pin">Fissa</string>
     <string name="pinned">Fissato</string>
@@ -276,7 +274,6 @@
     <string name="read_write_permission_explanation">Per favore accetta i permessi per permettere a FastHub di
         salvare i file nel tuo dispositivo ed essere in grado di visualizzarli</string>
     <string name="public_gists">Gist Pubblici</string>
-    <string name="enable_ads">Abilita Pubblicità</string>
     <string name="no_issues">Nessun problema</string>
     <string name="no_unread_notifications">Nessuna notifica non letta.</string>
     <string name="my_gists">I miei Gists</string>
@@ -400,7 +397,6 @@
     <string name="reviewer_added">Revisionatore aggiunto con successo</string>
     <string name="milestone_added">Milestone aggiunto con successo</string>
     <string name="feed">Feed</string>
-    <string name="premium_theme">Tema Premium</string>
     <string name="choose_code_theme">Tavolozza colore codice</string>
     <string name="enterprise_login_warning">Si prega di entrare nel proprio account GitHub per accedere a tutto
         dall\'API GitHub API altrimenti finirai con l\'essere espulso ogni volta che accederai a qualcosa invece che il
@@ -420,7 +416,6 @@
     <string name="disable_auto_gif_summary">Disattiva riproduzione GIF automatica</string>
     <string name="disable_auto_gif_title">Disattiva riproduzione GIF</string>
     <string name="request_changes">richiesti cambiamenti</string>
-    <string name="google_play_service_error">Google Play Services non sono disponibili</string>
     <string name="edit_gist">Modifica Gist</string>
     <string name="content">Contenuto</string>
     <string name="expand">espandi</string>
@@ -439,7 +434,6 @@
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">Commenti aggiunti con successo</string>
     <string name="clear_search_keywords">Pulisci la cronologia di ricerca</string>
-    <string name="restore_purchases">Ripristina Pagamenti</string>
     <string name="include_forks">Includi i Fork</string>
     <string name="comment_is_too_far_to_paginate">Il commento è troppo distante per paginare</string>
     <string name="search_results_warning">Troppe risposte trovate\nSto mostrando il massimo numero che l\' API permette</string>

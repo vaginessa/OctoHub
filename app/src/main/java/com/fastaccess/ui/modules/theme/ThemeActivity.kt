@@ -13,7 +13,6 @@ import com.fastaccess.ui.adapter.FragmentsPagerAdapter
 import com.fastaccess.ui.base.BaseActivity
 import com.fastaccess.ui.base.mvp.BaseMvp
 import com.fastaccess.ui.base.mvp.presenter.BasePresenter
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.modules.theme.fragment.ThemeFragmentMvp
 import com.fastaccess.ui.widgets.CardsPagerTransformerBasic
 import com.fastaccess.ui.widgets.ViewPagerView
@@ -31,10 +30,6 @@ class ThemeActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>
     val pager: ViewPagerView by lazy { viewFind(R.id.pager)!! }
     val parentLayout: View by lazy { viewFind(R.id.parentLayout)!! }
 
-    fun onOpenPremium() {
-        PremiumActivity.startActivity(this)
-    }
-
     override fun layout(): Int = R.layout.theme_viewpager
 
     override val isTransparent: Boolean = false
@@ -49,9 +44,6 @@ class ThemeActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewFind<View>(R.id.premium)!!.setOnThrottleClickListener {
-            onOpenPremium()
-        }
         pager.adapter =
             FragmentsPagerAdapter(supportFragmentManager, FragmentPagerAdapterModel.buildForTheme())
         pager.clipToPadding = false

@@ -16,7 +16,6 @@ import com.fastaccess.provider.rest.loadmore.OnLoadMore
 import com.fastaccess.ui.adapter.ColumnCardAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.modules.repos.projects.crud.ProjectCurdDialogFragment
 import com.fastaccess.ui.modules.repos.projects.details.ProjectPagerMvp
 import com.fastaccess.ui.widgets.FontTextView
@@ -62,27 +61,21 @@ class ProjectColumnFragment : BaseFragment<ProjectColumnMvp.View, ProjectColumnP
     }
 
     fun onEditColumn() {
-        if (canEdit()) {
-            ProjectCurdDialogFragment.newInstance(getColumn().name)
-                .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
-        }
+        ProjectCurdDialogFragment.newInstance(getColumn().name)
+            .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
     }
 
     fun onDeleteColumn() {
-        if (canEdit()) {
-            MessageDialogView.newInstance(
-                getString(R.string.delete), getString(R.string.confirm_message),
-                false, MessageDialogView.getYesNoBundle(requireContext())
-            )
-                .show(childFragmentManager, MessageDialogView.TAG)
-        }
+        MessageDialogView.newInstance(
+            getString(R.string.delete), getString(R.string.confirm_message),
+            false, MessageDialogView.getYesNoBundle(requireContext())
+        )
+            .show(childFragmentManager, MessageDialogView.TAG)
     }
 
     fun onAddCard() {
-        if (canEdit()) {
-            ProjectCurdDialogFragment.newInstance(isCard = true)
-                .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
-        }
+        ProjectCurdDialogFragment.newInstance(isCard = true)
+            .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
     }
 
     override fun onNotifyAdapter(items: List<ProjectCardModel>?, page: Int) {
@@ -215,21 +208,17 @@ class ProjectColumnFragment : BaseFragment<ProjectColumnMvp.View, ProjectColumnP
     override fun isOwner(): Boolean = requireArguments().getBoolean(BundleConstant.EXTRA)
 
     override fun onDeleteCard(position: Int) {
-        if (canEdit()) {
-            val yesNoBundle = MessageDialogView.getYesNoBundle(requireContext())
-            yesNoBundle.putInt(BundleConstant.ID, position)
-            MessageDialogView.newInstance(
-                getString(R.string.delete), getString(R.string.confirm_message),
-                false, yesNoBundle
-            ).show(childFragmentManager, MessageDialogView.TAG)
-        }
+        val yesNoBundle = MessageDialogView.getYesNoBundle(requireContext())
+        yesNoBundle.putInt(BundleConstant.ID, position)
+        MessageDialogView.newInstance(
+            getString(R.string.delete), getString(R.string.confirm_message),
+            false, yesNoBundle
+        ).show(childFragmentManager, MessageDialogView.TAG)
     }
 
     override fun onEditCard(note: String?, position: Int) {
-        if (canEdit()) {
-            ProjectCurdDialogFragment.newInstance(note, true, position)
-                .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
-        }
+        ProjectCurdDialogFragment.newInstance(note, true, position)
+            .show(childFragmentManager, ProjectCurdDialogFragment.TAG)
     }
 
     override fun addCard(it: ProjectCardModel) {
@@ -254,14 +243,6 @@ class ProjectColumnFragment : BaseFragment<ProjectColumnMvp.View, ProjectColumnP
 
     private fun getColumn(): ProjectColumnModel =
         requireArguments().getParcelable(BundleConstant.ITEM)!!
-
-    private fun canEdit(): Boolean =
-        if (PrefGetter.isProEnabled || PrefGetter.isAllFeaturesUnlocked) {
-            true
-        } else {
-            PremiumActivity.startActivity(requireContext())
-            false
-        }
 
     companion object {
         fun newInstance(

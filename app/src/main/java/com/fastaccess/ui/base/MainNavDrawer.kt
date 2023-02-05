@@ -47,10 +47,6 @@ class MainNavDrawer(val view: BaseActivity<*, *>, private val extraNav: Navigati
                     navFullName.text = it.name
                 }
             }
-            view.findViewById<View>(R.id.donatedIcon).visibility =
-                if (PrefGetter.hasSupported()) View.VISIBLE else View.GONE
-            view.findViewById<View>(R.id.proTextView).visibility =
-                if (PrefGetter.isProEnabled) View.VISIBLE else View.GONE
         }
     }
 }

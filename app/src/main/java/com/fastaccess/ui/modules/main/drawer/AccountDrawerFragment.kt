@@ -21,7 +21,6 @@ import com.fastaccess.ui.base.adapter.BaseViewHolder
 import com.fastaccess.ui.base.mvp.presenter.BasePresenter
 import com.fastaccess.ui.modules.login.chooser.LoginChooserActivity
 import com.fastaccess.ui.modules.main.MainMvp
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.modules.pinned.PinnedReposActivity
 import com.fastaccess.ui.modules.user.UserPagerActivity
 import com.fastaccess.ui.widgets.recyclerview.DynamicRecyclerView
@@ -93,12 +92,10 @@ class AccountDrawerFragment : BaseFragment<MainMvp.View, BasePresenter<MainMvp.V
         }
         addAccLayout.setOnClickListener {
             postDelayedAndClose {
-                if (PrefGetter.isProEnabled || PrefGetter.isEnterpriseEnabled) {
+                if (PrefGetter.isEnterpriseEnabled) {
                     val intent = Intent(it.context, LoginChooserActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(intent)
-                } else {
-                    startActivity(Intent(it.context, PremiumActivity::class.java))
                 }
             }
         }

@@ -125,7 +125,6 @@
     <string name="thank_you_for_feedback">شكرا على رد فعلك!</string>
     <string name="current_version">النسخة الحالية</string>
     <string name="version">النسخة</string>
-    <string name="support_development_enable_ads">ادعم التطوير، فعّل الإعلانات</string>
     <string name="username">اسم المستخدم</string>
     <string name="password">كلمة المرور</string>
     <string name="twoFactor">رمز التحقق الثنائي</string>
@@ -247,7 +246,6 @@
     <string name="theme_color_title">لون السمة</string>
     <string name="website">الموقع الإلكتروني</string>
     <string name="support_development">دعم التطوير</string>
-    <string name="success_purchase_message">شكرا لك من أعماق قلبي!</string>
     <string name="change_theme_warning">إذا لم تعمل السمة، فالرجاء إيقاف التطبيق بالقوة.</string>
     <string name="pin">تثبيت</string>
     <string name="pinned">تم التثبيت</string>
@@ -270,7 +268,6 @@
     <string name="no_search_results">لا توجد نتائج بحث</string>
     <string name="read_write_permission_explanation">من فضلك وافق على إعطاء الصلاحيات من أجل تمكين التطبيق من حفظ الملفات على ذاكرة الجهاز حتى تتمكن من مشاهدتهم</string>
     <string name="public_gists">مقالات عامة</string>
-    <string name="enable_ads">تمكين الإعلانات</string>
     <string name="no_issues">لا توجد علل</string>
     <string name="no_unread_notifications">لا توجد إشعارات غير مقروءة.</string>
     <string name="my_gists">مقالاتي</string>

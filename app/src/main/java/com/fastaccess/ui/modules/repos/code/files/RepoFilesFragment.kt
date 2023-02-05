@@ -22,8 +22,6 @@ import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler.Companion.start
 import com.fastaccess.helper.FileHelper
 import com.fastaccess.helper.InputHelper.isEmpty
-import com.fastaccess.helper.PrefGetter.isAllFeaturesUnlocked
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.markdown.MarkDownProvider.isArchive
 import com.fastaccess.provider.markdown.MarkDownProvider.isImage
 import com.fastaccess.provider.rest.RestProvider.downloadFile
@@ -31,7 +29,6 @@ import com.fastaccess.ui.adapter.RepoFilesAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
 import com.fastaccess.ui.modules.code.CodeViewerActivity.Companion.startActivity
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.RepoPagerMvp
 import com.fastaccess.ui.modules.repos.code.files.activity.RepoFilesActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.code.files.paths.RepoFilePathFragment
@@ -137,32 +134,24 @@ class RepoFilesFragment : BaseFragment<RepoFilesMvp.View, RepoFilesPresenter>(),
                     v!!.context,
                     if (!isEmpty(model.htmlUrl)) model.htmlUrl!! else model.url!!
                 )
-                R.id.editFile -> if (isProEnabled || isAllFeaturesUnlocked) {
-                    if (canOpen) {
-                        val fileModel = EditRepoFileModel(
-                            presenter!!.login!!,
-                            presenter!!.repoId!!,
-                            model.path,
-                            presenter!!.ref!!,
-                            model.sha,
-                            model.downloadUrl,
-                            model.name,
-                            true
-                        )
-                        startForResult(requireContext(), launcher, fileModel, isEnterprise)
-                    }
-                } else {
-                    startActivity(requireContext())
+                R.id.editFile -> if (canOpen) {
+                    val fileModel = EditRepoFileModel(
+                        presenter!!.login!!,
+                        presenter!!.repoId!!,
+                        model.path,
+                        presenter!!.ref!!,
+                        model.sha,
+                        model.downloadUrl,
+                        model.name,
+                        true
+                    )
+                    startForResult(requireContext(), launcher, fileModel, isEnterprise)
                 }
-                R.id.deleteFile -> if (isProEnabled || isAllFeaturesUnlocked) {
-                    newInstance(position, model.name!!)
-                        .show(
-                            childFragmentManager,
-                            DeleteFileBottomSheetFragment::class.java.simpleName
-                        )
-                } else {
-                    startActivity(requireContext())
-                }
+                R.id.deleteFile -> newInstance(position, model.name!!)
+                    .show(
+                        childFragmentManager,
+                        DeleteFileBottomSheetFragment::class.java.simpleName
+                    )
             }
             true
         }

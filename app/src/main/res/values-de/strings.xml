@@ -121,7 +121,6 @@
     <string name="thank_you_for_feedback">Vielen Dank für dein Feedback!</string>
     <string name="current_version">Aktuelle Version</string>
     <string name="version">Version</string>
-    <string name="support_development_enable_ads">Unterstütze den Entwickler, indem du die Werbung aktivierst</string>
     <string name="username">Benutername</string>
     <string name="password">Passwort</string>
     <string name="twoFactor">Zwei-Faktor Authentifizierungscode</string>
@@ -232,7 +231,6 @@
     <string name="theme_color_title">Akzentfarbe</string>
     <string name="website">Webseite</string>
     <string name="support_development">Unterstütze uns</string>
-    <string name="success_purchase_message">Vielen Dank für deine Unterstützung!</string>
     <string name="change_theme_warning">Wenn das Design nicht richtig dargestellt wird, beende die App und starte sie neu.</string>
     <string name="pin">Anpinnen</string>
     <string name="pinned">Pinnwand</string>
@@ -256,7 +254,6 @@
     <string name="no_search_results">Keine Suchergebnisse</string>
     <string name="read_write_permission_explanation">Bitte erlaube FastHub Zugriff auf die SD-Karte, um Dateien abzuspeichern.</string>
     <string name="public_gists">Öffentliche Gists</string>
-    <string name="enable_ads">Werbung aktivieren</string>
     <string name="no_issues">Keine Issues</string>
     <string name="no_unread_notifications">Keine ungelesenen Benachrichtigungen.</string>
     <string name="my_gists">Meine Gists</string>
@@ -370,7 +367,6 @@
     <string name="reviewer_added">Überprüfer erfolgreich hinzugefügt</string>
     <string name="milestone_added">Meilenstein erfolgreich hinzugefügt</string>
     <string name="feed">Feed</string>
-    <string name="premium_theme">Premiumdesign</string>
     <string name="choose_code_theme">Farbcodepalette auswählen</string>
     <string name="enterprise_login_warning">Bitte logge dich per OAuth ein, um den ganzen Umfang der GitHub API benutzen 
 	    zu können und um zufällige Logouts bezüglich Enterprise und Logintokens zu verhindern.</string>
@@ -388,7 +384,6 @@
     <string name="disable_auto_gif_summary">Deaktiviere automatische Wiedergabe von GIFs</string>
     <string name="disable_auto_gif_title">Deaktiviere GIF-Wiedergabe</string>
     <string name="request_changes">angeforderte Änderungen</string>
-    <string name="google_play_service_error">Google Play-Dienste sind nicht verfügbar</string>
     <string name="edit_gist">GIST bearbeiten</string>
     <string name="content">Inhalt</string>
     <string name="expand">erweitern</string>
@@ -448,7 +443,6 @@
     <string name="new_version">Eine neue Version ist verfügbar.</string>
     <string name="enable_notification_title">Benachrichtigungen aktivieren</string>
     <string name="clear_search_keywords">Suchverlauf löschen</string>
-    <string name="restore_purchases">Einkäufe wiederherstellen</string>
     <string name="include_forks">Forks einschließen</string>
     <string name="search_results_warning">Bitte sei bei deiner Suche etwas genauer</string>
     <string name="comment_is_too_far_to_paginate">Dieser Kommentar liegt zu weit zurück, um ihn anzuzeigen</string>

@@ -24,12 +24,10 @@ import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.InputHelper.isEmpty
 import com.fastaccess.helper.Logger.e
 import com.fastaccess.helper.ParseDateFormat.Companion.getTimeAgo
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.scheme.LinkParserHelper.isEnterprise
 import com.fastaccess.ui.adapter.FragmentsPagerAdapter
 import com.fastaccess.ui.base.BaseActivity
 import com.fastaccess.ui.modules.editor.comment.CommentEditorFragment
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.RepoPagerActivity
 import com.fastaccess.ui.modules.repos.RepoPagerMvp
 import com.fastaccess.ui.modules.repos.extras.assignees.AssigneesDialogFragment
@@ -233,11 +231,7 @@ class IssuePagerActivity : BaseActivity<IssuePagerMvp.View, IssuePagerPresenter>
                 return true
             }
             R.id.pinUnpin -> {
-                if (isProEnabled) {
-                    presenter!!.onPinUnpinIssue()
-                } else {
-                    startActivity(this)
-                }
+                presenter!!.onPinUnpinIssue()
                 return true
             }
             else -> return super.onOptionsItemSelected(item)

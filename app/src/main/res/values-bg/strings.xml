@@ -126,7 +126,6 @@
     <string name="thank_you_for_feedback">Благодарности за отзива!</string>
     <string name="current_version">Текуща версия</string>
     <string name="version">Версия</string>
-    <string name="support_development_enable_ads">Подкрепи разработката като включиш реклами</string>
     <string name="username">Потребител</string>
     <string name="password">Парола</string>
     <string name="twoFactor">Код за двуфакторно удостоверяване</string>
@@ -247,7 +246,6 @@
     <string name="theme_color_title">Цветови акцент на тема</string>
     <string name="website">Уебсайт</string>
     <string name="support_development">Подкрепи разработването</string>
-    <string name="success_purchase_message">Благодарим ти за това, че си супер готин човек!</string>
     <string name="change_theme_warning">Ако темата не е настроена както трябва, моля убий приложението и го отвори отново.</string>
     <string name="pin">Забождане</string>
     <string name="pinned">Забодено</string>
@@ -273,7 +271,6 @@
     <string name="read_write_permission_explanation">Моля приеми изискваните разрешения, за да може FastHub да
         съхранява файлове на устройството ти, които да можеш да преглеждаш</string>
     <string name="public_gists">Публични Gists</string>
-    <string name="enable_ads">Включи реклами</string>
     <string name="no_issues">Няма issues</string>
     <string name="no_unread_notifications">Няма непрочетени известия.</string>
     <string name="my_gists">Моите Gists</string>
@@ -394,7 +391,6 @@
     <string name="reviewer_added">Добавен успешно рецензент</string>
     <string name="milestone_added">Добавена успешно цел</string>
     <string name="feed">Емисия</string>
-    <string name="premium_theme">Премийна Тема</string>
     <string name="choose_code_theme">Избери код на цветова гама/палитра</string>
     <string name="enterprise_login_warning">Моля впиши се с GitHub профила си, за да достъпиш цялото GitHub API. В противен случай
         ще бъдеш изхвърлян/а всеки път, когато се опиташ да достъпиш каквото да било извън Enterprise GitHub профила си. Това е така, защото 
@@ -414,7 +410,6 @@
     <string name="disable_auto_gif_summary">Изключване на автомтично пускане на GIF анимации</string>
     <string name="disable_auto_gif_title">Изключване на GIF анимации</string>
     <string name="request_changes">изисквай промени</string>
-    <string name="google_play_service_error">Google Play Services не са достъпни</string>
     <string name="edit_gist">Редактиране на Gist</string>
     <string name="content">Съдържание</string>
     <string name="expand">разшири</string>
@@ -455,7 +450,6 @@
     <string name="faq">ЧЗВ</string>
     <string name="comments_added_successfully">Коментарите са добавени успешно</string>
     <string name="clear_search_keywords">Изчистване на история на търсенето</string>
-    <string name="restore_purchases">Възстановяване на покупки</string>
     <string name="include_forks">Включване на Forks</string>
     <string name="comment_is_too_far_to_paginate">Коментарът е твърде далеч, за да бъде странициран.</string>
     <string name="search_results_warning">Твърде много отговори \nПоказване на максимума, който API-то позволява</string>

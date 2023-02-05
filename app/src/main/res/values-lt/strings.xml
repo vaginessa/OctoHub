@@ -1,6 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
            tools:ignore="MissingTranslation">
-    <string name="premium_theme">Aukšt. kokyb. tema</string>
     <string name="in_progress">Prašome palaukti…</string>
     <string name="action">Veiksmas</string>
     <string name="settings">Nustatymai</string>
@@ -124,7 +123,6 @@
     <string name="thank_you_for_feedback">Ačiū!</string>
     <string name="current_version">Dabartinė versija</string>
     <string name="version">Versija</string>
-    <string name="support_development_enable_ads">Paremk programos kūrėją ir įjunk reklamas</string>
     <string name="username">Naudotojo vardas</string>
     <string name="password">Slaptažodis</string>
     <string name="twoFactor">2 veiksnių prisijungimo kodas</string>
@@ -245,7 +243,6 @@
     <string name="theme_color_title">Akcentinė spalva</string>
     <string name="website">Svetainė</string>
     <string name="support_development">Paremkite programos autorių</string>
-    <string name="success_purchase_message">Ačiū. Tu šaunus vaikinas (arba šauni panelė)!</string>
     <string name="change_theme_warning">Jeigu nematote pakeitimų, iš naujo įjunkite programėlę</string>
     <string name="pin">Prisegti</string>
     <string name="pinned">Prisegta</string>
@@ -269,7 +266,6 @@
     <string name="no_search_results">Paieška nieko nerado</string>
     <string name="read_write_permission_explanation">Leiskite programėlei talpinti failus, jeigu norite peržiūrėti juos</string>
     <string name="public_gists">Vieši gistai</string>
-    <string name="enable_ads">Rodyti reklamas</string>
     <string name="no_issues">Nėra talonų</string>
     <string name="no_unread_notifications">Visi pranešimai perskaityti</string>
     <string name="my_gists">Mano gistai</string>

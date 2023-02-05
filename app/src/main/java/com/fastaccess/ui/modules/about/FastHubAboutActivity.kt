@@ -21,7 +21,6 @@ import com.fastaccess.helper.ActivityHelper
 import com.fastaccess.provider.tasks.version.CheckVersionService
 import com.fastaccess.provider.theme.ThemeEngine.applyForAbout
 import com.fastaccess.ui.modules.changelog.ChangelogBottomSheetDialog
-import com.fastaccess.ui.modules.main.donation.DonationActivity
 import com.fastaccess.ui.modules.repos.RepoPagerActivity
 import com.fastaccess.ui.modules.repos.issues.create.CreateIssueActivity
 import com.fastaccess.ui.modules.user.UserPagerActivity.Companion.startActivity
@@ -117,14 +116,6 @@ class FastHubAboutActivity : MaterialAboutActivity() {
 
     private fun buildMisc(context: Context, miscCardBuilder: MaterialAboutCard.Builder) {
         miscCardBuilder.title(R.string.misc)
-            .addItem(MaterialAboutActionItem.Builder()
-                .text(R.string.unlock_all)
-                .subText(R.string.unlock_all_description)
-                .icon(ContextCompat.getDrawable(context, R.drawable.ic_lock))
-                .setOnClickAction {
-                    startActivity(Intent(context, DonationActivity::class.java))
-                }
-                .build())
             .addItem(MaterialAboutActionItem.Builder()
                 .text(R.string.open_source_libs)
                 .subText(R.string.open_source_libs_desc)

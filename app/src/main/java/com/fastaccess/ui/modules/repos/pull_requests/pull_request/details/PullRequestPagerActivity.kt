@@ -29,13 +29,11 @@ import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.InputHelper.isEmpty
 import com.fastaccess.helper.Logger.e
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.scheme.LinkParserHelper.isEnterprise
 import com.fastaccess.ui.adapter.FragmentsPagerAdapter
 import com.fastaccess.ui.base.BaseActivity
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.modules.editor.comment.CommentEditorFragment
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.RepoPagerActivity
 import com.fastaccess.ui.modules.repos.RepoPagerMvp
 import com.fastaccess.ui.modules.repos.extras.assignees.AssigneesDialogFragment
@@ -258,11 +256,7 @@ open class PullRequestPagerActivity :
             ActivityHelper.startCustomTab(this, pullRequest.htmlUrl!!)
             return true
         } else if (item.itemId == R.id.reviewChanges) {
-            if (isProEnabled) {
-                addPrReview()
-            } else {
-                startActivity(this)
-            }
+            addPrReview()
             return true
         } else if (item.itemId == R.id.subscribe) {
             presenter!!.onSubscribeOrMute(false)
@@ -271,11 +265,7 @@ open class PullRequestPagerActivity :
             presenter!!.onSubscribeOrMute(true)
             return true
         } else if (item.itemId == R.id.pinUnpin) {
-            if (isProEnabled) {
-                presenter!!.onPinUnpinPullRequest()
-            } else {
-                startActivity(this)
-            }
+            presenter!!.onPinUnpinPullRequest()
             return true
         }
         return super.onOptionsItemSelected(item)

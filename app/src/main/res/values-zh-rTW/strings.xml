@@ -147,7 +147,6 @@ APP
     <string name="thank_you_for_feedback">感謝您的回報！</string>
     <string name="current_version">目前版本</string>
     <string name="version">版本</string>
-    <string name="support_development_enable_ads">打開廣告以支持開發</string>
     <string name="username">帳號</string>
     <string name="password">密碼</string>
     <string name="twoFactor">兩步驟驗證碼</string>
@@ -268,7 +267,6 @@ APP
     <string name="theme_color_title">主題色調</string>
     <string name="website">網站</string>
     <string name="support_development">支援開發</string>
-    <string name="success_purchase_message">非常感謝！</string>
     <string name="change_theme_warning">如果主題沒有正常運作，請手動強制關閉並重開。</string>
     <string name="pin">釘選</string>
     <string name="pinned">已釘選</string>
@@ -292,7 +290,6 @@ APP
     <string name="no_search_results">沒有搜尋結果</string>
     <string name="read_write_permission_explanation">請同意權限請求以讓 FastHub 能夠儲存檔案</string>
     <string name="public_gists">公開 Gist</string>
-    <string name="enable_ads">開啟廣告</string>
     <string name="no_issues">沒有 Issue</string>
     <string name="no_unread_notifications">沒有未讀通知</string>
     <string name="my_gists">我的 Gist</string>
@@ -409,7 +406,6 @@ APP
     <string name="reviewer_added">成功添加審核者</string>
     <string name="milestone_added">成功添加里程碑</string>
     <string name="feed">動態</string>
-    <string name="premium_theme">付費主題</string>
     <string name="choose_code_theme">選擇程式碼配色</string>
     <string name="enterprise_login_warning">請登入你的個人 GitHub 帳號以存取所有 GitHub API 功能，否則每次存取不是你的組織的 GitHub 時就會因 GitHub API Token 來自你的組織而被踢。</string>
     <string name="add_account">新增帳戶</string>
@@ -426,7 +422,6 @@ APP
     <string name="disable_auto_gif_summary">停用 GIF 自動播放</string>
     <string name="disable_auto_gif_title">停用 GIF 自動播放</string>
     <string name="request_changes">請求更改</string>
-    <string name="google_play_service_error">Google Play 服務不可用</string>
     <string name="edit_gist">編輯 Gist</string>
     <string name="content">內容</string>
     <string name="expand">展開</string>
@@ -469,7 +464,6 @@ APP
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">評論新增成功</string>
     <string name="clear_search_keywords">清空搜尋紀錄</string>
-    <string name="restore_purchases">回復購買紀錄</string>
     <string name="include_forks">包括 Forks</string>
     <string name="comment_is_too_far_to_paginate">這個評論難以分頁</string>
     <string name="search_results_warning">回應數量超過 API 的上限</string>

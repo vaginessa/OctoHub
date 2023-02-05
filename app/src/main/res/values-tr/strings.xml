@@ -121,7 +121,6 @@
     <string name="thank_you_for_feedback">Geri bildiriminiz için teşekkürler!</string>
     <string name="current_version">Şu anki versiyon</string>
     <string name="version">Versiyon</string>
-    <string name="support_development_enable_ads">Desteklemek için reklamları etkinleştirin</string>
     <string name="username">Kullanıcı adı</string>
     <string name="password">Şifre</string>
     <string name="twoFactor">2 adımlı doğrulama kodu gerekli</string>
@@ -225,7 +224,6 @@
     <string name="theme_summary">Varsayılan temanızı seçiniz</string>
     <string name="website">Website</string>
     <string name="support_development">Uygulamanın Geliştirilmesini Destekle</string>
-    <string name="success_purchase_message">Olağanüstü harika olduğunuz için teşekkürler!</string>
     <string name="change_theme_warning">Eğer tema etkin olmadıysa, uygulamayı durdurup yeniden başlatınız.</string>
     <string name="pin">Pin</string>
     <string name="pinned">Sabitlenenler</string>
@@ -249,7 +247,6 @@
     <string name="no_search_results">Eşleşen sonuç bulunamadı</string>
     <string name="read_write_permission_explanation">FastHub\'un depolama alanınıza erişmesi için lütfen ilgili izinleri veriniz</string>
     <string name="public_gists">Herkese Açık Gist\'ler</string>
-    <string name="enable_ads">Reklamları Etkinleştir</string>
     <string name="no_issues">Issue bulunamadı</string>
     <string name="no_unread_notifications">Okunmamış bildirim bulunmuyor.</string>
     <string name="my_gists">Gist\'lerim</string>
@@ -365,7 +362,6 @@
     <string name="reviewer_added">İnceleyici başarıyla eklendi</string>
     <string name="milestone_added">Dönüm noktası başarıyla eklendi</string>
     <string name="feed">Olay akışı</string>
-    <string name="premium_theme">Premium Tema</string>
     <string name="choose_code_theme">Kod renk paleti</string>
     <string name="enterprise_login_warning">GitHub API\'ının bütün özelliklerine erişmek için Enterprise 
         GitHub hesabından ziyade kendi GitHub hesabınızla giriş yapın çünkü diğer türlü GitHub API\'ye giden 
@@ -385,7 +381,6 @@
     <string name="disable_auto_gif_summary">GIF\'leri otomatik olarak oynatma</string>
     <string name="disable_auto_gif_title">GIF\'leri oynatmayı devre dışı bırak</string>
     <string name="request_changes">istenilen değişiklikler</string>
-    <string name="google_play_service_error">Google Play Servisleri müsait değil</string>
     <string name="edit_gist">Gist\'i Düzenle</string>
     <string name="content">İçerik</string>
     <string name="expand">devamını göster</string>
@@ -425,6 +420,5 @@
     <string name="faq">SSS</string>
     <string name="comments_added_successfully">Yorumlar başarıyla eklendi</string>
     <string name="clear_search_keywords">Arama Geçmişini Temizle</string>
-    <string name="restore_purchases">Satın alımları geri al</string>
     <string name="send_feedback">Geri bildirim</string>
 </resources>

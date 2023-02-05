@@ -125,7 +125,6 @@
     <string name="thank_you_for_feedback">피드백 감사합니다</string>
     <string name="current_version">현재 버전</string>
     <string name="version">버전</string>
-    <string name="support_development_enable_ads">개발을 지원하려면 광고를 활성화하세요</string>
     <string name="username">사용자 이름</string>
     <string name="password">비밀번호</string>
     <string name="twoFactor">2차 인증 코드</string>
@@ -245,7 +244,6 @@
     <string name="theme_color_title">테마 강조 색상</string>
     <string name="website">웹사이트</string>
     <string name="support_development">개발 지원</string>
-    <string name="success_purchase_message">대단히 감사합니다!</string>
     <string name="change_theme_warning">테마가 제대로 적용되지 않으면, 앱을 수동으로 재시작해주세요</string>
     <string name="pin">북마크</string>
     <string name="pinned">북마크</string>
@@ -269,7 +267,6 @@
     <string name="no_search_results">검색 결과 없음</string>
     <string name="read_write_permission_explanation">파일을 보기 위해 FastHub에서 파일을 저장하려면 권한을 허용하세요</string>
     <string name="public_gists">공개 Gist</string>
-    <string name="enable_ads">광고 활성화</string>
     <string name="no_issues">이슈 없음</string>
     <string name="no_unread_notifications">읽지 않은 알림 없음</string>
     <string name="my_gists">내 Gist</string>
@@ -387,7 +384,6 @@
     <string name="reviewer_added">검토자 추가됨</string>
     <string name="milestone_added">마일스톤 추가됨</string>
     <string name="feed">소식</string>
-    <string name="premium_theme">프리미엄 테마</string>
     <string name="choose_code_theme">문법 강조 테마</string>
     <string name="enterprise_login_warning">GitHub API의 모든 항목에 액세스하려면 GitHub 계정에 로그인하십시오. 
         그렇지 않으면 GitHub API로 전송 된 토큰은 엔터프라이즈 계정에서 전송되기 때문에 Enterprise GitHub가 아닌 
@@ -406,7 +402,6 @@
     <string name="disable_auto_gif_summary">GIF 자동 재생 사용을 비활성화합니다</string>
     <string name="disable_auto_gif_title">GIF 자동 재생 사용 비활성화</string>
     <string name="request_changes">요청된 변경 사항</string>
-    <string name="google_play_service_error">Google Play 서비스를 사용할 수 없음</string>
     <string name="edit_gist">Gist 수정</string>
     <string name="content">내용</string>
     <string name="expand">확장</string>
@@ -440,7 +435,6 @@
     <string name="faq">자주 하는 질문 (FAQ)</string>
     <string name="comments_added_successfully">댓글을 성공적으로 추가하였습니다</string>
     <string name="clear_search_keywords">검색 기록 삭제</string>
-    <string name="restore_purchases">이전 구매 여부 복구</string>
     <string name="include_forks">Fork한 Repo 포함하기</string>
     <string name="comment_is_too_far_to_paginate">댓글이 너무 많아 페이지 매김을 할 수 없습니다.</string>
     <string name="search_results_warning">응답이 너무 많습니다.\n최대 API 응답수를 표시합니다.</string>

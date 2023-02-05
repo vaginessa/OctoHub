@@ -129,7 +129,6 @@
     <string name="thank_you_for_feedback">Obrigado pela sua opinião!</string>
     <string name="current_version">Versão atual</string>
     <string name="version">Versão</string>
-    <string name="support_development_enable_ads">Apoie o desenvolvimento, habilite as propagandas</string>
     <string name="username">Usuário</string>
     <string name="password">Senha</string>
     <string name="twoFactor">Código de autenticação de dois fatores</string>
@@ -250,7 +249,6 @@
     <string name="theme_color_title">Cor Acentuada do Tema</string>
     <string name="website">Website</string>
     <string name="support_development">Apoiar o Desenvolvimento</string>
-    <string name="success_purchase_message">Obrigado por ser extremamente demais!</string>
     <string name="change_theme_warning">Se o tema não foi aplicado corretamente, por favor feche o app e abra-o manualmente.</string>
     <string name="pin">Marcar</string>
     <string name="pinned">Marcado</string>
@@ -276,7 +274,6 @@
     <string name="read_write_permission_explanation">Por favor aceite as permissões para permitir ao FastHub
         armazenar os arquivos no seu dispositivo para poder visualizá-los</string>
     <string name="public_gists">Gists Públicos</string>
-    <string name="enable_ads">Habilitar Propagandas</string>
     <string name="no_issues">Sem issues</string>
     <string name="no_unread_notifications">Sem notificações novas.</string>
     <string name="my_gists">Meus Gists</string>
@@ -396,7 +393,6 @@
     <string name="reviewer_added">Reviewer adicionado com sucesso</string>
     <string name="milestone_added">Milestone adicionado com sucesso</string>
     <string name="feed">Feed</string>
-    <string name="premium_theme">Tema Premium</string>
     <string name="choose_code_theme">Escolha a paleta de cores</string>
     <string name="enterprise_login_warning">Por favor entre com a sua conta do GitHub para acessar tudo da API do GitHub
         do contrário você acabará tendo acesso recusado toda vez que você tentar acessar qualquer coisa que não a sua conta Enterprise GitHub devido ao token ser transmitido para
@@ -415,7 +411,6 @@
     <string name="disable_auto_gif_summary">Desabilitar o auto play de GIFs</string>
     <string name="disable_auto_gif_title">Dessabilitar Reproduzir GIF</string>
     <string name="request_changes">mudanças solicitadas</string>
-    <string name="google_play_service_error">Google Play Service insdisponível</string>
     <string name="edit_gist">Editar Gist</string>
     <string name="content">Conteúdo</string>
     <string name="expand">expandir</string>
@@ -452,7 +447,6 @@
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">Comentários adicionados com sucesso</string>
     <string name="clear_search_keywords">Limpar Histórico de Buscas</string>
-    <string name="restore_purchases">Restaurar Compras</string>
     <string name="include_forks">Incluir Forks</string>
     <string name="comment_is_too_far_to_paginate">O comentário está muito longe para ser paginado</string>
     <string name="search_results_warning">Muitas respostas \nMostrando o máximo que a API permite</string>

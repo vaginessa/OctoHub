@@ -14,12 +14,10 @@ import com.fastaccess.helper.ActivityHelper.startCustomTab
 import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler.Companion.start
 import com.fastaccess.helper.InputHelper.isEmpty
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.scheme.SchemeParser.launchUri
 import com.fastaccess.ui.adapter.CommitFilesAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.code.commit.details.CommitPagerMvp
 import com.fastaccess.ui.modules.repos.pull_requests.pull_request.details.files.fullscreen.FullScreenFileChangeActivity.Companion.startLauncherForResult
 import com.fastaccess.ui.modules.reviews.AddReviewDialogFragment.Companion.newInstance
@@ -163,17 +161,13 @@ class CommitFilesFragment : BaseFragment<CommitFilesMvp.View, CommitFilesPresent
         item: CommitLinesModel
     ) {
         if (item.text!!.startsWith("@@")) return
-        if (isProEnabled) {
-            newInstance(
-                item, start()
-                    .put(BundleConstant.ITEM, commit.blobUrl)
-                    .put(BundleConstant.EXTRA, commit.filename)
-                    .end()
-            )
-                .show(childFragmentManager, "AddReviewDialogFragment")
-        } else {
-            startActivity(requireContext())
-        }
+        newInstance(
+            item, start()
+                .put(BundleConstant.ITEM, commit.blobUrl)
+                .put(BundleConstant.EXTRA, commit.filename)
+                .end()
+        )
+            .show(childFragmentManager, "AddReviewDialogFragment")
     }
 
     override fun onCommentAdded(comment: String, item: CommitLinesModel, bundle: Bundle?) {

@@ -125,7 +125,6 @@
     <string name="thank_you_for_feedback">Merci pour votre commentaire !</string>
     <string name="current_version">Version actuelle</string>
     <string name="version">Version</string>
-    <string name="support_development_enable_ads">Pour supporter le développement, activer la publicité</string>
     <string name="username">Nom d\'utilisateur</string>
     <string name="password">Mot de passe</string>
     <string name="twoFactor">Code d\'authentification</string>
@@ -246,7 +245,6 @@
     <string name="theme_color_title">Couleur d\'accentuation du thème</string>
     <string name="website">Site web</string>
     <string name="support_development">Supporter le développement</string>
-    <string name="success_purchase_message">Merci d\'être extrêmement génial !</string>
     <string name="change_theme_warning">Si le changement de thème a échoué, merci de fermer l\'application et de la redémarrer manuellement.</string>
     <string name="pin">Épingler</string>
     <string name="pinned">Épinglé</string>
@@ -270,7 +268,6 @@
     <string name="no_search_results">Aucun résultat de recherche</string>
     <string name="read_write_permission_explanation">Merci d\'accepter les permissions afin que FastHub puisse enregistrer des fichiers sur votre appareil pour pouvoir y accèder plus tard</string>
     <string name="public_gists">Gists publiques</string>
-    <string name="enable_ads">Activer la publicité</string>
     <string name="no_issues">Aucun ticket</string>
     <string name="no_unread_notifications">Aucune notification non lue.</string>
     <string name="my_gists">Mes Gists</string>
@@ -391,7 +388,6 @@
     <string name="reviewer_added">Relecteur ajouté avec succès</string>
     <string name="milestone_added">Jalon ajouté avec succès</string>
     <string name="feed">Flux</string>
-    <string name="premium_theme">Thème Premium</string>
     <string name="choose_code_theme">Code color palette</string>
     <string name="enterprise_login_warning">Veuillez vous connecter à votre compte GitHub pour pouvoir accéder à tout l\'API GitHub
          sinon, vous finirez par être expulsé chaque fois que vous accéderez à autre chose que votre Enterprise GitHub en raison du jeton transmis à
@@ -410,7 +406,6 @@
     <string name="disable_auto_gif_summary">Désactiver la lecture automatique des GIFs</string>
     <string name="disable_auto_gif_title">Désactiver la lecture des GIFs</string>
     <string name="request_changes">changements requis</string>
-    <string name="google_play_service_error">Google Play Services sont indisponibles</string>
     <string name="edit_gist">Éditer le Gist</string>
     <string name="content">Contenu</string>
     <string name="expand">développer</string>
@@ -452,7 +447,6 @@
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">Commentaires ajoutés avec succès</string>
     <string name="clear_search_keywords" formatted="false">Vider l\'historique de recherche</string>
-    <string name="restore_purchases">Restorer les achats</string>
     <string name="include_forks">Inclure les Forks</string>
     <string name="comment_is_too_far_to_paginate">Le commentaire est trop loin pour être trouvé</string>
     <string name="search_results_warning">Merci de préciser votre recherche</string>

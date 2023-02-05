@@ -17,13 +17,10 @@ import com.fastaccess.data.entity.dao.LoginDao
 import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler.Companion.start
 import com.fastaccess.helper.InputHelper.isEmpty
-import com.fastaccess.helper.PrefGetter.isAllFeaturesUnlocked
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.rest.RestProvider.downloadFile
 import com.fastaccess.ui.adapter.RepoFilePathsAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.RepoPagerMvp
 import com.fastaccess.ui.modules.repos.code.files.RepoFilesFragment
 import com.fastaccess.ui.modules.repos.extras.branches.pager.BranchesPagerFragment.Companion.newInstance
@@ -73,24 +70,20 @@ class RepoFilePathFragment : BaseFragment<RepoFilePathMvp.View, RepoFilePathPres
         super.onDetach()
     }
 
-    private fun onAddFile() {
-        if (isProEnabled || isAllFeaturesUnlocked) {
-            val repoFile =
-                if (!adapter!!.isEmpty) adapter!!.getItem(adapter!!.itemCount - 1) else null
-            val fileModel = EditRepoFileModel(
-                presenter!!.login!!,
-                presenter!!.repoId!!,
-                repoFile?.path ?: "",
-                refs!!,
-                repoFile?.sha ?: "",
-                null,
-                null,
-                false
-            )
-            startForResult(requireContext(), launcher, fileModel, isEnterprise)
-        } else {
-            startActivity(requireContext())
-        }
+    private fun onAddFile() {        
+        val repoFile =
+            if (!adapter!!.isEmpty) adapter!!.getItem(adapter!!.itemCount - 1) else null
+        val fileModel = EditRepoFileModel(
+            presenter!!.login!!,
+            presenter!!.repoId!!,
+            repoFile?.path ?: "",
+            refs!!,
+            repoFile?.sha ?: "",
+            null,
+            null,
+            false
+        )
+        startForResult(requireContext(), launcher, fileModel, isEnterprise)
     }
 
     private fun onDownloadRepoFiles() {

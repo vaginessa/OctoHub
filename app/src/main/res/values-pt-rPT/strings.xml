@@ -127,7 +127,6 @@
   <string name="thank_you_for_feedback">Obrigado pelo seu comentário!</string>
   <string name="current_version">Versão actual</string>
   <string name="version">Versão</string>
-  <string name="support_development_enable_ads">Apoie o desenvolvimento. Active os anúncios</string>
   <string name="username">Utilizador</string>
   <string name="password">Palavra-passe</string>
   <string name="twoFactor">Verificação em 2 passos</string>
@@ -248,7 +247,6 @@
   <string name="theme_color_title">Cor acentuada do tema</string>
   <string name="website">Website</string>
   <string name="support_development">Apoie o desenvolvimento</string>
-  <string name="success_purchase_message">Obrigado por ser espectacular!</string>
   <string name="change_theme_warning">Se o tema não foi aplicado correctamente, feche a aplicação e volte a abrir manualmente</string>
   <string name="pin">Fixar</string>
   <string name="pinned">Fixado</string>
@@ -273,7 +271,6 @@
   <string name="read_write_permission_explanation">Aceite as permissões para que o FastHub possa
         armazenar os ficheiros no seu dispositivo para os conseguir ver</string>
   <string name="public_gists">Gists públicos</string>
-  <string name="enable_ads">Activar anúncios</string>
   <string name="no_issues">Sem incidentes</string>
   <string name="no_unread_notifications">Sem notificações não lidas</string>
   <string name="my_gists">Os meus gists</string>
@@ -393,7 +390,6 @@
   <string name="reviewer_added">Revisor adicionado</string>
   <string name="milestone_added">Milestone adicionada</string>
   <string name="feed">Feed</string>
-  <string name="premium_theme">Tema Premium</string>
   <string name="choose_code_theme">Palete de cores</string>
   <string name="enterprise_login_warning">Inicie sessão na sua conta GitHub para aceder a tudo da API ou então vai acabar por ser expulso sempre que
         aceder a alguma coisa que não a sua conta Enterprise GitHub devido ao token estar a ser transmitido da sua conta Enterprise Github</string>
@@ -411,7 +407,6 @@
   <string name="disable_auto_gif_summary">Desactivar a auto reprodução de GIFs</string>
   <string name="disable_auto_gif_title">Reprodução de GIFs</string>
   <string name="request_changes">Alterações pedidas</string>
-  <string name="google_play_service_error">Serviços Google Play indisponíveis</string>
   <string name="edit_gist">Editar gist</string>
   <string name="content">Conteúdo</string>
   <string name="expand">Expandir</string>
@@ -430,7 +425,6 @@
   <string name="faq">FAQ</string>
   <string name="comments_added_successfully">Comentários adicionados</string>
   <string name="clear_search_keywords">Limpar histórico de pesquisa</string>
-  <string name="restore_purchases">Restaurar compras</string>
   <string name="include_forks">Incluir forks</string>
   <string name="comment_is_too_far_to_paginate">O comentário é demasiado grande para paginar.</string>
   <string name="search_results_warning">Demasiadas respostas \nA mostrar o máximo permitido</string>

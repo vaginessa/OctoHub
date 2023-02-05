@@ -125,7 +125,6 @@
     <string name="thank_you_for_feedback">フィードバックを送信していただきありがとうございます!</string>
     <string name="current_version">現在のバージョン</string>
     <string name="version">バージョン</string>
-    <string name="support_development_enable_ads">広告を有効にして、開発を応援する</string>
     <string name="username">ユーザー名</string>
     <string name="password">パスワード</string>
     <string name="twoFactor">二段階認証コード</string>
@@ -246,7 +245,6 @@
     <string name="theme_color_title">テーマのアクセントカラー</string>
     <string name="website">ウェブサイト</string>
     <string name="support_development">開発を支援する</string>
-    <string name="success_purchase_message">ご支援に感謝します！</string>
     <string name="change_theme_warning">テーマが正常に適用されない場合、アプリを開き直してください。</string>
     <string name="pin">ピン留め</string>
     <string name="pinned">ピン</string>
@@ -270,7 +268,6 @@
     <string name="no_search_results">検索結果がありません</string>
     <string name="read_write_permission_explanation">FastHubでこれらを表示するためにはストレージ権限を承認して下さい</string>
     <string name="public_gists">公開Gist</string>
-    <string name="enable_ads">広告を有効にする</string>
     <string name="no_issues">Issueがありません</string>
     <string name="no_unread_notifications">未読の通知がありません</string>
     <string name="my_gists">マイGist</string>
@@ -386,7 +383,6 @@
     <string name="reviewer_added">レビュアーの追加に成功しました</string>
     <string name="milestone_added">マイルストーンの追加に成功しました</string>
     <string name="feed">フィード</string>
-    <string name="premium_theme">プレミアムテーマ</string>
     <string name="choose_code_theme">カラーパレットからコードの色を選択</string>
     <string name="enterprise_login_warning">すべてのGitHub APIにアクセスするために、GitHubアカウントにログインしてください。ログインしなければアクセスは許可されません。</string>
     <string name="add_account">アカウントを追加</string>
@@ -403,7 +399,6 @@
     <string name="disable_auto_gif_summary">GIFの自動再生を無効にします。</string>
     <string name="disable_auto_gif_title">GIFの再生を無効化</string>
     <string name="request_changes">依頼された変更</string>
-    <string name="google_play_service_error">Google Play Servicesが使用できません。</string>
     <string name="edit_gist">Gistを編集する</string>
     <string name="content">Content</string>
     <string name="expand">展開する</string>
@@ -447,7 +442,6 @@
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">コメントが正常に追加されました。</string>
     <string name="clear_search_keywords">検索履歴を削除する</string>
-    <string name="restore_purchases">購入記録の復元</string>
     <string name="include_forks">Forkを含める</string>
     <string name="comment_is_too_far_to_paginate">このcommitはpaginateするには遠すぎます。</string>
     <string name="search_results_warning">レスポンスが多すぎます。 \nShowing the max API allows</string>

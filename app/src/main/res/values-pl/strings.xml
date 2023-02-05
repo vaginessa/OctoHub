@@ -130,7 +130,6 @@
   <string name="edited">• edytowany</string>
   <string name="empty_pinned_repos">Brak przypiętych repozytoriów, przypnij jakieś żeby je tu zobaczyć.\nP.S: Im częściej odwiedzasz repo, tym wyżej będzie na liście.</string>
   <string name="empty_search_error">Pole wyszukiwania nie może być puste</string>
-  <string name="enable_ads">Odblokuj reklamy</string>
   <string name="enable_notification_sound_summary">Odtwarzaj dźwięk, kiedy otrzymujesz powiadomienia.</string>
   <string name="enable_notification_sound_title">Odtwarzaj dźwięki powiadomień</string>
   <string name="enable_notification_title">Odblokuj powiadomienia</string>
@@ -199,7 +198,6 @@
   <string name="from">od</string>
   <string name="general_settings">Ogólne</string>
   <string name="gist_description">Opis Gista</string>
-  <string name="google_play_service_error">Usługi Google Play są niedostępne</string>
   <string name="header">Nagłówek</string>
   <string name="header_one">Pierwszy nagłówek</string>
   <string name="header_three">Trzeci nagłówek</string>
@@ -329,7 +327,6 @@
   <string name="please_login">Zaloguj się, żeby zacząć korzystać z FastHub</string>
   <string name="please_read">PRZECZYTAJ TO!</string>
   <string name="pr_comment_review">Skomentuj pull request</string>
-  <string name="premium_theme">Motyw Premium</string>
   <string name="press_again_to_exit">Wciśnij ponownie, aby zakończyć</string>
   <string name="preview">Podgląd</string>
   <string name="private_repo">Prywatne</string>
@@ -365,7 +362,6 @@
   <string name="reset">Reset</string>
   <string name="restart_app_message">Proszę zrestartować aplikację</string>
   <string name="restore">Przywróć</string>
-  <string name="restore_purchases">Dokonane płatności</string>
   <string name="review_requests">Prośby o recenzje</string>
   <string name="reviewed">zrecenzowany</string>
   <string name="reviewer_added">Pomyślnie dodano recenzenta</string>
@@ -400,12 +396,10 @@
   <string name="success_closed">Zamknięto problem</string>
   <string name="success_copied">Skopiowano</string>
   <string name="success_merge">Scalono</string>
-  <string name="success_purchase_message">Dziękuję, to było niesamowite!</string>
   <string name="success_re_opened">Otwarto ponownie</string>
   <string name="successfully_invited">Zaproszono</string>
   <string name="successfully_submitted">Wysłano</string>
   <string name="support_development">Wspomóż rozwój aplikacji</string>
-  <string name="support_development_enable_ads">Wspomóż rozwój aplikacji, odblokuj reklamy</string>
   <string name="support_with_2_00">Przekaż $2.00</string>
   <string name="support_with_5_00">Przekaż $5.00</string>
   <string name="support_with_10_00">Przekaż $10.00</string>

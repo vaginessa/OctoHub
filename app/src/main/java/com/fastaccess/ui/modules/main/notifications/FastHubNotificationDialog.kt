@@ -83,13 +83,6 @@ class FastHubNotificationDialog :
                         var observable = Observable.just(0L)
                         if (!it.isEmpty()) {
                             val notification = it.or()
-                            if (notification.type == NotificationType.PROMOTION || notification.type == NotificationType.PURCHASE && model == null) {
-                                if (PrefGetter.isProEnabled) {
-                                    notification.read = true
-                                    observable =
-                                        FastHubNotificationDao.update(notification).toObservable()
-                                }
-                            }
                             newInstance(notification).show(fragmentManager, TAG)
                         }
                         observable

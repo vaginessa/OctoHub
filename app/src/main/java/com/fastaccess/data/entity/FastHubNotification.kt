@@ -26,7 +26,7 @@ data class FastHubNotification(
     var type: NotificationType? = null,
 ) : Parcelable {
     enum class NotificationType {
-        UPDATE, GUIDE, PURCHASE, REPORT_ISSUE, PROMOTION, STAR_REPO
+        UPDATE, GUIDE, REPORT_ISSUE, STAR_REPO
     }
 
     constructor(parcel: Parcel) : this(

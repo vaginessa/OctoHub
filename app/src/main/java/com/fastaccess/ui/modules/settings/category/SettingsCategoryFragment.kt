@@ -230,7 +230,6 @@ class SettingsCategoryFragment : PreferenceFragmentCompat(), Preference.OnPrefer
 
     private fun addCustomization() {
         addPreferencesFromResource(R.xml.customization_settings)
-        findPreference("enable_ads").isVisible = false
         findPreference("recylerViewAnimation").onPreferenceChangeListener = this
         findPreference("rect_avatar").onPreferenceChangeListener = this
         findPreference("appColor").onPreferenceChangeListener = this

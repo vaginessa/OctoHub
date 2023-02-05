@@ -16,11 +16,6 @@ import com.fastaccess.utils.setOnThrottleClickListener
  */
 class FaqActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>>() {
 
-    fun onDone() {
-        PrefGetter.setPlayStoreWarningShowed()
-        finish()
-    }
-
     override fun layout(): Int = R.layout.faq_view_layout
 
     override val isTransparent: Boolean = true
@@ -34,7 +29,7 @@ class FaqActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>>(
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         findViewById<View>(R.id.done).setOnThrottleClickListener {
-            onDone()
+            finish()
         }
         val textView = findViewById<TextView>(R.id.description)
         textView.post {

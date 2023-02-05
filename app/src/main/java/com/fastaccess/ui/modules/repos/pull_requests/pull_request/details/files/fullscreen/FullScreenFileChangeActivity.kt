@@ -20,7 +20,6 @@ import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.PrefGetter
 import com.fastaccess.ui.adapter.CommitLinesAdapter
 import com.fastaccess.ui.base.BaseActivity
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.modules.reviews.AddReviewDialogFragment
 import com.fastaccess.ui.widgets.StateLayout
 import com.fastaccess.ui.widgets.recyclerview.DynamicRecyclerView
@@ -119,18 +118,14 @@ class FullScreenFileChangeActivity :
     override fun onItemClick(position: Int, v: View?, item: CommitLinesModel) {
         if (item.text?.startsWith("@@")!!) return
         val commit = presenter.model?.commitFileModel ?: return
-        if (PrefGetter.isProEnabled) {
-            AddReviewDialogFragment.newInstance(
-                item, Bundler.start()
-                    .put(BundleConstant.ITEM, commit.filename)
-                    .put(BundleConstant.EXTRA_TWO, presenter.position)
-                    .put(BundleConstant.EXTRA_THREE, position)
-                    .end()
-            )
-                .show(supportFragmentManager, "AddReviewDialogFragment")
-        } else {
-            PremiumActivity.startActivity(this)
-        }
+        AddReviewDialogFragment.newInstance(
+            item, Bundler.start()
+                .put(BundleConstant.ITEM, commit.filename)
+                .put(BundleConstant.EXTRA_TWO, presenter.position)
+                .put(BundleConstant.EXTRA_THREE, position)
+                .end()
+        )
+            .show(supportFragmentManager, "AddReviewDialogFragment")
     }
 
     override fun onItemLongClick(position: Int, v: View?, item: CommitLinesModel) {

@@ -22,8 +22,6 @@ import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.InputHelper.isEmpty
 import com.fastaccess.helper.ParseDateFormat.Companion.getTimeAgo
-import com.fastaccess.helper.PrefGetter.isAllFeaturesUnlocked
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.helper.ViewHelper
 import com.fastaccess.provider.scheme.LinkParserHelper.isEnterprise
 import com.fastaccess.provider.tasks.git.GithubActionService
@@ -35,7 +33,6 @@ import com.fastaccess.ui.modules.editor.comment.CommentEditorFragment
 import com.fastaccess.ui.modules.gists.GistsListActivity
 import com.fastaccess.ui.modules.gists.create.CreateGistActivity.Companion.launcher
 import com.fastaccess.ui.modules.gists.gist.comments.GistCommentsFragment
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.widgets.AvatarLayout
 import com.fastaccess.ui.widgets.FontTextView
 import com.fastaccess.ui.widgets.ForegroundImageView
@@ -110,22 +107,6 @@ class GistActivity : BaseActivity<GistMvp.View, GistPresenter>(), GistMvp.View {
         }
     }
 
-    fun onEdit() {
-        if (isProEnabled || isAllFeaturesUnlocked) {
-            if (presenter!!.gist != null) launcher(this, launcher, presenter!!.gist!!)
-        } else {
-            startActivity(this)
-        }
-    }
-
-    fun pinUnpin() {
-        if (isProEnabled) {
-            presenter!!.onPinUnpinGist()
-        } else {
-            startActivity(this)
-        }
-    }
-
     override fun layout(): Int {
         return R.layout.gists_pager_layout
     }
@@ -157,10 +138,10 @@ class GistActivity : BaseActivity<GistMvp.View, GistPresenter>(), GistMvp.View {
             onGistActions(it)
         }
         edit!!.setOnThrottleClickListener {
-            onEdit()
+            if (presenter!!.gist != null) launcher(this, launcher, presenter!!.gist!!)
         }
         pinUnpin!!.setOnThrottleClickListener {
-            pinUnpin()
+            presenter!!.onPinUnpinGist()
         }
         fab!!.hide()
         commentEditorFragment =

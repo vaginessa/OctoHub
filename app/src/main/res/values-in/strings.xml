@@ -128,7 +128,6 @@
     <string name="thank_you_for_feedback">Terima kasih atas umpan balik Anda!</string>
     <string name="current_version">Versi sekarang</string>
     <string name="version">Versi</string>
-    <string name="support_development_enable_ads">Dukung pengembangan, aktifkan iklan</string>
     <string name="username">Nama pengguna</string>
     <string name="password">Kata sandi</string>
     <string name="twoFactor">Kode otentikasi dua faktor</string>
@@ -247,7 +246,6 @@
     <string name="theme_color_title">Tema Aksen Warna</string>
     <string name="website">Situs web</string>
     <string name="support_development">Dukung pengembangan</string>
-    <string name="success_purchase_message">Terima kasih telah menjadi orang yang sangat mengagumkan!</string>
     <string name="change_theme_warning">Jika tema tidak diterapkan dengan benar, tolong hentikan dan buka aplikasi secara manual.</string>
     <string name="pin">Pin</string>
     <string name="pinned">Disematkan</string>
@@ -272,7 +270,6 @@
     <string name="read_write_permission_explanation">Tolong menerima perintah izin dari FastHub untuk menyimpan berkas di
         perangkat Anda sehingga FastHub dapat meninjau mereka</string>
     <string name="public_gists">Gist Publik</string>
-    <string name="enable_ads">Aktifkan Iklan</string>
     <string name="no_issues">Tidak ada isu</string>
     <string name="no_unread_notifications">Tidak ada pemberitahuan yang belum dibaca.</string>
     <string name="my_gists">Gist Saya</string>

@@ -13,7 +13,6 @@ import androidx.appcompat.widget.Toolbar
 import com.fastaccess.R
 import com.fastaccess.helper.*
 import com.fastaccess.ui.base.BaseFragment
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.widgets.SpannableBuilder
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
@@ -49,10 +48,6 @@ class ThemeFragment : BaseFragment<ThemeFragmentMvp.View, ThemeFragmentPresenter
         toolbar = view.findViewById(R.id.toolbar)
         apply.setOnClickListener {
             setTheme()
-        }
-        if (isPremiumTheme()) {
-            toolbar.title =
-                SpannableBuilder.builder().foreground(getString(R.string.premium_theme), Color.RED)
         }
         toolbar.setNavigationOnClickListener { activity?.onBackPressed() }
     }
@@ -122,38 +117,27 @@ class ThemeFragment : BaseFragment<ThemeFragmentMvp.View, ThemeFragmentPresenter
 
     private fun applyBluishTheme() {
         if (!isGoogleSupported()) return
-        if (PrefGetter.isBluishEnabled || PrefGetter.isProEnabled) {
+        if (PrefGetter.isBluishEnabled) {
             setTheme(getString(R.string.bluish_theme))
-        } else {
-            PremiumActivity.startActivity(requireContext())
         }
     }
 
     private fun applyAmlodTheme() {
         if (!isGoogleSupported()) return
-        if (PrefGetter.isAmlodEnabled || PrefGetter.isProEnabled) {
+        if (PrefGetter.isAmlodEnabled) {
             setTheme(getString(R.string.amlod_theme_mode))
-        } else {
-            PremiumActivity.startActivity(requireContext())
         }
     }
 
     private fun applyMidnightTheme() {
-        if (!isGoogleSupported()) return
-        if (PrefGetter.isProEnabled || PrefGetter.isAllFeaturesUnlocked) {
-            setTheme(getString(R.string.mid_night_blue_theme_mode))
-        } else {
-            PremiumActivity.startActivity(requireContext())
-        }
+        if (!isGoogleSupported()) return        
+        setTheme(getString(R.string.mid_night_blue_theme_mode))
     }
 
     private fun setTheme(theme: String) {
         PrefHelper.putAny(mTheme, theme)
         themeListener?.onThemeApplied()
     }
-
-    private fun isPremiumTheme(): Boolean =
-        theme != R.style.ThemeLight && theme != R.style.ThemeDark
 
     private fun isGoogleSupported(): Boolean {
         if (AppHelper.isGoogleAvailable(requireContext())) {

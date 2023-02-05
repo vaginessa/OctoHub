@@ -194,7 +194,6 @@
                 android:value=".ui.modules.repos.RepoPagerActivity" />
         </activity>
         <activity android:name=".ui.modules.filter.issues.FilterIssuesActivity" />
-        <activity android:name=".ui.modules.main.donation.DonationActivity" />
         <activity android:name=".ui.modules.repos.code.commit.viewer.FullCommitFileActivity" />
         <activity
             android:name=".ui.modules.search.repos.files.SearchFileActivity"
@@ -238,11 +237,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.modules.repos.RepoPagerActivity" />
         </activity>
-        <activity
-            android:name=".ui.modules.main.premium.PremiumActivity"
-            android:configChanges="keyboard|orientation|screenSize"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name=".ui.modules.repos.git.EditRepoFileActivity"
             android:configChanges="keyboard|orientation|screenSize"

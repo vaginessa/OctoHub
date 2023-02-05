@@ -112,10 +112,6 @@
             • Login to unlimited number of Enterprise & GitHub accounts\n
             • Access GitHub contents along side your Enterprise Account
     ]]></string>
-    <string name="purchase" translatable="false">Purchase</string>
-    <string name="get_all" translatable="false">Purchase All (7.00USD)</string>
-    <string name="fasthub_premium_features" translatable="false">FastHub Premium Features</string>
-    <string name="secret_code" translatable="false">Promo Code</string>
     <string name="branches" translatable="false">Branches</string>
     <string name="github_enterprise_reply" translatable="false">
         <![CDATA[ <small><i>Reply from GitHub support regards OAuth login for Enterprise:</i></small>
@@ -130,13 +126,9 @@
                 </blockquote>
         ]]>
     </string>
-    <string name="purchase_all" formatted="false" translatable="false">Purchase All for %price%</string>
     <string name="unlock" translatable="false">Unlock</string>
-    <string name="unlock_everything" translatable="false">Unlock Everything</string>
     <string name="feeds" translatable="false">Feeds</string>
     <string name="graph_timeline_text" translatable="false">%1$s - %2$s</string>
-    <string name="unlock_all" translatable="false">Unlock all features</string>
-    <string name="unlock_all_description" translatable="false">Please, do not forget to support the developers!</string>
     <!-- END OF DO NOT COPY, START COPYING FROM LINE BELOW -->
 
     <!--Please DO NOT translate github terms, such as Pull Request, Issues, Commits & etc.-->
@@ -269,7 +261,6 @@
     <string name="thank_you_for_feedback">Thanks for your feedback!</string>
     <string name="current_version">Current version</string>
     <string name="version">Version</string>
-    <string name="support_development_enable_ads">Support development, enable ads</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="twoFactor">Two-factor authentication code</string>
@@ -395,7 +386,6 @@
     <string name="theme_color_title">Theme Accent Color</string>
     <string name="website">Website</string>
     <string name="support_development">Support Development</string>
-    <string name="success_purchase_message">Thanks for being extremely awesome!</string>
     <string name="change_theme_warning">If the theme didn\'t apply properly, please kill and open the app manually.</string>
     <string name="pin">Pin</string>
     <string name="pinned">Pinned</string>
@@ -422,7 +412,6 @@
     <string name="read_write_permission_explanation">Please accept the permissions in order for FastHub to
         store the files on your device to be able to view them</string>
     <string name="public_gists">Public Gists</string>
-    <string name="enable_ads">Enable Ads</string>
     <string name="no_issues">No issues</string>
     <string name="no_unread_notifications">No unread notifications.</string>
     <string name="my_gists">My Gists</string>
@@ -543,7 +532,6 @@
     <string name="reviewer_added">Reviewer added successfully</string>
     <string name="milestone_added">Milestone added successfully</string>
     <string name="feed">Feed</string>
-    <string name="premium_theme">Premium Theme</string>
     <string name="choose_code_theme">Code color palette</string>
     <string name="enterprise_login_warning">Please do login to your GitHub account in order to access everything from GitHub API
         otherwise you\'ll end up being kicked out every time you access anything rather than your Enterprise GitHub due to the token transmitted to
@@ -562,7 +550,6 @@
     <string name="disable_auto_gif_summary">Disable auto playing GIFs</string>
     <string name="disable_auto_gif_title">Disable Playing GIF</string>
     <string name="request_changes">requested changes</string>
-    <string name="google_play_service_error">Google Play Services are unavailable</string>
     <string name="edit_gist">Edit Gist</string>
     <string name="content">Content</string>
     <string name="expand">expand</string>
@@ -604,7 +591,6 @@
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">Comments added successfully</string>
     <string name="clear_search_keywords">Clear Search History</string>
-    <string name="restore_purchases">Restore Purchases</string>
     <string name="include_forks">Include Forks</string>
     <string name="comment_is_too_far_to_paginate">The comment is too far to paginate</string>
     <string name="search_results_warning">Too many responses \nShowing the max API allows</string>

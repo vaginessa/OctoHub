@@ -142,7 +142,6 @@
     <string name="thank_you_for_feedback">Спасибо за отзыв!</string>
     <string name="current_version">Текущая версия</string>
     <string name="version">Версия</string>
-    <string name="support_development_enable_ads">Поддержать разработку, включив рекламу</string>
     <string name="username">Имя пользователя</string>
     <string name="password">Пароль</string>
     <string name="twoFactor">Код двухфакторной аутентификации</string>
@@ -263,7 +262,6 @@
     <string name="theme_color_title">Акцентный цвет</string>
     <string name="website">Веб-сайт</string>
     <string name="support_development">Поддержать разработку</string>
-    <string name="success_purchase_message">Спасибо за то, что Вы есть!</string>
     <string name="change_theme_warning">Если тема применится некорректно, то, пожалуйста, принудительно закройте приложение и снова его запустите.</string>
     <string name="pin">Закрепить</string>
     <string name="pinned">Закладки</string>
@@ -289,7 +287,6 @@
     <string name="read_write_permission_explanation">Пожалуйста, предоставьте FastHub доступ к следующим разрешениям, чтобы появилась возможность
         хранить файлы на вашей SD карте, а также просматривать их</string>
     <string name="public_gists">Публичные Gist`ы</string>
-    <string name="enable_ads">Включить рекламу</string>
     <string name="no_issues">Issue отсутствуют</string>
     <string name="no_unread_notifications">Нет новых уведомлений.</string>
     <string name="my_gists">Мои Gist`ы</string>
@@ -392,7 +389,6 @@
     <string name="reviewer_added">Рецензент успешно добавлен</string>
     <string name="milestone_added">Цель успешно добавлена</string>
     <string name="feed">Обновления</string>
-    <string name="premium_theme">Премиальная тема</string>
     <string name="choose_code_theme">Цвет. палитра кода</string>
     <string name="enterprise_login_warning">Пожалуйста, выполните вход в свою учётную запись GitHub, чтобы не возникали проблемы в работе с API GitHub.
         В противном случае авторизация будет сбрасываться каждый раз, когда вы будете выходить за рамки GitHub Enterprise.
@@ -411,7 +407,6 @@
     <string name="disable_auto_gif_summary">Отключить автоматическое воспроизведение GIF</string>
     <string name="disable_auto_gif_title">Откл. автовоспроизведение GIF</string>
     <string name="request_changes">запросил(а) изменения</string>
-    <string name="google_play_service_error">Сервисы Google Play недоступны</string>
     <string name="edit_gist">Редактировать Gist</string>
     <string name="content">Содержимое</string>
     <string name="copy_sha">Копировать SHA-1</string>
@@ -447,7 +442,6 @@
     <string name="faq">ЧаВо</string>
     <string name="comments_added_successfully">Комментарии успешно добавлены</string>
     <string name="clear_search_keywords">Очистить историю поиска</string>
-    <string name="restore_purchases">Восстановить покупки</string>
     <string name="include_forks">Включая fork`и</string>
     <string name="comment_is_too_far_to_paginate">Комментарий находится слишком далеко для отображения.</string>
     <string name="search_results_warning">Пожалуйста, используйте более конкретный поисковый запрос</string>

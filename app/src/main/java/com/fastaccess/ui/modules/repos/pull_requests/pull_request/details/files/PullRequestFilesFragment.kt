@@ -18,13 +18,11 @@ import com.fastaccess.data.entity.PullRequest
 import com.fastaccess.helper.ActivityHelper
 import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler
-import com.fastaccess.helper.PrefGetter.isProEnabled
 import com.fastaccess.provider.rest.loadmore.OnLoadMore
 import com.fastaccess.provider.scheme.SchemeParser.launchUri
 import com.fastaccess.ui.adapter.CommitFilesAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.premium.PremiumActivity.Companion.startActivity
 import com.fastaccess.ui.modules.repos.issues.issue.details.IssuePagerMvp.IssuePrCallback
 import com.fastaccess.ui.modules.repos.pull_requests.pull_request.details.files.PullRequestFilesMvp.PatchCallback
 import com.fastaccess.ui.modules.repos.pull_requests.pull_request.details.files.fullscreen.FullScreenFileChangeActivity.Companion.startLauncherForResult
@@ -232,18 +230,14 @@ class PullRequestFilesFragment :
         item: CommitLinesModel
     ) {
         if (item.text!!.startsWith("@@")) return
-        if (isProEnabled) {
-            newInstance(
-                item, Bundler.start()
-                    .put(BundleConstant.ITEM, commit.filename)
-                    .put(BundleConstant.EXTRA_TWO, groupPosition)
-                    .put(BundleConstant.EXTRA_THREE, childPosition)
-                    .end()
-            )
-                .show(childFragmentManager, "AddReviewDialogFragment")
-        } else {
-            startActivity(requireContext())
-        }
+        newInstance(
+            item, Bundler.start()
+                .put(BundleConstant.ITEM, commit.filename)
+                .put(BundleConstant.EXTRA_TWO, groupPosition)
+                .put(BundleConstant.EXTRA_THREE, childPosition)
+                .end()
+        )
+            .show(childFragmentManager, "AddReviewDialogFragment")
     }
 
     override fun onCommentAdded(comment: String, item: CommitLinesModel, bundle: Bundle?) {

@@ -38,7 +38,6 @@ object PrefGetter {
     const val ORANGE = 15
     const val DEEP_ORANGE = 16
     private const val WHATS_NEW_VERSION = "whats_new"
-    private const val ADS = "enable_ads"
     private const val TOKEN = "token"
     private const val ENTERPRISE_TOKEN = "enterprise_token"
     private const val USER_ICON_GUIDE = "user_icon_guide"
@@ -61,13 +60,11 @@ object PrefGetter {
     private const val AMLOD_THEME_ENABLED = "amlod_theme_enabled"
     private const val MIDNIGHTBLUE_THEME_ENABLED = "midnightblue_theme_enabled"
     private const val BLUISH_THEME_ENABLED = "bluish_theme_enabled"
-    private const val PRO_ITEMS = "fasth_pro_items"
     private const val ENTERPRISE_ITEM = "enterprise_item"
     private const val CODE_THEME = "code_theme"
     private const val ENTERPRISE_URL = "enterprise_url"
     private const val NOTIFICATION_SOUND_PATH = "notification_sound_path"
     private const val DISABLE_AUTO_LOAD_IMAGE = "disable_auto_loading_image"
-    private const val PLAY_STORE_REVIEW_ACTIVITY = "play_store_review_activity"
 
     @JvmStatic
     fun setTokenEnterprise(token: String?) {
@@ -97,11 +94,6 @@ object PrefGetter {
         get() = PrefHelper.getString(OTP_CODE)
         set(otp) {
             PrefHelper.putAny(OTP_CODE, otp)
-        }
-    var isAdsEnabled: Boolean
-        get() = PrefHelper.getBoolean(ADS)
-        set(isEnabled) {
-            PrefHelper.putAny(ADS, isEnabled)
         }
 
     fun clear() {
@@ -437,13 +429,6 @@ object PrefGetter {
         PrefHelper.putAny(BLUISH_THEME_ENABLED, true)
     }
 
-    fun setProItems() {
-        PrefHelper.putAny(PRO_ITEMS, true)
-        enableAmlodTheme()
-        enableBluishTheme()
-        enableMidNightBlueTheme()
-    }
-
     fun setEnterpriseItem() {
         PrefHelper.putAny(ENTERPRISE_ITEM, true)
     }
@@ -451,14 +436,8 @@ object PrefGetter {
     val isEnterpriseEnabled: Boolean
         get() = PrefHelper.getBoolean(ENTERPRISE_ITEM)
 
-    val isAllFeaturesUnlocked: Boolean
-        get() = isProEnabled && isEnterprise
-
-    val isProEnabled: Boolean
-        get() = PrefHelper.getBoolean(PRO_ITEMS)
-
     fun hasSupported(): Boolean {
-        return isProEnabled || isAmlodEnabled || isBluishEnabled
+        return isAmlodEnabled || isBluishEnabled
     }
 
     val codeTheme: String?
@@ -507,20 +486,6 @@ object PrefGetter {
 
     val isAppAnimationDisabled: Boolean
         get() = PrefHelper.getBoolean("app_animation")
-
-    val isPlayStoreWarningShowed: Boolean
-        get() = PrefHelper.getBoolean(PLAY_STORE_REVIEW_ACTIVITY)
-
-    fun setPlayStoreWarningShowed() {
-        PrefHelper.putAny(PLAY_STORE_REVIEW_ACTIVITY, true)
-    }
-
-    fun clearPurchases() {
-        PrefHelper.putAny(PRO_ITEMS, false)
-        PrefHelper.putAny(BLUISH_THEME_ENABLED, false)
-        PrefHelper.putAny(AMLOD_THEME_ENABLED, false)
-        enterpriseUrl = null
-    }
 
     val isFeedsHintShowed: Boolean
         get() {

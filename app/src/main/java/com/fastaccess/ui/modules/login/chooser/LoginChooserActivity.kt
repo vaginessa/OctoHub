@@ -17,7 +17,6 @@ import com.fastaccess.helper.RxHelper
 import com.fastaccess.ui.adapter.LoginAdapter
 import com.fastaccess.ui.base.BaseActivity
 import com.fastaccess.ui.modules.login.LoginActivity
-import com.fastaccess.ui.modules.main.premium.PremiumActivity
 import com.fastaccess.ui.modules.settings.LanguageBottomSheetDialog
 import com.fastaccess.ui.widgets.FontTextView
 import com.fastaccess.ui.widgets.dialog.MessageDialogView
@@ -89,10 +88,8 @@ class LoginChooserActivity : BaseActivity<LoginChooserMvp.View, LoginChooserPres
 
     internal fun onEnterpriseClicked() {
         if (LoginDao.hasNormalLogin().blockingGet()) {
-            if (PrefGetter.isAllFeaturesUnlocked || PrefGetter.isEnterpriseEnabled) {
+            if (PrefGetter.isEnterpriseEnabled) {
                 LoginActivity.start(this, isBasicAuth = true, isEnterprise = true)
-            } else {
-                startActivity(Intent(this, PremiumActivity::class.java))
             }
         } else {
             MessageDialogView.newInstance(
