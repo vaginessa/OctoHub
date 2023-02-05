@@ -331,8 +331,6 @@
     <string name="files_only">In Dateien</string>
     <string name="paths_only">In Dateipfaden</string>
     <string name="review_requests">PRs prüfen</string>
-    <string name="join_slack">Slackgruppe beitreten</string>
-    <string name="join_slack_message">Möchtest du der OctoHub Slackgruppe beitreten?</string>
     <string name="successfully_invited">Erfolgreich eingeladen!</string>
     <string name="reply">Antworten</string>
     <string name="failed_selecting_image">Bild konnte nicht geladen werden.</string>

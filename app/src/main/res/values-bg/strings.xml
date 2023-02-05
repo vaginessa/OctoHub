@@ -355,8 +355,6 @@
     <string name="files_only">Във файлове</string>
     <string name="paths_only">В пътища</string>
     <string name="review_requests">Заявления за ревю</string>
-    <string name="join_slack">Ела в Slack</string>
-    <string name="join_slack_message">Искаш ли да се присъединиш към Slack групата на OctoHub?</string>
     <string name="successfully_invited">Поканата е успешна</string>
     <string name="reply">Отговори</string>
     <string name="failed_selecting_image">Грешка при зареждане на изображение.</string>

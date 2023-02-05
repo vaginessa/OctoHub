@@ -347,8 +347,6 @@
     <string name="files_only">في الملفات</string>
     <string name="paths_only">في المسارات</string>
     <string name="review_requests">مراجعة الطلبات</string>
-    <string name="join_slack">الانضمام إلى سلاك</string>
-    <string name="join_slack_message">هل تود الانضمام إلى مجموعة فاست هَب في سلاك؟</string>
     <string name="successfully_invited">تمت الدعوة بنجاح</string>
     <string name="reply">الرد</string>
     <string name="failed_selecting_image">تعذر تحميل الصورة.</string>

@@ -350,8 +350,6 @@
     <string name="files_only">Di Berkas</string>
     <string name="paths_only">Di Path</string>
     <string name="review_requests">Permintaan Tinjauan</string>
-    <string name="join_slack">Bergabung di Slack</string>
-    <string name="join_slack_message">Apakah Anda ingin bergabung dengan grup OctoHub di Slack?</string>
     <string name="successfully_invited">Berhasil diundang</string>
     <string name="reply">Balas</string>
     <string name="failed_selecting_image">Gagal memuat gambar.</string>

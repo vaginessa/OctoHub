@@ -35,8 +35,6 @@
     <string name="files_only">В Файлах</string>
     <string name="paths_only">В Расположениях</string>
     <string name="review_requests">Запросы на проверку</string>
-    <string name="join_slack">Присоединиться к Slack</string>
-    <string name="join_slack_message">Хотите присоединиться к группе OctoHub в Slack?</string>
     <string name="successfully_invited">Приглашение отправлено</string>
     <string name="reply">Ответить</string>
     <string name="failed_selecting_image">Не удалось загрузить изображение.</string>

@@ -354,8 +354,6 @@
   <string name="files_only">Em ficheiros</string>
   <string name="paths_only">Em directorias</string>
   <string name="review_requests">Rever pedidos</string>
-  <string name="join_slack">Entrar no Slack</string>
-  <string name="join_slack_message">Gostava de se juntar ao grupo Slack do OctoHub?</string>
   <string name="successfully_invited">Convidado</string>
   <string name="reply">Responder</string>
   <string name="failed_selecting_image">Erro ao carregar imagem</string>

@@ -348,8 +348,6 @@
     <string name="files_only">파일에서만 검색</string>
     <string name="paths_only">경로에서만 검색</string>
     <string name="review_requests">검토 요청</string>
-    <string name="join_slack">Slack 참여</string>
-    <string name="join_slack_message">OctoHub Slack에 참여하시겠습니까?</string>
     <string name="successfully_invited">초대됨</string>
     <string name="reply">답글</string>
     <string name="failed_selecting_image">이미지 불러오기에 실패했습니다</string>

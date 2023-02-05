@@ -345,8 +345,6 @@
     <string name="files_only">Tik failuose</string>
     <string name="paths_only">Tik aplankuose</string>
     <string name="review_requests">Vertintojų prašymai</string>
-    <string name="join_slack">Prisijungti prie Slack (tik angliškai)</string>
-    <string name="join_slack_message">Ar nori prisijungti prie „OctoHub“ Slack pokalbių grupės?</string>
     <string name="successfully_invited">Pavyko pakviesti</string>
     <string name="reply">Atsakyti</string>
     <string name="failed_selecting_image">Nepavyko užkrauti paveikslėlį</string>

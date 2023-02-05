@@ -1,17 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
            tools:ignore="MissingTranslation">
 <!-- PREVIOUSLY UN-TRANSLATED TERMS, NOW TRANSLATED ACCORDING TO ISSUE #1329  -->
-<string name="pro_features_list" translatable="false"><![CDATA[Obten las características PRO de OctoHub, incluyen:\n
-        • Todos los Temas PRO\n
-        • Revisión de PRs y comentarios en línea (PRs y Commits)\n
-        • Commit desde OctoHub (Editar, Crear y borrar archivos)\n
-        • Soporta dos métodos extra para Merging (Rebase y Squash)\n
-        • Login a ilimitadas cuentas\n
-        • Editar y agregar Gists ilimitados\n
-        • Project Board Columns & Cards (Editar, crear y borrar)\n
-        • Fijar Issues, PRs y Gists\n
-        • Nuevas características PRO (pronto...)
-    ]]></string>
     <string name="enterprise_pro_description" translatable="false"><![CDATA[
             • Login a ilimitadas cuentas Enterprise y GitHub\n
             • Acceso al contenido de GitHub juto con tu cuenta Enterprise
@@ -375,8 +364,6 @@
     <string name="files_only">En archivos</string>
     <string name="paths_only">En carpetas</string>
     <string name="review_requests">Revisar solicitudes</string>
-    <string name="join_slack">Unirse al Slack</string>
-    <string name="join_slack_message">¿Quisieras unirte al grupo de Slack de OctoHub?</string>
     <string name="successfully_invited">Invitación enviada con éxito</string>
     <string name="reply">Responder</string>
     <string name="failed_selecting_image">Falló al cargar la imagen.</string>

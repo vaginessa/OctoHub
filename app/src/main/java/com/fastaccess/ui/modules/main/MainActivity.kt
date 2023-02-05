@@ -22,7 +22,6 @@ import com.fastaccess.ui.modules.main.issues.pager.MyIssuesPagerFragment
 import com.fastaccess.ui.modules.main.pullrequests.pager.MyPullsPagerFragment
 import com.fastaccess.ui.modules.notification.NotificationActivity
 import com.fastaccess.ui.modules.search.SearchActivity
-import com.fastaccess.ui.modules.settings.SlackBottomSheetDialog
 import com.fastaccess.ui.modules.user.UserPagerActivity.Companion.startActivity
 import com.fastaccess.utils.setOnThrottleClickListener
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -63,11 +62,6 @@ class MainActivity : BaseActivity<MainMvp.View, MainPresenter>(), MainMvp.View {
         bottomNavigation = root.findViewById(R.id.bottomNavigation)
         fab = root.findViewById(R.id.fab)
         fab?.setOnThrottleClickListener { onFilter() }
-        if (savedInstanceState == null) {
-            if (intent.getBooleanExtra(SlackBottomSheetDialog.TAG, false)) {
-                SlackBottomSheetDialog().show(supportFragmentManager, SlackBottomSheetDialog.TAG)
-            }
-        }
         presenter!!.isEnterprise = PrefGetter.isEnterprise
         selectHome(false)
         hideShowShadow(navType == MainMvp.FEEDS)

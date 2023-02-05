@@ -390,8 +390,6 @@ CaptainTF @ Github 提议：
     <string name="files_only">文件</string>
     <string name="paths_only">路径</string>
     <string name="review_requests">审核请求</string>
-    <string name="join_slack">加入 Slack</string>
-    <string name="join_slack_message">您想加入 OctoHub Slack 群组吗?</string>
     <string name="successfully_invited">已邀请</string>
     <string name="reply">回复</string>
     <string name="failed_selecting_image">无法加载图像.</string>

@@ -370,8 +370,6 @@ APP
     <string name="files_only">在檔案中</string>
     <string name="paths_only">在路徑中</string>
     <string name="review_requests">審核請求</string>
-    <string name="join_slack">加入 Slack</string>
-    <string name="join_slack_message">您想加入 OctoHub 的 Slack 群組嗎?</string>
     <string name="successfully_invited">成功邀請</string>
     <string name="reply">回覆</string>
     <string name="failed_selecting_image">載入圖片失敗</string>

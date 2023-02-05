@@ -326,8 +326,6 @@
     <string name="files_only">Dosyalar arasında</string>
     <string name="paths_only">Yollar arasında</string>
     <string name="review_requests">İstekleri Gözden Geçir</string>
-    <string name="join_slack">Slack\'e Katıl</string>
-    <string name="join_slack_message">OctoHub Slack grubuna katılmak ister misiniz?</string>
     <string name="successfully_invited">Davet başarılı</string>
     <string name="reply">Cevapla</string>
     <string name="failed_selecting_image">Resim yüklenemedi.</string>

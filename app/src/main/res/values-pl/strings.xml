@@ -211,8 +211,6 @@
   <string name="include_forks">Uwzględnij Forki</string>
   <string name="insert">Wstaw</string>
   <string name="italic">Kursywa</string>
-  <string name="join_slack">Dołącz na Slacku</string>
-  <string name="join_slack_message">Chcesz dołączyć do grupy OctoHub na Slacku?</string>
   <string name="labels">Etykiety</string>
   <string name="labels_added_successfully">Etykiety dodane</string>
   <string name="language">Język</string>

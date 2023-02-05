@@ -349,8 +349,6 @@
     <string name="files_only">V souborech</string>
     <string name="paths_only">V cestách</string>
     <string name="review_requests">Žádosti o posouzení</string>
-    <string name="join_slack">Připojte se do Slacku</string>
-    <string name="join_slack_message">Přejete si se připojit k OctoHub Slack skupině?</string>
     <string name="successfully_invited">Úspěšně pozván</string>
     <string name="reply">Odpovědět</string>
     <string name="failed_selecting_image">Nepodařilo se načíst obrázek.</string>

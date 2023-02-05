@@ -347,8 +347,6 @@
     <string name="files_only">ファイル内</string>
     <string name="paths_only">場所内</string>
     <string name="review_requests">レビューのリクエスト</string>
-    <string name="join_slack">Slackに参加</string>
-    <string name="join_slack_message">OctoHubのSlackグループに参加しませんか？</string>
     <string name="successfully_invited">招待に成功しました</string>
     <string name="reply">返信</string>
     <string name="failed_selecting_image">画像の読み込みに失敗しました。</string>
