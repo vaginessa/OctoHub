@@ -126,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:layout_marginStart="@dimen/spacing_xs_large"
-                    android:src="@drawable/ic_star_filled"/>
+                    android:src="@drawable/ic_star"/>
 
                 <com.fastaccess.ui.widgets.FontTextView
                     style="@style/TextAppearance.AppCompat.Subhead"
