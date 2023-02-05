@@ -244,18 +244,6 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
             setTitle(R.string.submit_feedback)
             presenter!!.onCheckAppVersion()
         }
-        if (BuildConfig.DEBUG && isFeedback) {
-            alertDialog = AlertDialog.Builder(this)
-                .setTitle("You are currently using a debug build")
-                .setMessage(
-                    """
-    Feature requests can be submitted here.
-    Happy Testing
-    """.trimIndent()
-                )
-                .setPositiveButton(android.R.string.ok, null)
-                .show()
-        }
         if (toolbar != null) toolbar!!.subtitle = "$login/$repoId"
         setTaskName(
             "$login/$repoId - " + if (isFeedback) getString(R.string.submit_feedback) else getString(
