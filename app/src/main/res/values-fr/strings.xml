@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Aucune donnée disponible</string>
     <string name="search">Chercher</string>
-    <string name="please_login">Merci de vous connecter pour commencer à utiliser FastHub</string>
-    <string name="sign_in_to_github">Connectez-vous avec votre compte GitHub pour pouvoir utiliser FastHub</string>
+    <string name="please_login">Merci de vous connecter pour commencer à utiliser OctoHub</string>
+    <string name="sign_in_to_github">Connectez-vous avec votre compte GitHub pour pouvoir utiliser OctoHub</string>
     <string name="failed_login">Impossible de se connecter</string>
     <string name="sign_in">Se connecter</string>
     <string name="share">Partager</string>
@@ -194,7 +194,7 @@
     <string name="this_value">ce</string>
     <string name="commits_reflected">Les modifications (commits) ont été déplacés vers la branche sélectionnée</string>
     <string name="general_settings">Général</string>
-    <string name="background_job_summary">Changer la fréquence avec laquelle FastHub vérifie les nouvelles notifications</string>
+    <string name="background_job_summary">Changer la fréquence avec laquelle OctoHub vérifie les nouvelles notifications</string>
     <string name="background_job_title">Intervalle de synchronisation</string>
     <string name="every">Chaque</string>
     <string name="behavior">Comportement</string>
@@ -218,7 +218,7 @@
     <string name="author">Auteur</string>
     <string name="fork_github">Fork sur GitHub</string>
     <string name="send_email">Envoyer un e-mail</string>
-    <string name="question_concerning_fasthub">Une question concernant FastHub</string>
+    <string name="question_concerning_octohub">Une question concernant OctoHub</string>
     <string name="feedback">Feedback</string>
     <string name="report_issue">Signaler un bug</string>
     <string name="report_issue_here">Vous avez rencontrez un bug ? Signalez-le ici</string>
@@ -266,7 +266,7 @@
     <string name="no_events">Aucun évènement</string>
     <string name="no_pull_requests">Aucune demande de Pull</string>
     <string name="no_search_results">Aucun résultat de recherche</string>
-    <string name="read_write_permission_explanation">Merci d\'accepter les permissions afin que FastHub puisse enregistrer des fichiers sur votre appareil pour pouvoir y accèder plus tard</string>
+    <string name="read_write_permission_explanation">Merci d\'accepter les permissions afin que OctoHub puisse enregistrer des fichiers sur votre appareil pour pouvoir y accèder plus tard</string>
     <string name="public_gists">Gists publiques</string>
     <string name="no_issues">Aucun ticket</string>
     <string name="no_unread_notifications">Aucune notification non lue.</string>
@@ -327,8 +327,8 @@
     <string name="basic_login">Se connecter via l\'authentification simple</string>
     <string name="no_orgs_description" formatted="false">Si vous êtes actuellement lié à une organisation et que vous ne pouvez pas la voir ici,
         veuillez suivre le lien ci-dessous.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nPS: Vous pouvez
-        utiliser le token Access pour vous connecter, ce qui permettra à FastHub d\'accéder à la liste de vos organisations\nVous pouvez
-        aussi ouvrir https://github.com/settings/applications et chercher FastHub. Ouvrez le puis faites défiler jusqu\'à Accès aux organisations
+        utiliser le token Access pour vous connecter, ce qui permettra à OctoHub d\'accéder à la liste de vos organisations\nVous pouvez
+        aussi ouvrir https://github.com/settings/applications et chercher OctoHub. Ouvrez le puis faites défiler jusqu\'à Accès aux organisations
         et cliquez sur le bouton Accorder.</string> 
     <string name="insert">Insérer</string>
     <string name="select">Sélectionner</string>
@@ -353,7 +353,7 @@
     <string name="paths_only">Dans les dossiers</string>
     <string name="review_requests">Examiner les demandes</string>
     <string name="join_slack">Rejoindre Slack</string>
-    <string name="join_slack_message">Voulez-vous rejoindre le groupe FastHub sur Slack ?</string>
+    <string name="join_slack_message">Voulez-vous rejoindre le groupe OctoHub sur Slack ?</string>
     <string name="successfully_invited">Invité avec succès</string>
     <string name="reply">Répondre</string>
     <string name="failed_selecting_image">Impossible de charger l\'image.</string>
@@ -361,7 +361,7 @@
     <string name="watchers">Watchers</string>
     <string name="reviewers">Relecteurs</string>
     <string name="no_reviewers">Aucun relecteur</string>
-    <string name="sent_from_fasthub">Envoyé depuis mon %1$s en utilisant %2$s%3$s</string>
+    <string name="sent_from_octohub">Envoyé depuis mon %1$s en utilisant %2$s%3$s</string>
     <string name="enable_signature">Activer la signature</string>
     <string name="enable_signature_summary">Activer l\'envoi via signature</string>
     <string name="enable_signature_box">Activer la case de signature</string>
@@ -421,27 +421,27 @@
     <string name="too_large_changes">Trop de différences à afficher. Merci de les afficher via le navigateur</string>
     <string name="project">Projet</string>
     <string name="please_read">MERCI DE LIRE !</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• Pourquoi ne puis-je pas voir mon <b>organisation</b> <i>Privée</i> ou <i>Publique</i>?</h5>
-        <p>Ouvrez https://github.com/settings/applications et cherchez FastHub, ouvrez-le, descendez à "Accès aux organisations" et cliquez sur le bouton "Accorder".
+        <p>Ouvrez https://github.com/settings/applications et cherchez OctoHub, ouvrez-le, descendez à "Accès aux organisations" et cliquez sur le bouton "Accorder".
         Autrement, vous pouvez vous connecter en utilisant un <b>Jeton d\'accès</b> qui facilitera le processus.</p>
 
         <h5>• J\'ai essayé de me connecter avec un jeton d\'accès et un mot de passe temporaire (OTP) sans succès. Quel est le problème ?</h5>
         <p>Vous ne pouvez pas vous connecter en utilisant un jeton d\'accès et un mot de passe temporaire ensemble. Cela est dû à la durée de vie limitée des mots de passe que vous auriez à répéter en vous reconnectant chaque seconde.</p>
 
         <h5>• Pourquoi les Wiki de mes répertoires privés et d\'entreprise ne sont pas visibles ?</h5>
-        <p>Comme FastHub supprime les pages Wiki de GitHub, l\'application ne peut pas obtenir le jeton requis par les répertoires privés.</p>
+        <p>Comme OctoHub supprime les pages Wiki de GitHub, l\'application ne peut pas obtenir le jeton requis par les répertoires privés.</p>
 
         <h5>• Je me suis connecté avec mon compte d\'entreprise. Pourquoi ne puis-je pas interagir avec d\'autres entreprises que la mienne ?</h5>
-        <p>Et bien, logiquement, vous ne pouvez pas accéder à une autre entreprise que la vôtre. FastHub essaie d\'obtenir le plus d\'autorisations possible, mais ne peut rien faire
+        <p>Et bien, logiquement, vous ne pouvez pas accéder à une autre entreprise que la vôtre. OctoHub essaie d\'obtenir le plus d\'autorisations possible, mais ne peut rien faire
         de plus dans la plupart des cas, depuis que votre indentité n\'est plus sur le GitHub. Mais dans <b>la plupart</b> des cas, votre compte GitHub et votre jeton OAuth font le travail.</p>
 
         <h5>• Pouquoi ai-je des problèmes en éditant des tickets ou demandes de Pull (PRs)?</h5>
-        <p>Si vous ne pouvez pas éditer les tickets ou demandes de Pull, dans un répertoire d\'organisation publique, merci de contacter votre organisation pour donner l\'accès à FastHub. Autrement, vous pouvez vous connecter avec un jeton d\'accès.</p>
+        <p>Si vous ne pouvez pas éditer les tickets ou demandes de Pull, dans un répertoire d\'organisation publique, merci de contacter votre organisation pour donner l\'accès à OctoHub. Autrement, vous pouvez vous connecter avec un jeton d\'accès.</p>
 
         <h5>• J\'ai des problèmes ! / Je veux vous suggérer quelque chose !</h5>
-        <p>Allez à https://github.com/HardcodedCat/FastHub-RE/issues/new et créez un nouveau ticket pour chaque problème ou suggestion. Je vous encourage vraiment à
+        <p>Allez à https://github.com/HardcodedCat/OctoHub/issues/new et créez un nouveau ticket pour chaque problème ou suggestion. Je vous encourage vraiment à
         chercher des tickets similaires avant d\'en ouvrir un nouveau. Chaque ticket dupliqué sera labélisé en tant que dupliqué et fermé immédiatement.</p>
     ]]></string>
     <string name="faq">FAQ</string>
@@ -452,6 +452,6 @@
     <string name="search_results_warning">Merci de préciser votre recherche</string>
     <string name="disable_loading_image_title">Désactiver image de chargement</string>
     <string name="disable_loading_image_summary">Désactiver le chargement des images en réseaux mobiles.</string>
-    <string name="report_issue_warning">Ce ticket sera soumis au dépôt FastHub sur GitHub</string>
+    <string name="report_issue_warning">Ce ticket sera soumis au dépôt OctoHub sur GitHub</string>
     <string name="block">Bloque</string>
 </resources>

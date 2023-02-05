@@ -8,8 +8,8 @@
   <string name="ok">OK</string>
   <string name="no_data">Sem dados</string>
   <string name="search">Pesquisar</string>
-  <string name="please_login">Inicie sessão para começar a utilizar o FastHub</string>
-  <string name="sign_in_to_github">Inicie sessão com a sua conta GitHub para utilizar o FastHub</string>
+  <string name="please_login">Inicie sessão para começar a utilizar o OctoHub</string>
+  <string name="sign_in_to_github">Inicie sessão com a sua conta GitHub para utilizar o OctoHub</string>
   <string name="failed_login">Erro ao iniciar sessão</string>
   <string name="sign_in">Iniciar sessão</string>
   <string name="share">Partilhar</string>
@@ -196,7 +196,7 @@
   <string name="this_value">este</string>
   <string name="commits_reflected">Os commits foram trocados para o branch seleccionado</string>
   <string name="general_settings">Geral</string>
-  <string name="background_job_summary">Alterar a frequência com que o FastHub verifica novas notificações</string>
+  <string name="background_job_summary">Alterar a frequência com que o OctoHub verifica novas notificações</string>
   <string name="background_job_title">Intervalo de sincronização</string>
   <string name="every">A cada</string>
   <string name="behavior">Comportamento</string>
@@ -220,7 +220,7 @@
   <string name="author">Autor</string>
   <string name="fork_github">Fazer fork no GitHub</string>
   <string name="send_email">Enviar um email</string>
-  <string name="question_concerning_fasthub">Questões acerca de FastHub</string>
+  <string name="question_concerning_octohub">Questões acerca de OctoHub</string>
   <string name="feedback">Comentários</string>
   <string name="report_issue">Reportar um problema</string>
   <string name="report_issue_here">Tem um problema? Reporte-o aqui</string>
@@ -268,7 +268,7 @@
   <string name="no_events">Sem eventos</string>
   <string name="no_pull_requests">Sem pedidos de alteração</string>
   <string name="no_search_results">Sem resultados de pesquisa</string>
-  <string name="read_write_permission_explanation">Aceite as permissões para que o FastHub possa
+  <string name="read_write_permission_explanation">Aceite as permissões para que o OctoHub possa
         armazenar os ficheiros no seu dispositivo para os conseguir ver</string>
   <string name="public_gists">Gists públicos</string>
   <string name="no_issues">Sem incidentes</string>
@@ -330,8 +330,8 @@
   <string name="basic_login">Iniciar sessão via aut. básica</string>
   <string name="no_orgs_description">Se actualmente está ligado a organizações e não as consegue ver, entre no link abaixo.\n
         https://help.github.com/articles/about-third-party-application-restrictions\nPS: Pode utilizar o token de acesso para entrar, o que vai
-        permitir ao FastHub ver a lista das suas organizações.\nPode também abrir https://github.com/settings/applications e procurar por
-        FastHub, abrir-lo, ir ao acesso das organizações e carregar no botão Permitir</string>
+        permitir ao OctoHub ver a lista das suas organizações.\nPode também abrir https://github.com/settings/applications e procurar por
+        OctoHub, abrir-lo, ir ao acesso das organizações e carregar no botão Permitir</string>
   <string name="insert">Inserir</string>
   <string name="select">Seleccionar</string>
   <string name="select_picture">Seleccionar imagem</string>
@@ -355,7 +355,7 @@
   <string name="paths_only">Em directorias</string>
   <string name="review_requests">Rever pedidos</string>
   <string name="join_slack">Entrar no Slack</string>
-  <string name="join_slack_message">Gostava de se juntar ao grupo Slack do FastHub?</string>
+  <string name="join_slack_message">Gostava de se juntar ao grupo Slack do OctoHub?</string>
   <string name="successfully_invited">Convidado</string>
   <string name="reply">Responder</string>
   <string name="failed_selecting_image">Erro ao carregar imagem</string>
@@ -363,7 +363,7 @@
   <string name="watchers">Observadores</string>
   <string name="reviewers">Revisores</string>
   <string name="no_reviewers">Sem revisores</string>
-  <string name="sent_from_fasthub">Enviado de %1$s utilizando %2$s%3$s</string>
+  <string name="sent_from_octohub">Enviado de %1$s utilizando %2$s%3$s</string>
   <string name="enable_signature">Activar assinatura</string>
   <string name="enable_signature_summary">Activar enviado via assinatura</string>
   <string name="enable_signature_box">Activar caixa de assinaturas</string>
@@ -430,6 +430,6 @@
   <string name="search_results_warning">Demasiadas respostas \nA mostrar o máximo permitido</string>
   <string name="disable_loading_image_title">Carregamento de imagens</string>
   <string name="disable_loading_image_summary">Desactivar o carregamento de imagens em dados móveis</string>
-  <string name="report_issue_warning">Este incidente vai ser submetido para o repositório do FastHub no Github</string>
+  <string name="report_issue_warning">Este incidente vai ser submetido para o repositório do OctoHub no Github</string>
   <string name="block">Bloquear</string>
 </resources>

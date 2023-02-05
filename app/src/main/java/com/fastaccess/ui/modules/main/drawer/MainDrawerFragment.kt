@@ -12,7 +12,7 @@ import com.fastaccess.ui.base.BaseActivity
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.base.mvp.presenter.BasePresenter
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.about.FastHubAboutActivity
+import com.fastaccess.ui.modules.about.OctoHubAboutActivity
 import com.fastaccess.ui.modules.gists.GistsListActivity
 import com.fastaccess.ui.modules.main.MainActivity
 import com.fastaccess.ui.modules.main.MainMvp
@@ -85,8 +85,8 @@ class MainDrawerFragment :
                             TrendingActivity::class.java
                         )
                     )
-                    R.id.openFastHub -> activity.startActivity(
-                        RepoPagerActivity.createIntent(activity, "FastHub-RE", "HardcodedCat", RepoPagerMvp.CODE)
+                    R.id.openOctoHub -> activity.startActivity(
+                        RepoPagerActivity.createIntent(activity, "OctoHub", "HardcodedCat", RepoPagerMvp.CODE)
                     )
                     R.id.faq -> activity.startActivity(
                         Intent(
@@ -98,7 +98,7 @@ class MainDrawerFragment :
                     R.id.about -> activity.startActivity(
                         Intent(
                             activity,
-                            FastHubAboutActivity::class.java
+                            OctoHubAboutActivity::class.java
                         )
                     )
                 }

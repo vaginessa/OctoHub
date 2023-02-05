@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">利用できるデータがありません</string>
     <string name="search">検索</string>
-    <string name="please_login">続行するにはFastHubを使用してサインインしてください</string>
-    <string name="sign_in_to_github">GitHubアカウントにサインインしてFastHubを利用</string>
+    <string name="please_login">続行するにはOctoHubを使用してサインインしてください</string>
+    <string name="sign_in_to_github">GitHubアカウントにサインインしてOctoHubを利用</string>
     <string name="failed_login">サインインに失敗しました</string>
     <string name="sign_in">サインイン</string>
     <string name="share">共有</string>
@@ -218,11 +218,11 @@
     <string name="author">作者</string>
     <string name="fork_github">GitHubでForkする</string>
     <string name="send_email">メールを送る</string>
-    <string name="question_concerning_fasthub">FastHubについて質問する</string>
+    <string name="question_concerning_octohub">OctoHubについて質問する</string>
     <string name="feedback">フィードバック</string>
     <string name="report_issue">問題を報告</string>
     <string name="report_issue_here">問題がありますか？ここに報告してください</string>
-    <string name="about">FastHubについて</string>
+    <string name="about">OctoHubについて</string>
     <string name="notification_settings">通知</string>
     <string name="turn_off">無効にする</string>
     <string name="unauthorized_user">認証されていないユーザー</string>
@@ -266,7 +266,7 @@
     <string name="no_events">イベントがありません</string>
     <string name="no_pull_requests">Pull Requestがありません</string>
     <string name="no_search_results">検索結果がありません</string>
-    <string name="read_write_permission_explanation">FastHubでこれらを表示するためにはストレージ権限を承認して下さい</string>
+    <string name="read_write_permission_explanation">OctoHubでこれらを表示するためにはストレージ権限を承認して下さい</string>
     <string name="public_gists">公開Gist</string>
     <string name="no_issues">Issueがありません</string>
     <string name="no_unread_notifications">未読の通知がありません</string>
@@ -324,7 +324,7 @@
     <string name="login_with_personal_token">パーソナルトークンでログイン</string>
     <string name="personal_token">パーソナルトークン</string>
     <string name="basic_login">基本認証でログイン</string>
-    <string name="no_orgs_description">組織に参加していて、これらを閲覧することができない場合は、以下のリンクを参照してください。\nhttps://help.github.com/articles/about-third-party-application-restrictions\n追記: アクセストークンを利用してログインすることでFastHubに組織を表示することを許可できます。\nhttps://github.com/settings/applicationsからFastHubを見つけて、Organization accessを許可することもできます。</string>
+    <string name="no_orgs_description">組織に参加していて、これらを閲覧することができない場合は、以下のリンクを参照してください。\nhttps://help.github.com/articles/about-third-party-application-restrictions\n追記: アクセストークンを利用してログインすることでOctoHubに組織を表示することを許可できます。\nhttps://github.com/settings/applicationsからOctoHubを見つけて、Organization accessを許可することもできます。</string>
     <string name="insert">挿入</string>
     <string name="select">選択</string>
     <string name="select_picture">画像を選択</string>
@@ -348,7 +348,7 @@
     <string name="paths_only">場所内</string>
     <string name="review_requests">レビューのリクエスト</string>
     <string name="join_slack">Slackに参加</string>
-    <string name="join_slack_message">FastHubのSlackグループに参加しませんか？</string>
+    <string name="join_slack_message">OctoHubのSlackグループに参加しませんか？</string>
     <string name="successfully_invited">招待に成功しました</string>
     <string name="reply">返信</string>
     <string name="failed_selecting_image">画像の読み込みに失敗しました。</string>
@@ -356,7 +356,7 @@
     <string name="watchers">ウォッチャー</string>
     <string name="reviewers">レビュアー</string>
     <string name="no_reviewers">レビュアーがいません</string>
-    <string name="sent_from_fasthub">%1$sから%2$s%3$sを使用して送信</string>
+    <string name="sent_from_octohub">%1$sから%2$s%3$sを使用して送信</string>
     <string name="enable_signature">署名を有効にする</string>
     <string name="enable_signature_summary">署名を通しての送信を有効にする</string>
     <string name="enable_signature_box">署名欄を有効にする</string>
@@ -414,28 +414,28 @@
     <string name="too_large_changes">変更箇所が多すぎて表示できません。ブラウザを使ってご覧ください。</string>
     <string name="project">Project</string>
     <string name="please_read">お読みください！</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• <i>Private</i>もしくは<i>Public</i>な<b>Organizations</b>が表示されないのはなぜですか？</h5>
-        <p>https://github.com/settings/applications を開いてFastHubを探し、その要素を開き、"Organization access"までスクロールして"Grant"と書かれたボタンをクリックしてください。
+        <p>https://github.com/settings/applications を開いてOctoHubを探し、その要素を開き、"Organization access"までスクロールして"Grant"と書かれたボタンをクリックしてください。
         もしくは<b>Access Token</b>を用いてログインしてください。こちらのほうが手続きが簡素です。</p>
 
         <h5>• Access TokenとOne-Time Password (OTP)を用いてsign inを試みましたが、うまく行きません。何を間違えているのでしょうか？</h5>
         <p>Access TokenとOTPの両方を用いてsign inすることはできません。そのようなパスワードの寿命は非常に短いため、sign inの手順を毎秒繰り返さなくてはならなくなってしまいます。</p>
 
         <h5>• 自分のPrivateもしくはEnterpriseなRepositoriesのWikiが表示されないのはなぜですか？</h5>
-        <p>FastHubはGitHubのWiki pageを破棄するので、Private Repositoriesが必要とするいかなるsession tokenも入手することができません。</p>
+        <p>OctoHubはGitHubのWiki pageを破棄するので、Private Repositoriesが必要とするいかなるsession tokenも入手することができません。</p>
 
         <h5>• Enterprise accountにsigin inしました。私のEnterprise GitHub以外のものにアクセスできないのはなぜですか？</h5>
-        <p>論理的には、あなたのEnterprise以外のものにはアクセスできません。 FastHubはできるだけ多くの権限を要求しますが、あなたの資格情報がGitHubのサーバーにないので、
+        <p>論理的には、あなたのEnterprise以外のものにはアクセスできません。 OctoHubはできるだけ多くの権限を要求しますが、あなたの資格情報がGitHubのサーバーにないので、
         ほとんどの場合、これ以上のことはできません。しかし、場合によってはGitHubアカウントのOAuthトークンでうまくいくかもしれません。</p>
 
         <h5>• IssuesやPull Requests (PRs)を編集しているときに問題が起こるのはなぜですか？</h5>
-        <p>もしPublic OrganizationのrepositoryにあるIssuesやPRsを編集できない場合は、OrganizationにFastHubのアクセスを許可するよう言ってください。
+        <p>もしPublic OrganizationのrepositoryにあるIssuesやPRsを編集できない場合は、OrganizationにOctoHubのアクセスを許可するよう言ってください。
         もしくは、Access Tokenを用いてsigin inしてください。</p>
 
-        <h5>• 問題が起こりました！ / FastHubチームに提案したいことがあります！</h5>
-        <p>https://github.com/HardcodedCat/FastHub-RE/issues/newを開いて、問題点や新機能リクエストのIssueを作成してください。
+        <h5>• 問題が起こりました！ / OctoHubチームに提案したいことがあります！</h5>
+        <p>https://github.com/HardcodedCat/OctoHub/issues/newを開いて、問題点や新機能リクエストのIssueを作成してください。
         ただし、似たようなIssueが前に投稿されていないか調べてみることをおすすめします。
         あらゆる重複したIssueは重複とラベル付され、即座にcloseされます。</p>
     ]]></string>
@@ -447,7 +447,7 @@
     <string name="search_results_warning">レスポンスが多すぎます。 \nShowing the max API allows</string>
     <string name="disable_loading_image_title">画像の読み込みを無効化</string>
     <string name="disable_loading_image_summary">モバイルデータ通信では画像の読み込みを無効化します。</string>
-    <string name="report_issue_warning">このissueはGitHub上のFastHubのrepositoryに送信されます。</string>
+    <string name="report_issue_warning">このissueはGitHub上のOctoHubのrepositoryに送信されます。</string>
     <string name="block">ブロックする</string>
     <string name="unblock">ブロックを外す</string>
     <string name="user_blocked">このユーザーをブロックしました。</string>

@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Няма налични данни</string>
     <string name="search">Търсене</string>
-    <string name="please_login">Моля впиши се, за да използваш FastHub</string>
-    <string name="sign_in_to_github">Вписване в FastHub чрез използване на GitHub профил</string>
+    <string name="please_login">Моля впиши се, за да използваш OctoHub</string>
+    <string name="sign_in_to_github">Вписване в OctoHub чрез използване на GitHub профил</string>
     <string name="failed_login">Вписването е неуспешно</string>
     <string name="sign_in">Вписване</string>
     <string name="share">Споделяне</string>
@@ -195,7 +195,7 @@
     <string name="this_value">това</string>
     <string name="commits_reflected">Преместени commits към избраният branch</string>
     <string name="general_settings">Основни</string>
-    <string name="background_job_summary">Промяна колко често FastHub проверява за известия</string>
+    <string name="background_job_summary">Промяна колко често OctoHub проверява за известия</string>
     <string name="background_job_title">Интервал на синхронизиране на известия</string>
     <string name="every">Всички</string>
     <string name="behavior">Поведение</string>
@@ -219,7 +219,7 @@
     <string name="author">Автор</string>
     <string name="fork_github">Fork в GitHub</string>
     <string name="send_email">Изпрати email</string>
-    <string name="question_concerning_fasthub">Въпроси относно FastHub</string>
+    <string name="question_concerning_octohub">Въпроси относно OctoHub</string>
     <string name="feedback">Отзиви</string>
     <string name="report_issue">Докладвай проблем</string>
     <string name="report_issue_here">Докладвай тук, ако изкочи бъг</string>
@@ -268,7 +268,7 @@
     <string name="no_events">Няма събития</string>
     <string name="no_pull_requests">Няма pull requests</string>
     <string name="no_search_results">Няма резултати от търсене</string>
-    <string name="read_write_permission_explanation">Моля приеми изискваните разрешения, за да може FastHub да
+    <string name="read_write_permission_explanation">Моля приеми изискваните разрешения, за да може OctoHub да
         съхранява файлове на устройството ти, които да можеш да преглеждаш</string>
     <string name="public_gists">Публични Gists</string>
     <string name="no_issues">Няма issues</string>
@@ -330,8 +330,8 @@
     <string name="basic_login">Вписване чрез базово удостоверяване (basic auth)</string>
     <string name="no_orgs_description">Ако действително си свързан/а с организации и не можеш да ги видиш, моля последвай тази връзка\n
         https://help.github.com/articles/about-third-party-application-restrictions\nП.П.: Можеш да използваш token за достъп при вписване, което
-        ще даде на FastHub достъп до списък с организациите ти.\nСъщо така можеш да отвориш https://github.com/settings/applications и да потърсиш
-        FastHub. Отвори приложението и отиди до достъп до Организации, и след това натисни бутона Grant.
+        ще даде на OctoHub достъп до списък с организациите ти.\nСъщо така можеш да отвориш https://github.com/settings/applications и да потърсиш
+        OctoHub. Отвори приложението и отиди до достъп до Организации, и след това натисни бутона Grant.
     </string>
     <string name="insert">Вмъкване</string>
     <string name="select">Избиране</string>
@@ -356,7 +356,7 @@
     <string name="paths_only">В пътища</string>
     <string name="review_requests">Заявления за ревю</string>
     <string name="join_slack">Ела в Slack</string>
-    <string name="join_slack_message">Искаш ли да се присъединиш към Slack групата на FastHub?</string>
+    <string name="join_slack_message">Искаш ли да се присъединиш към Slack групата на OctoHub?</string>
     <string name="successfully_invited">Поканата е успешна</string>
     <string name="reply">Отговори</string>
     <string name="failed_selecting_image">Грешка при зареждане на изображение.</string>
@@ -364,7 +364,7 @@
     <string name="watchers">Наблюдатели</string>
     <string name="reviewers">Рецензенти</string>
     <string name="no_reviewers">Няма рецензенти</string>
-    <string name="sent_from_fasthub">Изпратено от моят %1$s използвайки %2$s%3$s</string>
+    <string name="sent_from_octohub">Изпратено от моят %1$s използвайки %2$s%3$s</string>
     <string name="enable_signature">Активиране на подпис</string>
     <string name="enable_signature_summary">Включване на подпис при изпращане</string>
     <string name="enable_signature_box">Активиране на отметка за подпис</string>
@@ -425,26 +425,26 @@
     <string name="too_large_changes">Има твърде много разлики, за да бъдат показани всички. Моля, използвай браузър.</string>
     <string name="project">Проекти</string>
     <string name="please_read">МОЛЯ ПРОЧЕТИ!</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• Защо не мога да видя нито <i>Private</i>, нито <i>Public</i> <b>Организациите</b> си?</h5>
-        <p>Отвори https://github.com/settings/applications и потърси FastHub, отвори го, приплъзни надолу до "Organization access" и избери "Grant" бутона.
+        <p>Отвори https://github.com/settings/applications и потърси OctoHub, отвори го, приплъзни надолу до "Organization access" и избери "Grant" бутона.
         Или пък можеш да се впишеш използвайки <b>Access Token</b>, което ще улесни процеса.</p>
 
         <h5>• Опитах да се впиша чрез Access Token и еднократна парола (OTP), но без късмет! Къде е проблема?</h5>
         <p>Не можеш да се впишеш използвайки Access Token и OTP едновременно. Поради краткотрайността на тези пароли, ще трябва да опиташ да се впишеш отново на всеки няколко секунди.</p>
 
         <h5>• Защо не се показват Wiki страниците на Private и Enterprise хранилищата?</h5>
-        <p>Тъй като FastHub скрапва Wiki страниците от GitHub, приложението не може да получи token за сесия, изискван за достъп до Private хранилища.</p>
+        <p>Тъй като OctoHub скрапва Wiki страниците от GitHub, приложението не може да получи token за сесия, изискван за достъп до Private хранилища.</p>
 
         <h5>• Вписах се в Enterprise акаунта си. Защо не мога да взаимодействам с нищо друго, освен моята Enterprise GitHub среда?</h5>
-        <p>Всъщност, логически е заложено да не се достъпва нищо друго, освен Enterprise средата. FastHub се опитва да изисква колкото се може повече permissions, но в повечето случаи не може да направи нищо повече от това, тъй като удостоверяващата информация се съхранява на GitHub сървъра. Но, в <b>някои</b> случаи използването на OAuth token към GitHub акаунта може да свърши работа.</p>
+        <p>Всъщност, логически е заложено да не се достъпва нищо друго, освен Enterprise средата. OctoHub се опитва да изисква колкото се може повече permissions, но в повечето случаи не може да направи нищо повече от това, тъй като удостоверяващата информация се съхранява на GitHub сървъра. Но, в <b>някои</b> случаи използването на OAuth token към GitHub акаунта може да свърши работа.</p>
 
         <h5>• Защо има проблеми при редактиране на Issues или Pull Requests (PRs)?</h5>
-        <p>Ако не можеш да редактираш Issues или PRs в хранилище от Public организация, моля свържи се с организацията, за да настрои подходящ достъп на FastHub. Другият вариант е да опиташ да се впишеш с Access Token.</p>
+        <p>Ако не можеш да редактираш Issues или PRs в хранилище от Public организация, моля свържи се с организацията, за да настрои подходящ достъп на OctoHub. Другият вариант е да опиташ да се впишеш с Access Token.</p>
 
         <h5>• Имам проблеми! / Искам да предложа някои неща!</h5>
-        <p>Отиди на https://github.com/HardcodedCat/FastHub-RE/issues/new и отвори ново issue за бъгова или feature requests. Но първо един съвет - потърси
+        <p>Отиди на https://github.com/HardcodedCat/OctoHub/issues/new и отвори ново issue за бъгова или feature requests. Но първо един съвет - потърси
         дали няма подобни, вече отворени, issues по темата. Всеки дублиран ticket, бива маркиран и затворен веднага.</p>
     ]]></string>
     <string name="faq">ЧЗВ</string>
@@ -455,7 +455,7 @@
     <string name="search_results_warning">Твърде много отговори \nПоказване на максимума, който API-то позволява</string>
     <string name="disable_loading_image_title">Изкл. на изображение при зареждане</string>
     <string name="disable_loading_image_summary">Изкл. на изображение при зареждане, докато си на платен мобилен план</string>
-    <string name="report_issue_warning">Това issue ще бъде изпратено в хранилището на FastHub в GitHub</string>
+    <string name="report_issue_warning">Това issue ще бъде изпратено в хранилището на OctoHub в GitHub</string>
     <string name="block">Блокиране</string>
     <string name="unblock">Отблокиране</string>
     <string name="user_blocked">Потребител блокиран</string>

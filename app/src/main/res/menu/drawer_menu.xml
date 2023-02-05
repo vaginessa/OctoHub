@@ -52,8 +52,8 @@
         android:id="@+id/group_three"
         android:checkableBehavior="none">
         <item
-            android:id="@+id/openFastHub"
-            android:icon="@drawable/ic_fasthub_mascot"
+            android:id="@+id/openOctoHub"
+            android:icon="@drawable/ic_octohub_mascot"
             android:title="@string/app_name"/>
         <item
             android:id="@+id/faq"

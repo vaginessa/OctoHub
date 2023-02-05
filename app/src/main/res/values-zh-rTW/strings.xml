@@ -15,7 +15,7 @@ Merge
 Fork
 Gist
 GitHub
-FastHub
+OctoHub
 Readme
 APP
 -->
@@ -30,8 +30,8 @@ APP
     <string name="ok">確定</string>
     <string name="no_data">沒有資料</string>
     <string name="search">搜尋</string>
-    <string name="please_login">請登入以繼續使用 FastHub</string>
-    <string name="sign_in_to_github">登入你的 GitHub 帳號以使用 FastHub</string>
+    <string name="please_login">請登入以繼續使用 OctoHub</string>
+    <string name="sign_in_to_github">登入你的 GitHub 帳號以使用 OctoHub</string>
     <string name="failed_login">登入失敗</string>
     <string name="sign_in">登入</string>
     <string name="share">分享</string>
@@ -240,7 +240,7 @@ APP
     <string name="author">作者</string>
     <string name="fork_github">在 Github 上 Fork 此專案</string>
     <string name="send_email">寄送 Email</string>
-    <string name="question_concerning_fasthub">關於 FastHub 的問題</string>
+    <string name="question_concerning_octohub">關於 OctoHub 的問題</string>
     <string name="feedback">回報</string>
     <string name="report_issue">回報 Issue</string>
     <string name="report_issue_here">有困擾嗎?在此回報</string>
@@ -288,7 +288,7 @@ APP
     <string name="no_events">沒有事件</string>
     <string name="no_pull_requests">沒有 Pull Requests</string>
     <string name="no_search_results">沒有搜尋結果</string>
-    <string name="read_write_permission_explanation">請同意權限請求以讓 FastHub 能夠儲存檔案</string>
+    <string name="read_write_permission_explanation">請同意權限請求以讓 OctoHub 能夠儲存檔案</string>
     <string name="public_gists">公開 Gist</string>
     <string name="no_issues">沒有 Issue</string>
     <string name="no_unread_notifications">沒有未讀通知</string>
@@ -347,7 +347,7 @@ APP
     <string name="login_with_personal_token">用個人 Token 來登入</string>
     <string name="personal_token">個人 Token</string>
     <string name="basic_login">透過基本驗證登入</string>
-    <string name="no_orgs_description">如果你是成員卻找不到你的組織，請點擊下面的連結。\nhttps://help.github.com/articles/about-third-party-application-restrictions\n註：你可以用 Access Token 登入，這會授權 FastHub 查看組織列表的權限。</string>
+    <string name="no_orgs_description">如果你是成員卻找不到你的組織，請點擊下面的連結。\nhttps://help.github.com/articles/about-third-party-application-restrictions\n註：你可以用 Access Token 登入，這會授權 OctoHub 查看組織列表的權限。</string>
     <string name="insert">插入</string>
     <string name="select">選擇</string>
     <string name="select_picture">選擇圖片</string>
@@ -371,7 +371,7 @@ APP
     <string name="paths_only">在路徑中</string>
     <string name="review_requests">審核請求</string>
     <string name="join_slack">加入 Slack</string>
-    <string name="join_slack_message">您想加入 FastHub 的 Slack 群組嗎?</string>
+    <string name="join_slack_message">您想加入 OctoHub 的 Slack 群組嗎?</string>
     <string name="successfully_invited">成功邀請</string>
     <string name="reply">回覆</string>
     <string name="failed_selecting_image">載入圖片失敗</string>
@@ -379,7 +379,7 @@ APP
     <string name="watchers">關注者</string>
     <string name="reviewers">審核者</string>
     <string name="no_reviewers">沒有審核者</string>
-    <string name="sent_from_fasthub">從我的 %1$s，使用 %2$s%3$s 發送。</string>
+    <string name="sent_from_octohub">從我的 %1$s，使用 %2$s%3$s 發送。</string>
     <string name="enable_signature">開啟簽名</string>
     <string name="enable_signature_summary">在傳送時加入簽名</string>
     <string name="enable_signature_box">開啟簽名欄</string>
@@ -437,28 +437,28 @@ APP
     <string name="too_large_changes">差異太多無法顯示。請於瀏覽器檢視它們</string>
     <string name="project">專案</string>
     <string name="please_read">請閱讀！</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• 為何我無法看到我的 <b>組織</b> 的 <i>私人</i> / <i>公開</i> 的東西?</h5>
-        <p>打開 https://github.com/settings/applications 並找到 FastHub， 點擊它並滑到 Organization access 並點擊 Grant 按鈕，
+        <p>打開 https://github.com/settings/applications 並找到 OctoHub， 點擊它並滑到 Organization access 並點擊 Grant 按鈕，
         或是透過 <b>Access Token</b> 登入將不需要做這件事</p>
 
         <h5>• 我試著透過 Access Token &amp; OTP 登入，但沒作用?</h5>
         <p>你不能透過 Access Token &amp; OTP 登入，因為 OTP code 的時限緣故， 你會需要在幾秒鐘內登入。</p>
 
         <h5>• 為何我的私人&amp;企業的 Repo Wiki 無法顯示?</h5>
-        <p>因為 FastHub 在擷取 GitHub Wiki &amp; 私人 Repos 時需要 session token ，但 FastHub 沒有。</p>
+        <p>因為 OctoHub 在擷取 GitHub Wiki &amp; 私人 Repos 時需要 session token ，但 OctoHub 沒有。</p>
 
         <h5>• 使用企業帳號時無法與任何其他非我的企業的東西互動?</h5>\n
-        <p>邏輯上來說，你無法存取任何東西非你的企業的東西，不過 FastHub 讓它能成功存取，但沒辦法再做到更多了。
+        <p>邏輯上來說，你無法存取任何東西非你的企業的東西，不過 OctoHub 讓它能成功存取，但沒辦法再做到更多了。
         在大部分的情況下你的登入認證不存在於 GitHub 的伺服器上。
         但在少數情形之下你的 GitHub 帳號的 Oauth token 能達成這個技巧。</p>
 
         <h5>• 我在編輯 Issues/PRs 遇到困難?</h5>
-        <p>如果你正在編輯一個公開組職的 Repo ，請聯絡你的組織以取得權限給 FastHub 或是使用 Access Token 來登入!</p>
+        <p>如果你正在編輯一個公開組職的 Repo ，請聯絡你的組織以取得權限給 OctoHub 或是使用 Access Token 來登入!</p>
 		
         <h5>• 我有困難/我想要有新功能!!</h5>
-        <p>前往 https://github.com/HardcodedCat/FastHub-RE/issues/new 並創建一個 bug/feature requests 的 issue。
+        <p>前往 https://github.com/HardcodedCat/OctoHub/issues/new 並創建一個 bug/feature requests 的 issue。
 		我非常鼓勵你在發布某些東西前先搜尋有沒有重複的，否則會被馬上關閉。</p>
     ]]></string>
     <string name="faq">FAQ</string>
@@ -469,7 +469,7 @@ APP
     <string name="search_results_warning">回應數量超過 API 的上限</string>
     <string name="disable_loading_image_title">禁止載入圖片</string>
     <string name="disable_loading_image_summary">在使用行動網路時禁止載入圖片</string>
-    <string name="report_issue_warning">這個 issue 會被傳送到 GitHub 上的 FastHub\'s repo</string>
+    <string name="report_issue_warning">這個 issue 會被傳送到 GitHub 上的 OctoHub\'s repo</string>
     <string name="block">阻擋</string>
     <string name="unblock">取消阻擋</string>
     <string name="user_blocked">已阻擋此使用者</string>

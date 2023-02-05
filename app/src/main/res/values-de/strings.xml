@@ -7,8 +7,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Fehler beim Laden der Daten</string>
     <string name="search">Suchen</string>
-    <string name="please_login">Bitte melde dich an, um FastHub zu nutzen</string>
-    <string name="sign_in_to_github">Melde dich mit deiner GitHub-Kennung an, um das beste aus FastHub zu holen</string>
+    <string name="please_login">Bitte melde dich an, um OctoHub zu nutzen</string>
+    <string name="sign_in_to_github">Melde dich mit deiner GitHub-Kennung an, um das beste aus OctoHub zu holen</string>
     <string name="failed_login">Anmeldung fehlgeschlagen</string>
     <string name="sign_in">Anmelden</string>
     <string name="share">Teilen</string>
@@ -188,13 +188,13 @@
     <string name="this_value">dies</string>
     <string name="commits_reflected">Commits wurden auf den ausgewählten Branch verschoben</string>
     <string name="general_settings">Allgemein</string>
-    <string name="background_job_summary">Wähle, wie regelmäßig FastHub nach neuen Benachrichtigungen sucht.</string>
+    <string name="background_job_summary">Wähle, wie regelmäßig OctoHub nach neuen Benachrichtigungen sucht.</string>
     <string name="background_job_title">Benachrichtigunssynchronisierungsintervall</string>
     <string name="every">Alle</string>
     <string name="behavior">Verhalten &amp; Aussehen</string>
     <string name="recycler_view_animation_summary">Listenanimationen aktivieren</string>
     <string name="recycler_view_animation_title">Listenanimationen</string>
-    <string name="back_button_summary">Dialog deaktivieren, der verhindert, dass du FastHub aus Versehen verlässt</string>
+    <string name="back_button_summary">Dialog deaktivieren, der verhindert, dass du OctoHub aus Versehen verlässt</string>
     <string name="back_button_title">Drücke nochmals zum Beenden</string>
     <string name="unsaved_data_warning">Alle ungespeicherten Fortschritte gehen verloren!</string>
     <string name="private_repo">Privat</string>
@@ -204,7 +204,7 @@
     <string name="author">Autor</string>
     <string name="fork_github">Auf GitHub forken</string>
     <string name="send_email">Eine E-Mail senden</string>
-    <string name="question_concerning_fasthub">Fragen bezüglich FastHub</string>
+    <string name="question_concerning_octohub">Fragen bezüglich OctoHub</string>
     <string name="feedback">Feedback</string>
     <string name="report_issue">Einen Fehler melden</string>
     <string name="report_issue_here">Hast du einen Fehler gefunden? Melde ihn hier</string>
@@ -252,7 +252,7 @@
     <string name="no_events">Keine Ereignisse</string>
     <string name="no_pull_requests">Keine Pull Requests</string>																				
     <string name="no_search_results">Keine Suchergebnisse</string>
-    <string name="read_write_permission_explanation">Bitte erlaube FastHub Zugriff auf die SD-Karte, um Dateien abzuspeichern.</string>
+    <string name="read_write_permission_explanation">Bitte erlaube OctoHub Zugriff auf die SD-Karte, um Dateien abzuspeichern.</string>
     <string name="public_gists">Öffentliche Gists</string>
     <string name="no_issues">Keine Issues</string>
     <string name="no_unread_notifications">Keine ungelesenen Benachrichtigungen.</string>
@@ -332,7 +332,7 @@
     <string name="paths_only">In Dateipfaden</string>
     <string name="review_requests">PRs prüfen</string>
     <string name="join_slack">Slackgruppe beitreten</string>
-    <string name="join_slack_message">Möchtest du der FastHub Slackgruppe beitreten?</string>
+    <string name="join_slack_message">Möchtest du der OctoHub Slackgruppe beitreten?</string>
     <string name="successfully_invited">Erfolgreich eingeladen!</string>
     <string name="reply">Antworten</string>
     <string name="failed_selecting_image">Bild konnte nicht geladen werden.</string>
@@ -340,7 +340,7 @@
     <string name="watchers">Betrachter</string>
     <string name="reviewers">Überprüfer</string>
     <string name="no_reviewers">Keine Überprüfer</string>
-    <string name="sent_from_fasthub">Gesendet von meinem %1$s mit %2$s%3$s</string>
+    <string name="sent_from_octohub">Gesendet von meinem %1$s mit %2$s%3$s</string>
     <string name="enable_signature">Signatur aktivieren</string>
     <string name="enable_signature_summary">&quot;Gesendet von meinem…&quot;-Signatur aktivieren</string>
     <string name="enable_signature_box">Signaturbox aktivieren</string>
@@ -399,28 +399,28 @@
     <string name="too_large_changes">Zu viele Unterschiede zur Anzeige. Bitte über den Browser ansehen!</string>
     <string name="project">Projekt</string>
     <string name="please_read">BITTE LESEN!</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• Warum kann ich meine <b> Organisationen </b> entweder <i> private </i> oder <i> öffentliche </i> sehen\\nicht sehen?</h5>
-        <p>Öffne https://github.com/Settings/Applications und suche nach FastHub, öffne es dann, gehe zu Organisation Zugang und klicke auf den Grant Knopf,
+        <p>Öffne https://github.com/Settings/Applications und suche nach OctoHub, öffne es dann, gehe zu Organisation Zugang und klicke auf den Grant Knopf,
         Alternativ melde dich über einen <b> Zugangsoken </b> an, welches das Setup vereinfacht.</p>
 
         <h5>• Ich habe versucht, mich mit einem Zugangstoken anzumelden &amp; OTP aber es funtioniert nicht?</h5>
         <p>Du kannst dich nicht mit einem Zugangstoken anmelden &amp; OTP alle Zusammen wegen der Lebenszeit des OTP codes, du musst dich alle paar sekunden anmelden</p>
 
         <h5>• Warum wird mein privates Repo &amp; Enterprise Wiki nicht angezeigt?</h5>
-        <p>Es wie FastHub die GitHub Wiki page holt &amp; Private Repos benötigen einen Sitzungstoken, den FastHub nicht bekommen kann.</p>
+        <p>Es wie OctoHub die GitHub Wiki page holt &amp; Private Repos benötigen einen Sitzungstoken, den OctoHub nicht bekommen kann.</p>
 
         <h5>• Ich habe mich mit meiner Enterprisekennung angemeldet kann\\kann nicht mit anderen Sachen interagieren außer meinem Enterprise GitHub?</h5>
-        <p>Logischerweise kannst du nicht auf etwas anderes als dein Unternehmen zugreifen. FastHub versucht dir möglichst viel zu ermöglichen, aber kann
+        <p>Logischerweise kannst du nicht auf etwas anderes als dein Unternehmen zugreifen. OctoHub versucht dir möglichst viel zu ermöglichen, aber kann
         natürlich nicht viel tun, wenn deine Anmeldedaten auf den GitHub Servern nicht vorhanden sind. In ein <b> paar </b>
         Fällen kann es allerdings helfen, dich mit deinem OAuth Token anzumelden.</p>
 
         <h5>• Ich habe Schwierigkeiten bei der Bearbeitung von Problemen/PRS!</h5>
-        <p>Wenn du ein öffentliches Organisations-Repo bearbeiten willst, wende dich bitte an deine Organisation, um den Zugang für FastHub genehmigen zu lassen oder verwende den entsprechenden Access Token!.</p>
+        <p>Wenn du ein öffentliches Organisations-Repo bearbeiten willst, wende dich bitte an deine Organisation, um den Zugang für OctoHub genehmigen zu lassen oder verwende den entsprechenden Access Token!.</p>
 
         <h5>• Ich habe einen Fehler gefunden oder habe Verbesserungsvorschläge!</h5>
-        <p>Gehe zu https://github.com/HardcodedCat/FastHub-RE/issues/new und erstelle ein neues Issue für Bugmeldungen oder Feature Requests. Bitte suche aber vor dem Erstellen nach bereits existierenden Tickets. Jede doppelte Anfrage wird sofort als Duplikat markiert und geschlossen.</p>
+        <p>Gehe zu https://github.com/HardcodedCat/OctoHub/issues/new und erstelle ein neues Issue für Bugmeldungen oder Feature Requests. Bitte suche aber vor dem Erstellen nach bereits existierenden Tickets. Jede doppelte Anfrage wird sofort als Duplikat markiert und geschlossen.</p>
     ]]></string>
     <string name="faq">FAQ</string>
     <string name="comments_added_successfully">Kommentare erfolgreich hinzugefügt</string>
@@ -447,7 +447,7 @@
     <string name="search_results_warning">Bitte sei bei deiner Suche etwas genauer</string>
     <string name="comment_is_too_far_to_paginate">Dieser Kommentar liegt zu weit zurück, um ihn anzuzeigen</string>
     <string name="disable_loading_image_title">Ladebild deaktivieren</string>
-    <string name="report_issue_warning">Dieses Problem wird zum FastHub Repo in GitHub übermittelt</string>
+    <string name="report_issue_warning">Dieses Problem wird zum OctoHub Repo in GitHub übermittelt</string>
     <string name="disable_loading_image_summary">Bei Nutzung einer mobilen Datenverbindung Ladebild deaktivieren</string>
     <string name="block">Blockieren</string>
     <string name="user_blocked">Nutzer blockiert</string>

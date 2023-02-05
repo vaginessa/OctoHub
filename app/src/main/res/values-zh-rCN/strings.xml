@@ -3,7 +3,7 @@ Simplified-Chinese Translation Style Guide
 简体中文翻译风格规范 v1.0
 
 继承自作者钦定的翻译贡献指南, 如有冲突请以作者的规定为准:
-https://github.com/k0shk0sh/FastHub/blob/master/.github/CONTRIBUTING.md#contribute-translations
+https://github.com/HardcodedCat/OctoHub/blob/master/.github/CONTRIBUTING.md#contribute-translations
 
 0. 专有名词 (如 Issue, Pull Request, Fork, Access Token 等) 不进行翻译,
    尽可能避免熟悉英文原词的用户见到翻译后 "咦这是什么东西来着的" 情况的发生.
@@ -39,8 +39,8 @@ CaptainTF @ Github 提议：
     <string name="ok">确定</string>
     <string name="no_data">无可用数据</string>
     <string name="search">搜索</string>
-    <string name="please_login">请登录以使用 FastHub</string>
-    <string name="sign_in_to_github">登录您的 GitHub 账户来使用 FastHub</string>
+    <string name="please_login">请登录以使用 OctoHub</string>
+    <string name="sign_in_to_github">登录您的 GitHub 账户来使用 OctoHub</string>
     <string name="failed_login">无法登录</string>
     <string name="sign_in">登录</string>
     <string name="share">分享</string>
@@ -231,7 +231,7 @@ CaptainTF @ Github 提议：
     <string name="this_value">此</string>
     <string name="commits_reflected">Commit 已被切换到所选分支</string>
     <string name="general_settings">一般</string>
-    <string name="background_job_summary">更改 FastHub 检查通知的频率</string>
+    <string name="background_job_summary">更改 OctoHub 检查通知的频率</string>
     <string name="background_job_title">通知同步间隔</string>
     <string name="every">所有</string>
     <string name="behavior">行为</string>
@@ -256,7 +256,7 @@ CaptainTF @ Github 提议：
     <string name="author">作者</string>
     <string name="fork_github">在 GitHub 上查看此项目</string>
     <string name="send_email">发送电子邮件</string>
-    <string name="question_concerning_fasthub">关于 FastHub 的问题</string>
+    <string name="question_concerning_octohub">关于 OctoHub 的问题</string>
     <string name="feedback">反馈</string>
     <string name="report_issue">反馈</string>
     <string name="report_issue_here">遇到问题? 在此反馈</string>
@@ -304,7 +304,7 @@ CaptainTF @ Github 提议：
     <string name="no_events">没有事件</string>
     <string name="no_pull_requests">没有 Pull Request</string>
     <string name="no_search_results">没有搜索结果</string>
-    <string name="read_write_permission_explanation">请接受权限请求, 允许 FastHub 在设备上储存文件</string>
+    <string name="read_write_permission_explanation">请接受权限请求, 允许 OctoHub 在设备上储存文件</string>
     <string name="public_gists">公共 Gist</string>
     <string name="no_issues">没有 Issue</string>
     <string name="no_unread_notifications">没有未读通知</string>
@@ -366,7 +366,7 @@ CaptainTF @ Github 提议：
     <string name="no_orgs_description">
         若您实际是某个组织的成员, 但在此没有显示, 请访问下面的链接:\n
         https://help.github.com/articles/about-oauth-app-access-restrictions\n
-        注: 您可以使用 Access token 登录, 这将授予 FastHub 查看您的组织列表的权限.
+        注: 您可以使用 Access token 登录, 这将授予 OctoHub 查看您的组织列表的权限.
     </string>
     <string name="insert">插入</string>
     <string name="select">选择</string>
@@ -378,7 +378,7 @@ CaptainTF @ Github 提议：
     <string name="app_language">语言</string>
     <string name="language">语言</string>
     <string name="choose_language_title">选择语言</string>
-    <string name="choose_language_summary">选择您希望 FastHub 使用的语言</string>
+    <string name="choose_language_summary">选择您希望 OctoHub 使用的语言</string>
     <string name="un_subscribe">取消订阅</string>
     <string name="from">从</string>
     <string name="in_value">于</string>
@@ -391,7 +391,7 @@ CaptainTF @ Github 提议：
     <string name="paths_only">路径</string>
     <string name="review_requests">审核请求</string>
     <string name="join_slack">加入 Slack</string>
-    <string name="join_slack_message">您想加入 FastHub Slack 群组吗?</string>
+    <string name="join_slack_message">您想加入 OctoHub Slack 群组吗?</string>
     <string name="successfully_invited">已邀请</string>
     <string name="reply">回复</string>
     <string name="failed_selecting_image">无法加载图像.</string>
@@ -399,7 +399,7 @@ CaptainTF @ Github 提议：
     <string name="watchers">关注者</string>
     <string name="reviewers">审核者</string>
     <string name="no_reviewers">没有审核者</string>
-    <string name="sent_from_fasthub">使用 %2$s%3$s 从我的 %1$s 发送</string>
+    <string name="sent_from_octohub">使用 %2$s%3$s 从我的 %1$s 发送</string>
     <string name="enable_signature">始终签名</string>
     <string name="enable_signature_summary">始终签名后发送</string>
     <string name="enable_signature_box">每次选择是否签名</string>
@@ -462,26 +462,26 @@ CaptainTF @ Github 提议：
     <string name="project">项目</string>
     <string name="faq">常见问题</string>
     <string name="please_read">请阅读!</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• 为何无法看见我的 <i>Private</i> 或者我的 <i>Public</i> <b>Organizations</b>?</h5>
-        <p>打开 https://github.com/settings/applications 并找到 FastHub, 向下滚动到 "Organization access" 并点击 "Grant" 按钮.
+        <p>打开 https://github.com/settings/applications 并找到 OctoHub, 向下滚动到 "Organization access" 并点击 "Grant" 按钮.
         或者, 您可以使用 <b>Access Token</b> 登陆, 这样会更简便.</p>
 
         <h5>• 我尝试使用 Access Token 和 a One-Time Password (OTP) 却不能登录, 为何?</h5>
         <p>您无法使用 Access Token 和 OTP 一起登录. 由于这类密码生命周期有限, 您需要每隔几秒进行一次登陆操作.</p>
 
         <h5>• 为何我的 Private 和 Enterprise Repositories\' Wikis 没有显示?</h5>
-        <p>这是因为FastHub 将 GitHub\'s Wiki 页面分开, 因此应用无法获取 Private Repositories 的任何 session token.</p>
+        <p>这是因为OctoHub 将 GitHub\'s Wiki 页面分开, 因此应用无法获取 Private Repositories 的任何 session token.</p>
 
         <h5>• 我已经登录到了我的 Enterprise account. 为何除了我的 Enterprise GitHub 不能进行其他操作?</h5>
-        <p>是的, 从逻辑上讲, 您不能访问除了您的 Enterprise 外的任何操作. 虽然 FastHub 尝试要求尽可能多的权限, 但在大多数情况下不能这么做, 因为您的凭据不在 GitHub\'s 服务器上. 但是在 <b>某些</b> 情况下您的 GitHub 帐号 OAuth token 却可以.</p>
+        <p>是的, 从逻辑上讲, 您不能访问除了您的 Enterprise 外的任何操作. 虽然 OctoHub 尝试要求尽可能多的权限, 但在大多数情况下不能这么做, 因为您的凭据不在 GitHub\'s 服务器上. 但是在 <b>某些</b> 情况下您的 GitHub 帐号 OAuth token 却可以.</p>
 
         <h5>• 为何我在编辑 Issues/Pull Requests (PRs) 时遇到问题?</h5>
-        <p>若您无法编辑 Public Organization\'s repository 的 Issues/PRs, 请联系您的 Organization 为 FastHub 授予权限. 或者您可以使用 Access Token 登录.</p>
+        <p>若您无法编辑 Public Organization\'s repository 的 Issues/PRs, 请联系您的 Organization 为 OctoHub 授予权限. 或者您可以使用 Access Token 登录.</p>
 
         <h5>• 我有一些问题! / 我想向您提议!</h5>
-        <p>前往 https://github.com/HardcodedCat/FastHub-RE/issues/new 为 Bug 和新功能请求创建 Issue. 但我希望您能在这之前查询一下类似的 Issue, 然后再打开一个新的. 任何重复的 Ticket 就将会标记为重复并被立即关闭.</p>
+        <p>前往 https://github.com/HardcodedCat/OctoHub/issues/new 为 Bug 和新功能请求创建 Issue. 但我希望您能在这之前查询一下类似的 Issue, 然后再打开一个新的. 任何重复的 Ticket 就将会标记为重复并被立即关闭.</p>
     ]]></string>
     <string name="comments_added_successfully">成功添加评论</string>
     <string name="clear_search_keywords">清除搜索历史</string>
@@ -490,7 +490,7 @@ CaptainTF @ Github 提议：
     <string name="search_results_warning">响应过多 \n超过 API 上限</string>
     <string name="disable_loading_image_title">禁止加载图像</string>
     <string name="disable_loading_image_summary">禁止在数据网络下加载图像</string>
-    <string name="report_issue_warning">此 Issue 将提交到 GitHub 中 FastHub 的 Repository 里</string>
+    <string name="report_issue_warning">此 Issue 将提交到 GitHub 中 OctoHub 的 Repository 里</string>
     <string name="block">阻止</string>
     <string name="unblock">取消阻止</string>
     <string name="user_blocked">已阻止该用户</string>

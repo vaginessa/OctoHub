@@ -347,7 +347,7 @@ class NotificationSchedulerJobTask : JobService() {
         private const val JOB_ID = 1
         private const val SINGLE_JOB_ID = 2
         private const val THIRTY_MINUTES = 30 * 60
-        private const val NOTIFICATION_GROUP_ID = "FastHub"
+        private const val NOTIFICATION_GROUP_ID = "OctoHub"
         @JvmStatic
         fun scheduleJob(context: Context) {
             val duration = PrefGetter.notificationTaskDuration

@@ -14,7 +14,7 @@ import io.objectbox.annotation.NameInDb
 import java.util.*
 
 @Entity
-data class FastHubNotification(
+data class OctoHubNotification(
     @Id
     var id: Long = 0,
     @NameInDb("notification_date")
@@ -39,7 +39,7 @@ data class FastHubNotification(
     )
 
     override fun toString(): String {
-        return "FastHubNotification{" +
+        return "OctoHubNotification{" +
                 "date=${date}" +
                 ", isRead=${read}" +
                 ", body='${body}'" +
@@ -60,12 +60,12 @@ data class FastHubNotification(
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<FastHubNotification> {
-        override fun createFromParcel(parcel: Parcel): FastHubNotification {
-            return FastHubNotification(parcel)
+    companion object CREATOR : Parcelable.Creator<OctoHubNotification> {
+        override fun createFromParcel(parcel: Parcel): OctoHubNotification {
+            return OctoHubNotification(parcel)
         }
 
-        override fun newArray(size: Int): Array<FastHubNotification?> {
+        override fun newArray(size: Int): Array<OctoHubNotification?> {
             return arrayOfNulls(size)
         }
     }

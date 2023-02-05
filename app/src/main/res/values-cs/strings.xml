@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Žádná data nejsou dostupná</string>
     <string name="search">Hledat</string>
-    <string name="please_login">Prosím, přihlašte se pro používání FastHub</string>
-    <string name="sign_in_to_github">Přihlašte se do GitHub účtu pro maximální využití FastHub</string>
+    <string name="please_login">Prosím, přihlašte se pro používání OctoHub</string>
+    <string name="sign_in_to_github">Přihlašte se do GitHub účtu pro maximální využití OctoHub</string>
     <string name="failed_login">Přihlášení selhalo</string>
     <string name="sign_in">Přihlásit</string>
     <string name="share">Sdílet</string>
@@ -193,7 +193,7 @@
     <string name="this_value">tento</string>
     <string name="commits_reflected">Příspěvky byly přepnuty na zvolenou větev</string>
     <string name="general_settings">Všeobecné</string>
-    <string name="background_job_summary">Změňte, jak často má FastHub kontrolovat nová oznámení</string>
+    <string name="background_job_summary">Změňte, jak často má OctoHub kontrolovat nová oznámení</string>
     <string name="background_job_title">Interval synchronizace oznámení</string>
     <string name="every">Každý</string>
     <string name="behavior">Chování</string>
@@ -217,7 +217,7 @@
     <string name="author">Autor</string>
     <string name="fork_github">Fork na GitHub</string>
     <string name="send_email">Poslat email</string>
-    <string name="question_concerning_fasthub">Otázka týkající se FastHub</string>
+    <string name="question_concerning_octohub">Otázka týkající se OctoHub</string>
     <string name="feedback">Zpětná vazba</string>
     <string name="report_issue">Nahlásit problém</string>
     <string name="report_issue_here">Máte problém? Nahlášte ho tady</string>
@@ -265,7 +265,7 @@
     <string name="no_events">Žádné události</string>
     <string name="no_pull_requests">Žádné pull requests</string>
     <string name="no_search_results">Žádné výsledky vyhledávání</string>
-    <string name="read_write_permission_explanation">Prosím, povolte oprávnění pro povolení službě FastHub
+    <string name="read_write_permission_explanation">Prosím, povolte oprávnění pro povolení službě OctoHub
         ukládat soubory do vašeho zařízení pro jejich pozdější zobrazení</string>
     <string name="public_gists">Veřejné gisty</string>
     <string name="no_issues">Žádné problémy</string>
@@ -326,7 +326,7 @@
     <string name="basic_login">Přihlášení pomocí základního ověření</string>
     <string name="no_orgs_description">Pokud jste momentálně vázáni k organizacím a nemůžete je zde najít, prosím následujte
         níže uvedený odkaz.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nPS: Můžete použít přístupový token k přihlášení, který
-        umožní FastHub přístup k seznamu vašich organizací.</string>
+        umožní OctoHub přístup k seznamu vašich organizací.</string>
     <string name="insert">Vložit</string>
     <string name="select">Vybrat</string>
     <string name="select_picture">Zvolte obrázek</string>
@@ -350,7 +350,7 @@
     <string name="paths_only">V cestách</string>
     <string name="review_requests">Žádosti o posouzení</string>
     <string name="join_slack">Připojte se do Slacku</string>
-    <string name="join_slack_message">Přejete si se připojit k FastHub Slack skupině?</string>
+    <string name="join_slack_message">Přejete si se připojit k OctoHub Slack skupině?</string>
     <string name="successfully_invited">Úspěšně pozván</string>
     <string name="reply">Odpovědět</string>
     <string name="failed_selecting_image">Nepodařilo se načíst obrázek.</string>
@@ -358,7 +358,7 @@
     <string name="watchers">Sledující</string>
     <string name="reviewers">Posuzovatelé</string>
     <string name="no_reviewers">Žádní posuzovatelé</string>
-    <string name="sent_from_fasthub">Odesláno z %1$s pomocí %2$s%3$s</string>
+    <string name="sent_from_octohub">Odesláno z %1$s pomocí %2$s%3$s</string>
     <string name="enable_signature">Povolit podpis</string>
     <string name="enable_signature_summary">Povolit odeslání prostřednictvím podpisu</string>
     <string name="enable_signature_box">Povolit podpisovou schránku</string>

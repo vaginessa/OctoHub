@@ -17,7 +17,7 @@ fun loadConfig(): HashMap<String, String> {
     configs["PASSWORD"] = "xrj45yWGLbsO7W0v"
     try {
         val inputFile = rootProject.file("${rootProject.projectDir}\\app\\secrets.properties")
-        println("Secrets found!\nLoading FastHub-RE credentials...")
+        println("Secrets found!\nLoading OctoHub credentials...")
         inputFile.forEachLine {
             val data = it.split("=")
             configs[data[0]] = data[1]

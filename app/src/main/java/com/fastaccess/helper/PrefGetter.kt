@@ -54,7 +54,7 @@ object PrefGetter {
     private const val OTP_CODE = "otp_code"
     private const val ENTERPRISE_OTP_CODE = "enterprise_otp_code"
     private const val APP_LANGUAGE = "app_language"
-    private const val SENT_VIA = "fasthub_signature"
+    private const val SENT_VIA = "octohub_signature"
     private const val SENT_VIA_BOX = "sent_via_enabled"
     private const val PROFILE_BACKGROUND_URL = "profile_background_url"
     private const val AMLOD_THEME_ENABLED = "amlod_theme_enabled"

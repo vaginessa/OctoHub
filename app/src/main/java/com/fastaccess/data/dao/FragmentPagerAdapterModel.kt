@@ -19,7 +19,7 @@ import com.fastaccess.ui.modules.main.drawer.MainDrawerFragment
 import com.fastaccess.ui.modules.main.issues.MyIssuesFragment
 import com.fastaccess.ui.modules.main.pullrequests.MyPullRequestFragment
 import com.fastaccess.ui.modules.notification.all.AllNotificationsFragment
-import com.fastaccess.ui.modules.notification.fasthub.FastHubNotificationsFragment
+import com.fastaccess.ui.modules.notification.octohub.OctoHubNotificationsFragment
 import com.fastaccess.ui.modules.notification.unread.UnreadNotificationsFragment
 import com.fastaccess.ui.modules.pinned.gist.PinnedGistFragment
 import com.fastaccess.ui.modules.pinned.issue.PinnedIssueFragment
@@ -285,7 +285,7 @@ class FragmentPagerAdapterModel(var title: String, var fragment: Fragment?, var 
                 ),
                 FragmentPagerAdapterModel(
                     context.getString(R.string.app_name),
-                    FastHubNotificationsFragment()
+                    OctoHubNotificationsFragment()
                 )
             )
         }

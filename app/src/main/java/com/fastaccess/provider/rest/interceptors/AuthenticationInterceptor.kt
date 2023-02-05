@@ -40,7 +40,7 @@ class AuthenticationInterceptor : Interceptor {
         if (!hasAuth && original.url.host == "api.github.com" && original.url.pathSegments.last() == "user") {
             throw AuthNullOrBlankException()
         }
-        if (!isScrapping) builder.addHeader("User-Agent", "FastHub")
+        if (!isScrapping) builder.addHeader("User-Agent", "OctoHub")
         val request = builder.build()
         return chain.proceed(request)
     }

@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- DO NOT COPY!  -->
 
-    <string name="app_name" translatable="false">FastHub-RE</string>
-    <string name="app_name_full" translatable="false">FastHub-RE for Android</string>
+    <string name="app_name" translatable="false">OctoHub</string>
+    <string name="app_name_full" translatable="false">OctoHub for Android</string>
     <string name="app_description" translatable="false">Revival attempt for FastHub the ultimate GitHub client for Android.</string>
     <string name="original_app_name" translatable="false">FastHub</string>
     <string name="original_app_state" translatable="false">[Abandoned] FastHub</string>
@@ -97,10 +97,10 @@
     <string name="endpoint_hint" translatable="false">example.com</string>
     <string name="no_branches" translatable="false">No Branches or Tags</string>
     <string name="pro_features" translatable="false">PRO Features</string>
-    <string name="pro_features_list" translatable="false"><![CDATA[Get the PRO features of FastHub which includes:\n
+    <string name="pro_features_list" translatable="false"><![CDATA[Get the PRO features of OctoHub which includes:\n
         • All PRO Themes\n
         • PR Reviews & On-line code comments (PRs & Commits)\n
-        • Commit from FastHub (Edit, Create & Delete files)\n
+        • Commit from OctoHub (Edit, Create & Delete files)\n
         • Supports 2 more Merging methods (Rebase & Squash)\n
         • Login to unlimited accounts\n
         • Edit & Add unlimited Gist Files\n
@@ -119,7 +119,7 @@
                 <blockquote>
                 <h4>Hi Kosh,</h4>
                 <p>A GitHub Enterprise appliance is entirely separate from GitHub.com, and will not have your OAuth application configured.
-                You will need to setup your OAuth application again for <b>FastHub</b> on the GitHub Enterprise appliance, which will provide you
+                You will need to setup your OAuth application again for <b>OctoHub</b> on the GitHub Enterprise appliance, which will provide you
                 with new client_id and client_secret credentials. <b>This will have to be completed for each new GitHub Enterprise appliance
                 your application communicates with</b>. GitHub Enterprise comes preconfigured with the GitHub Desktop OAuth application set up,
                 this is how GitHub Desktop is able to complete the authentication successfully for GitHub Enterprise appliances.</p>
@@ -141,8 +141,8 @@
     <string name="ok">OK</string>
     <string name="no_data">No data available</string>
     <string name="search">Search</string>
-    <string name="please_login">Please sign in to begin using FastHub</string>
-    <string name="sign_in_to_github">Sign in using your GitHub account to use FastHub</string>
+    <string name="please_login">Please sign in to begin using OctoHub</string>
+    <string name="sign_in_to_github">Sign in using your GitHub account to use OctoHub</string>
     <string name="failed_login">Sign in failed</string>
     <string name="sign_in">Sign in</string>
     <string name="share">Share</string>
@@ -331,7 +331,7 @@
     <string name="this_value">this</string>
     <string name="commits_reflected">Commits have been switched to the selected branch</string>
     <string name="general_settings">General</string>
-    <string name="background_job_summary">Change how frequently FastHub checks for new notifications</string>
+    <string name="background_job_summary">Change how frequently OctoHub checks for new notifications</string>
     <string name="background_job_title">Sync Interval</string>
     <string name="every">Every</string>
     <string name="behavior">Behavior</string>
@@ -357,7 +357,7 @@
     <string name="author">Author</string>
     <string name="fork_github">Fork on GitHub</string>
     <string name="send_email">Send an email</string>
-    <string name="question_concerning_fasthub">Question concerning FastHub</string>
+    <string name="question_concerning_octohub">Question concerning OctoHub</string>
     <string name="feedback">Feedback</string>
     <string name="report_issue">Report an issue</string>
     <string name="report_issue_here">Having an issue? Report it here</string>
@@ -409,7 +409,7 @@
     <string name="no_events">No events</string>
     <string name="no_pull_requests">No pull requests</string>
     <string name="no_search_results">No search results</string>
-    <string name="read_write_permission_explanation">Please accept the permissions in order for FastHub to
+    <string name="read_write_permission_explanation">Please accept the permissions in order for OctoHub to
         store the files on your device to be able to view them</string>
     <string name="public_gists">Public Gists</string>
     <string name="no_issues">No issues</string>
@@ -472,8 +472,8 @@
     <string name="basic_login">Login via basic auth</string>
     <string name="no_orgs_description">If you are actually tied to an organizations and you can\'t see them here please follow link
         below.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nPS: You could use Access token to login which will
-        grant FastHub access to list your organizations.\nYou could also open up https://github.com/settings/applications and look for
-        FastHub, open it then scroll to Organization access and click on Grant Button.</string>
+        grant OctoHub access to list your organizations.\nYou could also open up https://github.com/settings/applications and look for
+        OctoHub, open it then scroll to Organization access and click on Grant Button.</string>
     <string name="insert">Insert</string>
     <string name="select">Select</string>
     <string name="select_picture">Select Picture</string>
@@ -497,7 +497,7 @@
     <string name="paths_only">In Paths</string>
     <string name="review_requests">Review Requests</string>
     <string name="join_slack">Join Slack</string>
-    <string name="join_slack_message">Would you like to join FastHub Slack group?</string>
+    <string name="join_slack_message">Would you like to join OctoHub Slack group?</string>
     <string name="successfully_invited">Successfully invited</string>
     <string name="reply">Reply</string>
     <string name="failed_selecting_image">Failed to load image.</string>
@@ -505,7 +505,7 @@
     <string name="watchers">Watchers</string>
     <string name="reviewers">Reviewers</string>
     <string name="no_reviewers">No reviewers</string>
-    <string name="sent_from_fasthub">Sent from my %1$s using %2$s%3$s</string>
+    <string name="sent_from_octohub">Sent from my %1$s using %2$s%3$s</string>
     <string name="enable_signature">Enable Signature</string>
     <string name="enable_signature_summary">Enable sent via signature</string>
     <string name="enable_signature_box">Enable Signature Box</string>
@@ -565,27 +565,27 @@
     <string name="too_large_changes">Too many differences to display. Please, view them via browser</string>
     <string name="project">Project</string>
     <string name="please_read">PLEASE READ!</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• Why can\'t I see either my <i>Private</i> or my <i>Public</i> <b>Organizations</b>?</h5>
-        <p>Open up https://github.com/settings/applications and look for FastHub, open it up, scroll down to "Organization access" and click on the "Grant" button.
+        <p>Open up https://github.com/settings/applications and look for OctoHub, open it up, scroll down to "Organization access" and click on the "Grant" button.
         Alternatively you can sign in using <b>Access Token</b> which will ease the process.</p>
 
         <h5>• I have tried signing in with an Access Token and a One-Time Password (OTP) without any luck. What\'s wrong?</h5>
         <p>You can\'t sign in using Access Token and OTP all together. Due to the limited lifetime of such passwords you\'ll have to repeat a sign in procedure every few seconds.</p>
 
         <h5>• Why aren\'t my Private and Enterprise Repositories\' Wikis showing up?</h5>
-        <p>As FastHub scraps GitHub\'s Wiki pages, the application is unable to obtain any session token which is required by Private Repositories.</p>
+        <p>As OctoHub scraps GitHub\'s Wiki pages, the application is unable to obtain any session token which is required by Private Repositories.</p>
 
         <h5>• I have signed into my Enterprise account. Why can\'t I interact with anything other than my Enterprise GitHub?</h5>
-        <p>Well, logically, you can\'t access anything else other than your Enterprise. FastHub tries to require as many permissions as possible, but can\'t do anything more about it
+        <p>Well, logically, you can\'t access anything else other than your Enterprise. OctoHub tries to require as many permissions as possible, but can\'t do anything more about it
         in most cases, since your credentials are not on GitHub\'s server. But in <b>some</b> cases your GitHub account OAuth token will do the trick.</p>
 
         <h5>• Why am I having problems editing Issues/Pull Requests (PRs)?</h5>
-        <p>If you are unable to edit Issues/PRs in a Public Organization\'s repository, please contact your Organization to grant access to FastHub. Alternatively you can sign in with an Access Token.</p>
+        <p>If you are unable to edit Issues/PRs in a Public Organization\'s repository, please contact your Organization to grant access to OctoHub. Alternatively you can sign in with an Access Token.</p>
 
         <h5>• I\'m having problems! / I want to suggest you some things!</h5>
-        <p>Head to https://github.com/HardcodedCat/FastHub-RE/issues/new and create a new issue for any bugs and feature requests. I really do encourage you to
+        <p>Head to https://github.com/HardcodedCat/OctoHub/issues/new and create a new issue for any bugs and feature requests. I really do encourage you to
         search for similar issues before opening a new one. Any duplicated ticket will be labeled as duplicated and closed immediately.</p>
     ]]></string>
     <string name="faq">FAQ</string>
@@ -596,7 +596,7 @@
     <string name="search_results_warning">Too many responses \nShowing the max API allows</string>
     <string name="disable_loading_image_title">Disable Loading Image</string>
     <string name="disable_loading_image_summary">Disable loading image while on data plan</string>
-    <string name="report_issue_warning">This issue will be submitted to FastHub\'s repo in GitHub</string>
+    <string name="report_issue_warning">This issue will be submitted to OctoHub\'s repo in GitHub</string>
     <string name="block">Block</string>
     <string name="unblock">Unblock</string>
     <string name="user_blocked">User blocked</string>

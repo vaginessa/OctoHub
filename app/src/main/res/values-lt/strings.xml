@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Nėra duomenų</string>
     <string name="search">Paieška</string>
-    <string name="please_login">Prašome prisijungti, norint naudoti „FastHub“</string>
-    <string name="sign_in_to_github">Prisijunkite prie „GitHub“, jei norite naudoti visas „FastHub“ funkcijas</string>
+    <string name="please_login">Prašome prisijungti, norint naudoti „OctoHub“</string>
+    <string name="sign_in_to_github">Prisijunkite prie „GitHub“, jei norite naudoti visas „OctoHub“ funkcijas</string>
     <string name="failed_login">Nepavyko prisijungti</string>
     <string name="sign_in">Prisijungti</string>
     <string name="share">Dalintis</string>
@@ -192,14 +192,14 @@
     <string name="this_value">tai</string>
     <string name="commits_reflected">Pakeitimai (commit) buvo pakeisti į pasirinktą skyrių (branch)</string>
     <string name="general_settings">Bendra</string>
-    <string name="background_job_summary">Kas kiek laiko „FastHub“ turėtų žiūrėti, ar yra naujų pranešimų automatiškai?</string>
+    <string name="background_job_summary">Kas kiek laiko „OctoHub“ turėtų žiūrėti, ar yra naujų pranešimų automatiškai?</string>
     <string name="background_job_title">Pranešimų grėbimo intervalas</string>
     <string name="every">Kiekvieną/kas</string>
     <string name="behavior">Elgesys</string>
     <string name="customization">Pritaikymas tau</string>
     <string name="recycler_view_animation_summary">Įgalinti sąrašo animacija</string>
     <string name="recycler_view_animation_title">Sąrašo animacija</string>
-    <string name="back_button_summary">Klausti ar noriu užverti „FastHub“</string>
+    <string name="back_button_summary">Klausti ar noriu užverti „OctoHub“</string>
     <string name="back_button_title">Dar kart spausk atgal, jei nori užverti programą</string>
     <string name="restore">Parsiųsti atsarg. kopijos duomenis</string>
     <string name="backup">Įkelti duomenis</string>
@@ -216,7 +216,7 @@
     <string name="author">Autorius</string>
     <string name="fork_github">Kopijuoti (fork) „GitHub“</string>
     <string name="send_email">Siųsti el. paštu</string>
-    <string name="question_concerning_fasthub">Klausimas apie programą</string>
+    <string name="question_concerning_octohub">Klausimas apie programą</string>
     <string name="feedback">Atsiliepimai</string>
     <string name="report_issue">Pranešti problemą</string>
     <string name="report_issue_here">Pranešk savo problemą (tik angl.)</string>
@@ -346,7 +346,7 @@
     <string name="paths_only">Tik aplankuose</string>
     <string name="review_requests">Vertintojų prašymai</string>
     <string name="join_slack">Prisijungti prie Slack (tik angliškai)</string>
-    <string name="join_slack_message">Ar nori prisijungti prie „FastHub“ Slack pokalbių grupės?</string>
+    <string name="join_slack_message">Ar nori prisijungti prie „OctoHub“ Slack pokalbių grupės?</string>
     <string name="successfully_invited">Pavyko pakviesti</string>
     <string name="reply">Atsakyti</string>
     <string name="failed_selecting_image">Nepavyko užkrauti paveikslėlį</string>
@@ -354,7 +354,7 @@
     <string name="watchers">Stebėtojai</string>
     <string name="reviewers">Vertintojai</string>
     <string name="no_reviewers">Nėra vertintojų</string>
-    <string name="sent_from_fasthub">Naudoju „%2$s%3$s“ su savo %1$s</string>
+    <string name="sent_from_octohub">Naudoju „%2$s%3$s“ su savo %1$s</string>
     <string name="enable_signature">Įjungti parašą</string>
     <string name="enable_signature_summary">Įgalinti „atsiųsta naudojant“ parašą</string>
     <string name="enable_signature_box">Įgalinti parašo funkciją</string>

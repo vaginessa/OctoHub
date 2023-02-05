@@ -27,7 +27,7 @@ import com.evernote.android.state.State
 import com.evernote.android.state.StateSaver
 import com.fastaccess.App
 import com.fastaccess.R
-import com.fastaccess.data.entity.dao.FastHubNotificationDao
+import com.fastaccess.data.entity.dao.OctoHubNotificationDao
 import com.fastaccess.data.entity.dao.LoginDao
 import com.fastaccess.helper.*
 import com.fastaccess.helper.InputHelper.isEmpty
@@ -48,7 +48,7 @@ import com.fastaccess.ui.modules.login.chooser.LoginChooserActivity
 import com.fastaccess.ui.modules.main.MainActivity
 import com.fastaccess.ui.modules.main.drawer.MainDrawerFragment
 import com.fastaccess.ui.modules.main.faq.FaqActivity
-import com.fastaccess.ui.modules.main.notifications.FastHubNotificationDialog.Companion.show
+import com.fastaccess.ui.modules.main.notifications.OctoHubNotificationDialog.Companion.show
 import com.fastaccess.ui.modules.main.orgs.OrgListDialogFragment
 import com.fastaccess.ui.modules.repos.code.commit.details.CommitPagerActivity
 import com.fastaccess.ui.modules.repos.issues.issue.details.IssuePagerActivity
@@ -585,7 +585,7 @@ abstract class BaseActivity<V : FAView, P : BasePresenter<V>> : TiActivity<P, V>
     }
 
     private fun showInAppNotifications(): Boolean {
-        return FastHubNotificationDao.hasNotifications().blockingGet()
+        return OctoHubNotificationDao.hasNotifications().blockingGet()
     }
 
 //    private val mainDrawerMenu: Menu?

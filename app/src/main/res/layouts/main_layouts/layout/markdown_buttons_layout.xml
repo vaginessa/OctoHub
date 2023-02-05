@@ -183,7 +183,7 @@
                 android:background="?selectableItemBackgroundBorderless"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/spacing_normal"
-                android:src="@drawable/ic_fasthub_mascot"/>
+                android:src="@drawable/ic_octohub_mascot"/>
         </LinearLayout>
 
     </HorizontalScrollView>

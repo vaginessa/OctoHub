@@ -38,7 +38,7 @@ class ColumnCardViewHolder private constructor(
                 if (pr != null) {
                     "${pr.login}/${pr.repoId}/${pr.number}"
                 } else {
-                    "(FastHub) - to be fixed by GitHub! Sorry!"
+                    "(OctoHub) - to be fixed by GitHub! Sorry!"
                 }
             }
         } else {

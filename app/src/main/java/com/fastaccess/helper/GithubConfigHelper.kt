@@ -7,7 +7,7 @@ import com.fastaccess.BuildConfig
  */
 object GithubConfigHelper {
     @JvmStatic
-    val redirectUrl = "fasthub://login"
+    val redirectUrl = "octohub://login"
 
     @JvmStatic
     val clientId = BuildConfig.GITHUB_CLIENT_ID

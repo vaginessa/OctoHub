@@ -1,14 +1,14 @@
-package com.fastaccess.ui.modules.notification.fasthub
+package com.fastaccess.ui.modules.notification.octohub
 
 import android.os.Bundle
 import android.view.View
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.fastaccess.R
-import com.fastaccess.data.entity.FastHubNotification
-import com.fastaccess.ui.adapter.FastHubNotificationsAdapter
+import com.fastaccess.data.entity.OctoHubNotification
+import com.fastaccess.ui.adapter.OctoHubNotificationsAdapter
 import com.fastaccess.ui.base.BaseFragment
 import com.fastaccess.ui.delegate.viewFind
-import com.fastaccess.ui.modules.main.notifications.FastHubNotificationDialog
+import com.fastaccess.ui.modules.main.notifications.OctoHubNotificationDialog
 import com.fastaccess.ui.widgets.StateLayout
 import com.fastaccess.ui.widgets.recyclerview.DynamicRecyclerView
 import com.fastaccess.ui.widgets.recyclerview.scroll.RecyclerViewFastScroller
@@ -16,14 +16,14 @@ import com.fastaccess.ui.widgets.recyclerview.scroll.RecyclerViewFastScroller
 /**
  * Created by Kosh on 19.11.17.
  */
-class FastHubNotificationsFragment :
-    BaseFragment<FastHubNotificationsMvp.View, FastHubNotificationsPresenter>(),
-    FastHubNotificationsMvp.View {
+class OctoHubNotificationsFragment :
+    BaseFragment<OctoHubNotificationsMvp.View, OctoHubNotificationsPresenter>(),
+    OctoHubNotificationsMvp.View {
     val recycler: DynamicRecyclerView by viewFind(R.id.recycler)
     val refresh: SwipeRefreshLayout by viewFind(R.id.refresh)
     val stateLayout: StateLayout by viewFind(R.id.stateLayout)
     val fastScroller: RecyclerViewFastScroller by viewFind(R.id.fastScroller)
-    private val adapter by lazy { FastHubNotificationsAdapter(presenter.getData().toMutableList()) }
+    private val adapter by lazy { OctoHubNotificationsAdapter(presenter.getData().toMutableList()) }
 
     override fun fragmentLayout(): Int = R.layout.small_grid_refresh_list
 
@@ -42,9 +42,9 @@ class FastHubNotificationsFragment :
         fastScroller.attachRecyclerView(recycler)
     }
 
-    override fun providePresenter(): FastHubNotificationsPresenter = FastHubNotificationsPresenter()
+    override fun providePresenter(): OctoHubNotificationsPresenter = OctoHubNotificationsPresenter()
 
-    override fun notifyAdapter(items: List<FastHubNotification>?) {
+    override fun notifyAdapter(items: List<OctoHubNotification>?) {
         refresh.isRefreshing = false
         stateLayout.hideProgress()
         if (items != null) {
@@ -54,12 +54,12 @@ class FastHubNotificationsFragment :
         }
     }
 
-    override fun onItemClick(position: Int, v: View?, item: FastHubNotification) {
+    override fun onItemClick(position: Int, v: View?, item: OctoHubNotification) {
         presenter.manageDisposable(
-            FastHubNotificationDialog.show(childFragmentManager, item)
+            OctoHubNotificationDialog.show(childFragmentManager, item)
         )
     }
 
 
-    override fun onItemLongClick(position: Int, v: View?, item: FastHubNotification) {}
+    override fun onItemLongClick(position: Int, v: View?, item: OctoHubNotification) {}
 }

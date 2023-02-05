@@ -227,7 +227,7 @@ class FilterIssuesActivity :
     private fun onAuthorClicked() {
         Toasty.info(
             App.getInstance(),
-            "GitHub doesn't have this API yet!\nYou can try typing it yourself for example author:k0shk0sh",
+            "GitHub doesn't have this API yet!\nYou can try typing it yourself for example author:HardcodedCat",
             Toast.LENGTH_LONG
         ).show()
     }

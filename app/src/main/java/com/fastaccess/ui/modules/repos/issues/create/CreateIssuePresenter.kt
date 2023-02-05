@@ -209,7 +209,7 @@ class CreateIssuePresenter : BasePresenter<CreateIssueMvp.View>(), CreateIssueMv
 
     override fun onCheckAppVersion() {
         makeRestCall(
-            getRepoService(false).getLatestRelease("HardcodedCat", "FastHub-RE"),
+            getRepoService(false).getLatestRelease("HardcodedCat", "OctoHub"),
             { release: Release? ->
                 if (release != null) {
                     if (!BuildConfig.VERSION_NAME.contains(release.tagName!!)) {

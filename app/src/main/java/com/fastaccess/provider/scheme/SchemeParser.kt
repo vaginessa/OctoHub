@@ -360,7 +360,7 @@ object SchemeParser {
     }
 
     /**
-     * [[k0shk0sh, FastHub, issues], k0shk0sh/fastHub/(issues,pulls,commits, etc)]
+     * [[HardcodedCat, OctoHub, issues], HardcodedCat/OctoHub/(issues,pulls,commits, etc)]
      */
     private fun getGeneralRepo(context: Context, uri: Uri): Intent? {
         //TODO parse deeper links to their associate views. meantime fallback to repoPage
@@ -606,7 +606,7 @@ object SchemeParser {
         if ("issues" == segments[2]) {
             val owner = segments[0]
             val repo = segments[1]
-            val isFeedback = "HardcodedCat/FastHub-RE".equals("$owner/$repo", ignoreCase = true)
+            val isFeedback = "HardcodedCat/OctoHub".equals("$owner/$repo", ignoreCase = true)
             return CreateIssueActivity.getIntent(context, owner, repo, isFeedback)
         }
         return null

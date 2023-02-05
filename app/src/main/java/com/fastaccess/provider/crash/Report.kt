@@ -9,7 +9,7 @@ class Report {
         }
 
         fun reportCatchException(e: Exception) {
-            Timber.e(e, "FastHub-Re Crash Report")
+            Timber.e(e, "OctoHub-Re Crash Report")
         }
     }
 }

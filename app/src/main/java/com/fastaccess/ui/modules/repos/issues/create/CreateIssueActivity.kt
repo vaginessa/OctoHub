@@ -232,7 +232,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
         }
         presenter!!.checkAuthority(login!!, repoId!!)
         if (isFeedback || "HardcodedCat".equals(login, ignoreCase = true) && repoId.equals(
-                "FastHub-RE",
+                "OctoHub",
                 ignoreCase = true
             )
         ) {
@@ -287,7 +287,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
 
     private fun onTouch(event: MotionEvent): Boolean {
         if (isFeedback && isEmpty(savedText)) {
-            savedText = AppHelper.getFastHubIssueTemplate(isEnterprise)
+            savedText = AppHelper.getOctoHubIssueTemplate(isEnterprise)
         }
         if (event.action == MotionEvent.ACTION_UP) {
             val intent = Intent(this, EditorActivity::class.java)
@@ -394,7 +394,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
                     .put(
                         BundleConstant.EXTRA_TWO,
                         login.equals("HardcodedCat", ignoreCase = true) && repoId.equals(
-                            "FastHub-RE",
+                            "OctoHub",
                             ignoreCase = true
                         )
                     )
@@ -483,7 +483,7 @@ class CreateIssueActivity : BaseActivity<CreateIssueMvp.View, CreateIssuePresent
 
         fun startForResult(activity: Activity): Intent {
             val login = "HardcodedCat" // FIXME: 23/02/2017 hardcoded
-            val repoId = "FastHub-RE" // FIXME: 23/02/2017 hardcoded
+            val repoId = "OctoHub" // FIXME: 23/02/2017 hardcoded
             val intent = Intent(activity, CreateIssueActivity::class.java)
             intent.putExtras(
                 Bundler.start()

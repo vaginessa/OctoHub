@@ -80,7 +80,7 @@ class AvatarLayout : FrameLayout {
         }
         Glide.with(context)
             .load(url)
-            .fallback(ContextCompat.getDrawable(context, R.drawable.ic_fasthub_mascot))
+            .fallback(ContextCompat.getDrawable(context, R.drawable.ic_octohub_mascot))
             .diskCacheStrategy(DiskCacheStrategy.ALL)
             .signature(ObjectKey(if (reload) System.currentTimeMillis().toString() else "0"))
             .dontAnimate()

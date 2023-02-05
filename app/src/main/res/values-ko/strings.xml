@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">데이터 없음</string>
     <string name="search">검색</string>
-    <string name="please_login">FastHub를 계속 사용하려면 로그인하세요</string>
-    <string name="sign_in_to_github">FastHub를 이용하려면 GitHub에 로그인하세요</string>
+    <string name="please_login">OctoHub를 계속 사용하려면 로그인하세요</string>
+    <string name="sign_in_to_github">OctoHub를 이용하려면 GitHub에 로그인하세요</string>
     <string name="failed_login">로그인 실패</string>
     <string name="sign_in">로그인</string>
     <string name="share">공유</string>
@@ -193,7 +193,7 @@
     <string name="this_value">이 Branch</string>
     <string name="commits_reflected">Commit이 선택한 Branch로 전환되었습니다</string>
     <string name="general_settings">일반</string>
-    <string name="background_job_summary">FastHub이 새 알림을 확인하는 빈도를 변경합니다</string>
+    <string name="background_job_summary">OctoHub이 새 알림을 확인하는 빈도를 변경합니다</string>
     <string name="background_job_title">동기화 간격</string>
     <string name="every">항상</string>
     <string name="behavior">행동</string>
@@ -217,7 +217,7 @@
     <string name="author">개발자</string>
     <string name="fork_github">GitHub에서 Fork하기</string>
     <string name="send_email">이메일 보내기</string>
-    <string name="question_concerning_fasthub">FastHub에 관한 질문</string>
+    <string name="question_concerning_octohub">OctoHub에 관한 질문</string>
     <string name="feedback">피드백 (오류 보고)</string>
     <string name="report_issue">오류 보고</string>
     <string name="report_issue_here">오류가 있습니까? 이곳에 입력해주세요.</string>
@@ -265,7 +265,7 @@
     <string name="no_events">이벤트 없음</string>
     <string name="no_pull_requests">Pull Requests 없음</string>
     <string name="no_search_results">검색 결과 없음</string>
-    <string name="read_write_permission_explanation">파일을 보기 위해 FastHub에서 파일을 저장하려면 권한을 허용하세요</string>
+    <string name="read_write_permission_explanation">파일을 보기 위해 OctoHub에서 파일을 저장하려면 권한을 허용하세요</string>
     <string name="public_gists">공개 Gist</string>
     <string name="no_issues">이슈 없음</string>
     <string name="no_unread_notifications">읽지 않은 알림 없음</string>
@@ -325,7 +325,7 @@
     <string name="personal_token">개인 토큰</string>
     <string name="basic_login">기본 인증으로 로그인</string>
     <string name="no_orgs_description">조직에 속해 있고 여기에서 볼 수 없다면 다음 링크를 따르세요.
-        \nhttps://help.github.com/articles/about-third-party-application-restrictions\nPS: 조직에 FastHub 엑세스 권한을 부여하고 액세스 토큰을 사용해서 로그인할 수 있습니다.\n또한 https://github.com/settings/applications에서 FastHub를 찾아 조직 액세스로 스크롤 한 다음 승인 버튼을 클릭하세요.</string>
+        \nhttps://help.github.com/articles/about-third-party-application-restrictions\nPS: 조직에 OctoHub 엑세스 권한을 부여하고 액세스 토큰을 사용해서 로그인할 수 있습니다.\n또한 https://github.com/settings/applications에서 OctoHub를 찾아 조직 액세스로 스크롤 한 다음 승인 버튼을 클릭하세요.</string>
     <string name="insert">삽입</string>
     <string name="select">선택</string>
     <string name="select_picture">사진 선택</string>
@@ -349,7 +349,7 @@
     <string name="paths_only">경로에서만 검색</string>
     <string name="review_requests">검토 요청</string>
     <string name="join_slack">Slack 참여</string>
-    <string name="join_slack_message">FastHub Slack에 참여하시겠습니까?</string>
+    <string name="join_slack_message">OctoHub Slack에 참여하시겠습니까?</string>
     <string name="successfully_invited">초대됨</string>
     <string name="reply">답글</string>
     <string name="failed_selecting_image">이미지 불러오기에 실패했습니다</string>
@@ -357,7 +357,7 @@
     <string name="watchers">구독자</string>
     <string name="reviewers">검토자</string>
     <string name="no_reviewers">검토자 없음</string>
-    <string name="sent_from_fasthub">%2$s%3$s을 사용하여 %1$s에서 보냈습니다</string>
+    <string name="sent_from_octohub">%2$s%3$s을 사용하여 %1$s에서 보냈습니다</string>
     <string name="enable_signature">서명 활성화</string>
     <string name="enable_signature_summary">서명을 통해 전송을 활성화합니다</string>
     <string name="enable_signature_box">서명 상자 활성화</string>
@@ -417,10 +417,10 @@
     <string name="too_large_changes">변경사항이 너무 많습니다. 브라우저로 보세요</string>
     <string name="project">프로젝트</string>
     <string name="please_read">꼭 읽어주세요</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• 왜 <i>Private</i> 이나 <i>Public</i>으로 되어진 제 <b>Organizations</b> 을 볼 수 없나요?</h5>
-        <p>https://github.com/settings/applications 를 열고 Fasthub라는 것을 찾아보세요. 그것을 선택한 후, Organization Access 부분에서 Grant를 눌러주세요. 또는 초기 로그인시 <b>엑세스 토큰</b> 으로 로그인하면 편리합니다.</p>
+        <p>https://github.com/settings/applications 를 열고 OctoHub라는 것을 찾아보세요. 그것을 선택한 후, Organization Access 부분에서 Grant를 눌러주세요. 또는 초기 로그인시 <b>엑세스 토큰</b> 으로 로그인하면 편리합니다.</p>
         <h5>• Access Token 과 OTP 으로 로그인을 시도했는데 로그인이 되질 않아요…</h5>
         <p>OTP는 일회용 코드입니다. 따리서 유효기간에 인해 엑세스 토큰 + OTP로 로그인이 불가합니다. 이렇게 로그인을 하게 되면 몇 초에 한 번씩 앱이 로그인을 하라고 합니다. 다른 방법을 사용해 주세요.</p>
         <h5>• 제 비공개 리포지토리와 엔터프라이즈 위키가 보이질 않아요!</h5>
@@ -428,9 +428,9 @@
         <h5>• 제가 엔터프라이즈 계정으로 로그인했는데 Enterprise GitHub 외의 다른 것들은 볼 수 없나요?</h5>
         <p>결론부터 말하자면 불가능합니다. 본 앱은 여러분이 다른 것들을 볼 수 있게 해 주고 있지만, 기술적 한계로 크게 도움을 드릴 수는 없습니다. 대부분의 경우에는 여러분의 로그인 계정이 GitHub 서버에 상주하고 있기 때문입니다. 그러나 <b>소수</b>의 경우에는 여러분의 OAuth 토큰이 다른 활동을 하게 해 줄 수 있습니다.</p>
         <h5>• Issues/PR 를 수정 하는데 문제가 있습니다.</h5>
-        <p>공개 Organization 리포지토리를 수정하면, 여러분의 Organization에게 문의하여 Fasthub 권환을 받거나 최초 로그인시 엑세스 토큰으로 로그인하세요.</p>
+        <p>공개 Organization 리포지토리를 수정하면, 여러분의 Organization에게 문의하여 OctoHub 권환을 받거나 최초 로그인시 엑세스 토큰으로 로그인하세요.</p>
         <h5>• 앱을 사용하는데 문제를 발견했어요! / 혹시 이러한 기능을 추가해주실 수 있나요?</h5>
-        <p>그럼요! https://github.com/HardcodedCat/FastHub-RE/issues/new 로 간 후 새로운 티켓을 만드세요. 티켓을 만들기 전 먼저 전에 있었던 티켓 중 중복되는 것이 없는지 검색해 주세요. 중복시 티켓은 바로 닫힙니다. 또는 앱 드로어 (화면 왼쪽 끝에서 오른쪽으로 드래그) 에 있는 오류 보고를 클릭하여 보고하셔도 됩니다.</p>
+        <p>그럼요! https://github.com/HardcodedCat/OctoHub/issues/new 로 간 후 새로운 티켓을 만드세요. 티켓을 만들기 전 먼저 전에 있었던 티켓 중 중복되는 것이 없는지 검색해 주세요. 중복시 티켓은 바로 닫힙니다. 또는 앱 드로어 (화면 왼쪽 끝에서 오른쪽으로 드래그) 에 있는 오류 보고를 클릭하여 보고하셔도 됩니다.</p>
 	]]></string>
     <string name="faq">자주 하는 질문 (FAQ)</string>
     <string name="comments_added_successfully">댓글을 성공적으로 추가하였습니다</string>
@@ -440,7 +440,7 @@
     <string name="search_results_warning">응답이 너무 많습니다.\n최대 API 응답수를 표시합니다.</string>
     <string name="disable_loading_image_title">이미지 로딩 중단하기</string>
     <string name="disable_loading_image_summary">모바일 데이터 사용중에 이미지 로딩 사용 중지</string>
-    <string name="report_issue_warning">이 Issue는 GitHub의 FastHub Repo에 제출됩니다.</string>
+    <string name="report_issue_warning">이 Issue는 GitHub의 OctoHub Repo에 제출됩니다.</string>
     <string name="block">차단</string>
     <string name="unblock">차단 취소</string>
     <string name="user_blocked">유저 차단됨</string>

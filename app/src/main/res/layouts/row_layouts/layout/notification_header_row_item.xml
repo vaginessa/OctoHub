@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="?colorAccent"
-        tools:text="k0shk0sh/FastHub"/>
+        tools:text="HardcodedCat/OctoHub"/>
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/markAsRead"

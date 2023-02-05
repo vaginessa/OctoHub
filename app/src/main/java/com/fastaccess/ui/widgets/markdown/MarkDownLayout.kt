@@ -27,9 +27,9 @@ class MarkDownLayout : LinearLayout {
     private lateinit var editorIconsHolder: HorizontalScrollView
     private lateinit var addEmojiView: View
 
-    private val sentFromFastHub: String by lazy {
-        "\n\n_" + resources.getString(R.string.sent_from_fasthub, AppHelper.deviceName, "",
-                "[" + resources.getString(R.string.app_name) + "](https://github.com/HardcodedCat/FastHub-RE/)") + "_"
+    private val sentFromOctoHub: String by lazy {
+        "\n\n_" + resources.getString(R.string.sent_from_octohub, AppHelper.deviceName, "",
+                "[" + resources.getString(R.string.app_name) + "](https://github.com/HardcodedCat/OctoHub/)") + "_"
     }
 
     var markdownListener: MarkdownListener? = null
@@ -136,10 +136,10 @@ class MarkDownLayout : LinearLayout {
             R.id.inlineCode -> MarkDownProvider.addInlinleCode(editText)
             R.id.signature -> {
                 markdownListener?.getEditText()?.let {
-                    if (!it.text.toString().contains(sentFromFastHub)) {
-                        it.setText("${it.text}$sentFromFastHub")
+                    if (!it.text.toString().contains(sentFromOctoHub)) {
+                        it.setText("${it.text}$sentFromOctoHub")
                     } else {
-                        it.setText(it.text.toString().replace(sentFromFastHub, ""))
+                        it.setText(it.text.toString().replace(sentFromOctoHub, ""))
                     }
                     editText.setSelection(it.text.length)
                     editText.requestFocus()

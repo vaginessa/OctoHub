@@ -35,9 +35,9 @@ import com.fastaccess.utils.setOnThrottleClickListener
 
 class EditorActivity : BaseActivity<EditorMvp.View, EditorPresenter>(), EditorMvp.View {
     private var participants: ArrayList<String>? = null
-    private val sentFromFastHub: String by lazy {
-        "\n\n_" + getString(R.string.sent_from_fasthub, AppHelper.deviceName, "",
-                "[" + getString(R.string.app_name) + "](https://github.com/HardcodedCat/FastHub-RE/)") + "_"
+    private val sentFromOctoHub: String by lazy {
+        "\n\n_" + getString(R.string.sent_from_octohub, AppHelper.deviceName, "",
+                "[" + getString(R.string.app_name) + "](https://github.com/HardcodedCat/OctoHub/)") + "_"
     }
 
     private val replyQuote: LinearLayout by lazy { viewFind(R.id.replyQuote)!! }
@@ -145,8 +145,8 @@ class EditorActivity : BaseActivity<EditorMvp.View, EditorPresenter>(), EditorMv
         if (item.itemId == R.id.submit) {
             if (PrefGetter.isSentViaEnabled) {
                 val temp = editText.savedText.toString()
-                if (!temp.contains(sentFromFastHub)) {
-                    editText.savedText = editText.savedText.toString() + sentFromFastHub
+                if (!temp.contains(sentFromOctoHub)) {
+                    editText.savedText = editText.savedText.toString() + sentFromOctoHub
                 }
             }
             presenter.onHandleSubmission(

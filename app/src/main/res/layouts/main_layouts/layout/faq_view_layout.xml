@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:autoLink="web"
                 android:padding="@dimen/spacing_xs_large"
-                tools:text="@string/fasthub_faq_description"/>
+                tools:text="@string/octohub_faq_description"/>
 
             <com.fastaccess.ui.widgets.FontButton
                 android:id="@+id/done"

@@ -16,7 +16,7 @@ import com.fastaccess.helper.ViewHelper
 import java.util.*
 
 /**
- * adopted class from Android source code & modified to fit FastHub need.
+ * adopted class from Android source code & modified to fit OctoHub need.
  */
 class LabelSpan private constructor(private val color: Int, dims: SpanDimensions) :
     ReplacementSpan() {

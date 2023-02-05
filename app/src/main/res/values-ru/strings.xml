@@ -8,8 +8,8 @@
     <string name="ok">OK</string>
     <string name="no_data">Доступные данные отсутствуют</string>
     <string name="search">Поиск</string>
-    <string name="please_login">Пожалуйста, войдите, чтобы использовать FastHub</string>
-    <string name="sign_in_to_github">Войдите в учётную запись GitHub, чтобы начать использовать FastHub</string>
+    <string name="please_login">Пожалуйста, войдите, чтобы использовать OctoHub</string>
+    <string name="sign_in_to_github">Войдите в учётную запись GitHub, чтобы начать использовать OctoHub</string>
     <string name="failed_login">Не удалось войти</string>
     <string name="sign_in">Войти</string>
     <string name="share">Поделиться</string>
@@ -36,7 +36,7 @@
     <string name="paths_only">В Расположениях</string>
     <string name="review_requests">Запросы на проверку</string>
     <string name="join_slack">Присоединиться к Slack</string>
-    <string name="join_slack_message">Хотите присоединиться к группе FastHub в Slack?</string>
+    <string name="join_slack_message">Хотите присоединиться к группе OctoHub в Slack?</string>
     <string name="successfully_invited">Приглашение отправлено</string>
     <string name="reply">Ответить</string>
     <string name="failed_selecting_image">Не удалось загрузить изображение.</string>
@@ -235,7 +235,7 @@
     <string name="author">Автор</string>
     <string name="fork_github">Проект на GitHub</string>
     <string name="send_email">Отправить сообщение эл. почты</string>
-    <string name="question_concerning_fasthub">Вопрос относительно FastHub</string>
+    <string name="question_concerning_octohub">Вопрос относительно OctoHub</string>
     <string name="feedback">Обратная связь</string>
     <string name="report_issue">Сообщить о проблеме</string>
     <string name="report_issue_here">Возникли проблемы? Сообщите о них здесь</string>
@@ -284,7 +284,7 @@
     <string name="no_events">События отсутствуют</string>
     <string name="no_pull_requests">Pull request`ы отсутствуют</string>
     <string name="no_search_results">Результаты отсутствуют</string>
-    <string name="read_write_permission_explanation">Пожалуйста, предоставьте FastHub доступ к следующим разрешениям, чтобы появилась возможность
+    <string name="read_write_permission_explanation">Пожалуйста, предоставьте OctoHub доступ к следующим разрешениям, чтобы появилась возможность
         хранить файлы на вашей SD карте, а также просматривать их</string>
     <string name="public_gists">Публичные Gist`ы</string>
     <string name="no_issues">Issue отсутствуют</string>
@@ -346,7 +346,7 @@
     <string name="basic_login">Войти через основную форму авторизации</string>
     <string name="no_orgs_description">Ознакомьтесь с информацией по ссылке, если вы состоите в каких-либо организациях, но они отсутствуют в списке.
         \nhttps://help.github.com/articles/about-third-party-application-restrictions\nP.S.: Вы также можете выполнить вход при помощи Маркера доступа (Access token), 
-        который может предоставить FastHub необходимые разрешения.</string>
+        который может предоставить OctoHub необходимые разрешения.</string>
     <string name="insert">Вставить</string>
     <string name="select">Выбрать</string>
     <string name="select_picture">Выберите изображение</string>
@@ -362,7 +362,7 @@
     <string name="watchers">Наблюдатели</string>
     <string name="reviewers">Рецензенты</string>
     <string name="no_reviewers">Рецензенты отсутствуют</string>
-    <string name="sent_from_fasthub">Отправлено с моего %1$s с помощью %2$s%3$s</string>
+    <string name="sent_from_octohub">Отправлено с моего %1$s с помощью %2$s%3$s</string>
     <string name="enable_signature">Включить подпись</string>
     <string name="enable_signature_summary">Включить подпись &quot;отправлено с помощью &quot;</string>
     <string name="enable_signature_box">Включить галочку подписи</string>
@@ -421,22 +421,22 @@
     <string name="too_large_changes">Слишком много изменений для отображения. Посмотрите их, пожалуйста, в браузере</string>
     <string name="project">Проект</string>
     <string name="please_read">ПОЖАЛУЙСТА, ОЗНАКОМЬТЕСЬ!</string>
-    <string name="fasthub_faq_description" formatted="false">
+    <string name="octohub_faq_description" formatted="false">
         <![CDATA[
         <h5>• Почему я не вижу Организаций, в которых состою?</h5>
-        <p>Перейдите по ссылке https://github.com/settings/applications, выберите FastHub, напротив \'Organization access\' (\'Доступ к организациям\') нажмите кнопку \'Grant\' (\'Предоставить\').
+        <p>Перейдите по ссылке https://github.com/settings/applications, выберите OctoHub, напротив \'Organization access\' (\'Доступ к организациям\') нажмите кнопку \'Grant\' (\'Предоставить\').
         Хорошей и простой альтернативой будет выполнение входа при помощи Маркера доступа (Access Token).</p>
         <h5>• Я попытался выполнить вход, используя Маркер доступа (Access Token) и одноразовый пароль, но безуспешно. В чём дело?</h5>
         <p>Вы не сможете выполнить вход при помощи Маркера доступа и одноразового пароля. Так как такие пароли имеют ограниченный срок действия, вам придётся проделывать операцию входа каждые несколько секунд.</p>
         <h5>• Почему вики-страницы моих Частных и Корпоративных репозиториев недоступны?</h5>
-        <p>Из-за того, что FastHub получает содержимое Wiki-страниц методом парсинга, необходимый для работы с Частными репозиториями маркер сессии невозможно получить.</p>
+        <p>Из-за того, что OctoHub получает содержимое Wiki-страниц методом парсинга, необходимый для работы с Частными репозиториями маркер сессии невозможно получить.</p>
         <h5>• Я вошёл в свой Корпоративный аккаунт. Почему я могу взаимодействовать только с Корпоративной версией GitHub?</h5>
-        <p>Ну, это логично, что вы не можете работать с чем-либо ещё, кроме Корпоративной части GitHub. FastHub пытается получить все возможные права доступа, но в большинстве
+        <p>Ну, это логично, что вы не можете работать с чем-либо ещё, кроме Корпоративной части GitHub. OctoHub пытается получить все возможные права доступа, но в большинстве
         случаев это не работает, так как ваши данные авторизации не находятся на сервере GitHub. Но в <b>некоторых</b> случаях маркер OAuth вашего аккаунта GitHub может сработать.</p>
         <h5>• Почему я имею проблемы при редактировании Issue/Pull Request`а?</h5>
-        <p>Если редактирование Issue и/или Pull Request`ов в репозиториях Публичных Организаций недоступно, то обратитесь к администраторам этих Организаций, чтобы они предоставили доступ FastHub. В качестве альтернативы вы можете выполнить вход при помощи Маркера доступа (Access Token).</p>
+        <p>Если редактирование Issue и/или Pull Request`ов в репозиториях Публичных Организаций недоступно, то обратитесь к администраторам этих Организаций, чтобы они предоставили доступ OctoHub. В качестве альтернативы вы можете выполнить вход при помощи Маркера доступа (Access Token).</p>
         <h5>• Я обнаружил ошибку! / Я хочу предложить вам ввести новую функцию!</h5>
-        <p>Чтобы сообщить об ошибке или сделать предложение, перейдите по ссылке https://github.com/HardcodedCat/FastHub-RE/issues/new и создайте новый Issue. Я призываю вас искать похожие Issue перед открытием нового.
+        <p>Чтобы сообщить об ошибке или сделать предложение, перейдите по ссылке https://github.com/HardcodedCat/OctoHub/issues/new и создайте новый Issue. Я призываю вас искать похожие Issue перед открытием нового.
         Любой дублирующийся Issue будет помечен как дубликат и закрыт.</p>
     ]]></string>
     <string name="faq">ЧаВо</string>
@@ -447,7 +447,7 @@
     <string name="search_results_warning">Пожалуйста, используйте более конкретный поисковый запрос</string>
     <string name="disable_loading_image_title">Откл. загрузку изображений</string>
     <string name="disable_loading_image_summary">Отключить загрузку изображений в режиме мобильной передачи данных</string>
-    <string name="report_issue_warning">Новый Issue будет опубликован в репозитории FastHub</string>
+    <string name="report_issue_warning">Новый Issue будет опубликован в репозитории OctoHub</string>
     <string name="block">Заблокировать</string>
     <string name="unblock">Разблокировать</string>
     <string name="user_blocked">Пользователь заблокирован</string>

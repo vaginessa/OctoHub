@@ -218,7 +218,7 @@
     <string name="author">المؤلف</string>
     <string name="fork_github">إنشاء فرع في جِتْ هَب</string>
     <string name="send_email">إرسال بريد إلكتروني</string>
-    <string name="question_concerning_fasthub">سؤال حول فاست هَبْ</string>
+    <string name="question_concerning_octohub">سؤال حول فاست هَبْ</string>
     <string name="feedback">ملاحظة</string>
     <string name="report_issue">التبليغ عن عِلّة</string>
     <string name="report_issue_here">واجهت علة؟ بلغ عنها هنا</string>
@@ -356,7 +356,7 @@
     <string name="watchers">المشاهدون</string>
     <string name="reviewers">المراجعون</string>
     <string name="no_reviewers">لا مراجعون</string>
-    <string name="sent_from_fasthub">تم الإرسال من %1$s باستخدام %2$s%3$s</string>
+    <string name="sent_from_octohub">تم الإرسال من %1$s باستخدام %2$s%3$s</string>
     <string name="enable_signature">تفعيل التوقيع</string>
     <string name="enable_signature_summary">تفعيل توقيع "تم الإرسال بواسطة"</string>
     <string name="enable_signature_box">تفعيل مربع التوقيع</string>

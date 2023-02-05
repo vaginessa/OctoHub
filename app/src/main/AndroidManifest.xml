@@ -84,7 +84,7 @@
 
                 <data
                     android:host="login"
-                    android:scheme="fasthub" />
+                    android:scheme="octohub" />
             </intent-filter>
         </activity>
         <activity
@@ -177,7 +177,7 @@
                 android:value=".ui.modules.main.MainActivity" />
         </activity>
         <activity
-            android:name=".ui.modules.about.FastHubAboutActivity"
+            android:name=".ui.modules.about.OctoHubAboutActivity"
             android:theme="@style/AppTheme.AboutActivity.Light" />
         <activity
             android:name=".ui.modules.pinned.PinnedReposActivity"

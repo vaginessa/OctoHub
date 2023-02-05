@@ -15,7 +15,7 @@ import com.fastaccess.provider.rest.RestProvider
 class CheckVersionService : IntentService("CheckVersionService") {
     override fun onHandleIntent(p0: Intent?) {
         val d = RxHelper.getObservable(RestProvider.getRepoService(false)
-                .getLatestRelease("HardcodedCat", "FastHub-RE"))
+                .getLatestRelease("HardcodedCat", "OctoHub"))
                 .subscribe({ t ->
                     t?.let {
                         Toast.makeText(App.getInstance(), if (BuildConfig.VERSION_NAME.contains(it.tagName!!))

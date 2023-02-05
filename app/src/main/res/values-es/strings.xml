@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
            tools:ignore="MissingTranslation">
 <!-- PREVIOUSLY UN-TRANSLATED TERMS, NOW TRANSLATED ACCORDING TO ISSUE #1329  -->
-<string name="pro_features_list" translatable="false"><![CDATA[Obten las características PRO de FastHub, incluyen:\n
+<string name="pro_features_list" translatable="false"><![CDATA[Obten las características PRO de OctoHub, incluyen:\n
         • Todos los Temas PRO\n
         • Revisión de PRs y comentarios en línea (PRs y Commits)\n
-        • Commit desde FastHub (Editar, Crear y borrar archivos)\n
+        • Commit desde OctoHub (Editar, Crear y borrar archivos)\n
         • Soporta dos métodos extra para Merging (Rebase y Squash)\n
         • Login a ilimitadas cuentas\n
         • Editar y agregar Gists ilimitados\n
@@ -30,8 +30,8 @@
     <string name="ok">OK</string>
     <string name="no_data">No hay información disponible</string>
     <string name="search">Buscar</string>
-    <string name="please_login">Por favor, inicie sesión para seguir usando FastHub</string>
-    <string name="sign_in_to_github">Inicie sesión usando su cuenta de GitHub para usar FastHub</string>
+    <string name="please_login">Por favor, inicie sesión para seguir usando OctoHub</string>
+    <string name="sign_in_to_github">Inicie sesión usando su cuenta de GitHub para usar OctoHub</string>
     <string name="failed_login">Fallo iniciando sesión</string>
     <string name="sign_in">Iniciar sesión</string>
     <string name="share">Compartir</string>
@@ -217,7 +217,7 @@
     <string name="this_value">Esto</string>
     <string name="commits_reflected">Los commits han sido cambiados a la rama seleccionada</string>
     <string name="general_settings">General</string>
-    <string name="background_job_summary">Cambiar qué tan frecuentemente FastHub busca notificaciones</string>
+    <string name="background_job_summary">Cambiar qué tan frecuentemente OctoHub busca notificaciones</string>
     <string name="background_job_title">Intervalo de búsqueda de notificaciones</string>
     <string name="every">Cada</string>
     <string name="behavior">Comportamiento</string>
@@ -241,7 +241,7 @@
     <string name="author">Autor</string>
     <string name="fork_github">Fork en GitHub</string>
     <string name="send_email">Enviar un email</string>
-    <string name="question_concerning_fasthub">¿Tienes preguntas sobre FastHub?</string>
+    <string name="question_concerning_octohub">¿Tienes preguntas sobre OctoHub?</string>
     <string name="feedback">Comentarios</string>
     <string name="report_issue">Reportar un error</string>
     <string name="report_issue_here">¿Tienes un problema? Repórtalo aquí</string>
@@ -289,7 +289,7 @@
     <string name="no_events">No hay eventos</string>
     <string name="no_pull_requests">No hay pull requests</string>
     <string name="no_search_results">Búsqueda sin resultados</string>
-    <string name="read_write_permission_explanation">Por favor acepta los permisos para que FastHub almacene archivos en tu dispositivo para poder verlos</string>
+    <string name="read_write_permission_explanation">Por favor acepta los permisos para que OctoHub almacene archivos en tu dispositivo para poder verlos</string>
     <string name="public_gists">Gists publicos</string>
     <string name="no_issues">No hay issues</string>
     <string name="no_unread_notifications">No hay notificaciones sin leer.</string>
@@ -350,8 +350,8 @@
     <string name="basic_login">Iniciar sesión con autorización básica</string>
     <string name="no_orgs_description">Si te encuentras unido a una organización y no puedes verla aquí por favor sigue
 			el vínculo debajo.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nPD: Podrías
-			usar el acceso con token lo cual haría que FastHub acceda a tu lista de organizaciones.\nTambién podrías abrir
-			https://github.com/settings/applications y buscar a FastHub, abrirla y luego bajar hasta Acceso a Organizaciones
+			usar el acceso con token lo cual haría que OctoHub acceda a tu lista de organizaciones.\nTambién podrías abrir
+			https://github.com/settings/applications y buscar a OctoHub, abrirla y luego bajar hasta Acceso a Organizaciones
 			y tocar el botón Conceder.</string>
     <string name="insert">Insertar</string>
     <string name="select">Seleccionar</string>
@@ -376,7 +376,7 @@
     <string name="paths_only">En carpetas</string>
     <string name="review_requests">Revisar solicitudes</string>
     <string name="join_slack">Unirse al Slack</string>
-    <string name="join_slack_message">¿Quisieras unirte al grupo de Slack de FastHub?</string>
+    <string name="join_slack_message">¿Quisieras unirte al grupo de Slack de OctoHub?</string>
     <string name="successfully_invited">Invitación enviada con éxito</string>
     <string name="reply">Responder</string>
     <string name="failed_selecting_image">Falló al cargar la imagen.</string>
@@ -384,7 +384,7 @@
     <string name="watchers">Watchers</string>
     <string name="reviewers">Revisores</string>
     <string name="no_reviewers">Sin revisores</string>
-    <string name="sent_from_fasthub">Enviado desde mi %1$s usando %2$s%3$s</string>
+    <string name="sent_from_octohub">Enviado desde mi %1$s usando %2$s%3$s</string>
     <string name="enable_signature">Habilitar firma</string>
     <string name="enable_signature_summary">Habilitar mensaje \'enviado desde\'</string>
     <string name="enable_signature_box">Habilitar botón de firma</string>
@@ -451,7 +451,7 @@
     <string name="search_results_warning">Muchas respuestas \nMostrando la máxima cantidad que soporta la API</string>
     <string name="disable_loading_image_title">Deshabilitar descarga de imágenes</string>
     <string name="disable_loading_image_summary">Deshabilita la descarga de imágenes mientras se usan datos móviles.</string>
-    <string name="report_issue_warning">Este issue será enviado al repositorio GitHub de FastHub</string>
+    <string name="report_issue_warning">Este issue será enviado al repositorio GitHub de OctoHub</string>
     <string name="block">Bloquear</string>
     <string name="unblock">Desbloquear</string>
     <string name="user_blocked">Usuario bloqueado</string>

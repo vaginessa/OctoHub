@@ -27,7 +27,7 @@ import com.fastaccess.ui.modules.user.UserPagerActivity.Companion.startActivity
 import com.mikepenz.aboutlibraries.LibsBuilder
 import es.dmoral.toasty.Toasty
 
-class FastHubAboutActivity : MaterialAboutActivity() {
+class OctoHubAboutActivity : MaterialAboutActivity() {
     private lateinit var malRecyclerview: View
 
     val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
@@ -97,7 +97,7 @@ class FastHubAboutActivity : MaterialAboutActivity() {
                 .subText(R.string.app_description)
                 .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
                 .setOnClickAction {
-                    startActivity(RepoPagerActivity.createIntent(this, "FastHub-RE", "HardcodedCat"))
+                    startActivity(RepoPagerActivity.createIntent(this, "OctoHub", "HardcodedCat"))
                 }
                 .build())
             .addItem(MaterialAboutActionItem.Builder()
@@ -177,7 +177,7 @@ class FastHubAboutActivity : MaterialAboutActivity() {
                     getString(R.string.send_email),
                     true,
                     getString(R.string.email_address),
-                    getString(R.string.question_concerning_fasthub)
+                    getString(R.string.question_concerning_octohub)
                 )
             )
     }

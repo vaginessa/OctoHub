@@ -44,7 +44,7 @@ open class FontEditText : AppCompatEditText {
             setText(
                 """
     I tried, but your OEM just sucks because they modify the framework components and therefore causing the app to crash!.
-    FastHub
+    OctoHub
     """.trimIndent()
             )
             Report.reportCatchException(e)

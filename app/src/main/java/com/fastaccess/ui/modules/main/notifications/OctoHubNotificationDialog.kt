@@ -6,9 +6,9 @@ import android.text.Html
 import android.view.View
 import androidx.fragment.app.FragmentManager
 import com.fastaccess.R
-import com.fastaccess.data.entity.FastHubNotification
-import com.fastaccess.data.entity.FastHubNotification.NotificationType
-import com.fastaccess.data.entity.dao.FastHubNotificationDao
+import com.fastaccess.data.entity.OctoHubNotification
+import com.fastaccess.data.entity.OctoHubNotification.NotificationType
+import com.fastaccess.data.entity.dao.OctoHubNotificationDao
 import com.fastaccess.helper.BundleConstant
 import com.fastaccess.helper.Bundler
 import com.fastaccess.helper.PrefGetter
@@ -25,7 +25,7 @@ import io.reactivex.disposables.Disposable
 /**
  * Created by Kosh on 17.11.17.
  */
-class FastHubNotificationDialog :
+class OctoHubNotificationDialog :
     BaseDialogFragment<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>>() {
 
     init {
@@ -34,7 +34,7 @@ class FastHubNotificationDialog :
     }
 
     private val model by lazy {
-        arguments?.getParcelable<FastHubNotification>(BundleConstant.ITEM)
+        arguments?.getParcelable<OctoHubNotification>(BundleConstant.ITEM)
     }
 
     override fun onFragmentCreated(view: View, savedInstanceState: Bundle?) {
@@ -52,7 +52,7 @@ class FastHubNotificationDialog :
             }
             it.read = true
             presenter.manageObservable(
-                FastHubNotificationDao.update(it).toObservable()
+                OctoHubNotificationDao.update(it).toObservable()
             )
         } ?: dismiss()
     }
@@ -63,20 +63,20 @@ class FastHubNotificationDialog :
 
     companion object {
         @JvmStatic
-        private val TAG = FastHubNotificationDialog::class.java.simpleName
+        private val TAG = OctoHubNotificationDialog::class.java.simpleName
 
-        fun newInstance(model: FastHubNotification): FastHubNotificationDialog {
-            val fragment = FastHubNotificationDialog()
+        fun newInstance(model: OctoHubNotification): OctoHubNotificationDialog {
+            val fragment = OctoHubNotificationDialog()
             fragment.arguments = Bundler.start()
                 .put(BundleConstant.ITEM, model)
                 .end()
             return fragment
         }
 
-        fun show(fragmentManager: FragmentManager, model: FastHubNotification? = null): Disposable {
+        fun show(fragmentManager: FragmentManager, model: OctoHubNotification? = null): Disposable {
             val notificationObservable = if (model != null)
                 Observable.just(Optional.ofNullable(model)) else
-                FastHubNotificationDao.getLatest().toObservable()
+                OctoHubNotificationDao.getLatest().toObservable()
             val disposable = RxHelper.getObservable(
                 notificationObservable
                     .flatMap {

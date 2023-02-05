@@ -35,7 +35,7 @@ class FaqActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>>(
         textView.post {
             HtmlHelper.htmlIntoTextView(
                 textView,
-                getString(R.string.fasthub_faq_description),
+                getString(R.string.octohub_faq_description),
                 textView.width
             )
         }

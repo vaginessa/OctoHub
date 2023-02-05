@@ -37,7 +37,7 @@ class PinnedReposPresenter : BasePresenter<PinnedReposMvp.View>(), PinnedReposMv
 
     override fun onItemLongClick(position: Int, v: View?, item: PinnedRepos) {
         if (view != null) {
-            if (item.repoFullName.equals("k0shk0sh/FastHub", ignoreCase = true)) {
+            if (item.repoFullName.equals("HardcodedCat/OctoHub", ignoreCase = true)) {
                 return
             }
             view!!.onDeletePinnedRepo(item.id, position)

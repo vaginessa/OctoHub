@@ -69,11 +69,11 @@ object AppHelper {
         return themeType != PrefGetter.LIGHT
     }
 
-    fun getFastHubIssueTemplate(enterprise: Boolean): String {
+    fun getOctoHubIssueTemplate(enterprise: Boolean): String {
         val brand = if (!isEmulator) Build.BRAND else "Android Emulator"
         val model = if (!isEmulator) DeviceNameGetter.instance.deviceName else "Android Emulator"
         val builder = StringBuilder()
-            .append("**FastHub-RE Version: ").append(BuildConfig.VERSION_NAME)
+            .append("**OctoHub Version: ").append(BuildConfig.VERSION_NAME)
             .append(if (enterprise) " Enterprise**" else "**").append("  \n")
             .append(if (!isInstalledFromPlaySore(App.getInstance())) "**APK Source: Unknown**  \n" else "")
             .append("**Android Version: ").append(Build.VERSION.RELEASE.toString())

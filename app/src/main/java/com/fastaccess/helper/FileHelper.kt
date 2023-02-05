@@ -17,7 +17,7 @@ object FileHelper {
     private var PATH: String? = null
     fun getExternalDataPath(context: Context): String {
         if (PATH == null) {
-            PATH = context.getExternalFilesDir(null).toString() + File.separator + "FastHub"
+            PATH = context.getExternalFilesDir(null).toString() + File.separator + "OctoHub"
         }
         return PATH!!
     }

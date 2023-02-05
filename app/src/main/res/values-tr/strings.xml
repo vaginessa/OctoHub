@@ -7,8 +7,8 @@
     <string name="ok">Tamam</string>
     <string name="no_data">Erişilebilecek veri bulunmuyor</string>
     <string name="search">Arama</string>
-    <string name="please_login">FastHub\'ı kullanmaya devam etmek için lütfen giriş yapınız</string>
-    <string name="sign_in_to_github">FastHub\'ı en iyi şekilde kullanmak için GitHub hesabınız ile giriş yapınız</string>
+    <string name="please_login">OctoHub\'ı kullanmaya devam etmek için lütfen giriş yapınız</string>
+    <string name="sign_in_to_github">OctoHub\'ı en iyi şekilde kullanmak için GitHub hesabınız ile giriş yapınız</string>
     <string name="failed_login">Giriş yapma başarısız</string>
     <string name="sign_in">Giriş yap</string>
     <string name="share">Paylaş</string>
@@ -183,13 +183,13 @@
     <string name="this_value">this</string>
     <string name="commits_reflected">Commit\'ler seçilen branch\'a göre değişirildi</string>
     <string name="general_settings">Genel</string>
-    <string name="background_job_summary">FastHub\'ın ne sıklıkla bildirimleri kontrol edeceğini seçiniz</string>
+    <string name="background_job_summary">OctoHub\'ın ne sıklıkla bildirimleri kontrol edeceğini seçiniz</string>
     <string name="background_job_title">Bildirim senkronizasyon aralığı</string>
     <string name="every">Her</string>
     <string name="behavior">Görünüş</string>
     <string name="recycler_view_animation_summary">Liste animasyonlarını etkinleştir</string>
     <string name="recycler_view_animation_title">Liste animasyonları</string>
-    <string name="back_button_summary">FastHub\'dan yanlışlıkla çıkmayı engelleyen diyaloğu devre dışı bırak</string>
+    <string name="back_button_summary">OctoHub\'dan yanlışlıkla çıkmayı engelleyen diyaloğu devre dışı bırak</string>
     <string name="back_button_title">Çıkmak için bir kez daha geri tuşuna basınız</string>
     <string name="unsaved_data_warning">Kaydedilmeyen değişiklikler göz ardı edilecektir</string>
     <string name="private_repo">Gizli</string>
@@ -199,7 +199,7 @@
     <string name="author">Yazar</string>
     <string name="fork_github">GitHub\'da Fork\'la</string>
     <string name="send_email">Email gönder</string>
-    <string name="question_concerning_fasthub">FastHub ile ilgili soru</string>
+    <string name="question_concerning_octohub">OctoHub ile ilgili soru</string>
     <string name="feedback">Geri bildirim</string>
     <string name="report_issue">Sorun raporla</string>
     <string name="report_issue_here">Yaşadığınız bir sorun varsa, buradan iletebilirsiniz</string>
@@ -245,7 +245,7 @@
     <string name="no_events">Hiç event yok</string>
     <string name="no_pull_requests">Pull request bulunamadı</string>
     <string name="no_search_results">Eşleşen sonuç bulunamadı</string>
-    <string name="read_write_permission_explanation">FastHub\'un depolama alanınıza erişmesi için lütfen ilgili izinleri veriniz</string>
+    <string name="read_write_permission_explanation">OctoHub\'un depolama alanınıza erişmesi için lütfen ilgili izinleri veriniz</string>
     <string name="public_gists">Herkese Açık Gist\'ler</string>
     <string name="no_issues">Issue bulunamadı</string>
     <string name="no_unread_notifications">Okunmamış bildirim bulunmuyor.</string>
@@ -300,7 +300,7 @@
     <string name="login_with_personal_token">Personal token ile giriş yap</string>
     <string name="personal_token">Personal Token</string>
     <string name="basic_login">Basic auth ile giriş yap</string>
-    <string name="no_orgs_description">Eğer organizasyonunuz varsa ve onları burada göremiyorsanız lütfen aşağıdaki link\'i takip ediniz.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nNOT: FastHub\'ın access token kullanmamasının sebebi 2FA etkinleştirildiğinde OTP kodu en fazla birkaç dakika etkin olduğundan, bu da FastHub\'dan otomatik olarak çıkış yapmanıza ve GitHub\'ın unauthorized access yanıtını vermesine sebep olmaktadır.</string>
+    <string name="no_orgs_description">Eğer organizasyonunuz varsa ve onları burada göremiyorsanız lütfen aşağıdaki link\'i takip ediniz.\nhttps://help.github.com/articles/about-third-party-application-restrictions\nNOT: OctoHub\'ın access token kullanmamasının sebebi 2FA etkinleştirildiğinde OTP kodu en fazla birkaç dakika etkin olduğundan, bu da OctoHub\'dan otomatik olarak çıkış yapmanıza ve GitHub\'ın unauthorized access yanıtını vermesine sebep olmaktadır.</string>
     <string name="support_with_2_00">2.00$ bağışla</string>
     <string name="support_with_5_00">5.00$ bağışla</string>
     <string name="support_with_10_00">10.00$ bağışla</string>
@@ -327,7 +327,7 @@
     <string name="paths_only">Yollar arasında</string>
     <string name="review_requests">İstekleri Gözden Geçir</string>
     <string name="join_slack">Slack\'e Katıl</string>
-    <string name="join_slack_message">FastHub Slack grubuna katılmak ister misiniz?</string>
+    <string name="join_slack_message">OctoHub Slack grubuna katılmak ister misiniz?</string>
     <string name="successfully_invited">Davet başarılı</string>
     <string name="reply">Cevapla</string>
     <string name="failed_selecting_image">Resim yüklenemedi.</string>
@@ -335,7 +335,7 @@
     <string name="watchers">İzleyenler</string>
     <string name="reviewers">İnceleyenler</string>
     <string name="no_reviewers">İnceleyen yok</string>
-    <string name="sent_from_fasthub">%1$s cihazımdan %2$s%3$s kullanılarak iletildi.</string>
+    <string name="sent_from_octohub">%1$s cihazımdan %2$s%3$s kullanılarak iletildi.</string>
     <string name="enable_signature">İmzayı Etkinleştir</string>
     <string name="enable_signature_summary">İmza ile gönderimi etkinleştir</string>
     <string name="enable_signature_box">İmza Kutusunu Etkinleştir</string>
@@ -396,26 +396,26 @@
     <string name="too_large_changes">Gösterim için çok fazla değişiklik var. Lütfen tarayıcıdan bakın.</string>
     <string name="project">Proje</string>
     <string name="please_read">LÜTFEN OKUYUN!</string>
-    <string name="fasthub_faq_description">
+    <string name="octohub_faq_description">
         <![CDATA[
         <h5>• Neden <i>Gizli</i> ya da <i>Açık</i> <b>Organizasyonlarımı</b> göremiyorum?</h5>
-        <p>https://github.com/settings/applications adresini açın ve FastHub\'ı arayın ve açın, ardından "Organization Access"i bulun ve "Grant" butonuna basın
+        <p>https://github.com/settings/applications adresini açın ve OctoHub\'ı arayın ve açın, ardından "Organization Access"i bulun ve "Grant" butonuna basın
         Alternatif olarak <b>Erişim Kodu</b> yoluyla da giriş yapabilirsiniz.</p>
 
         <h5>• Erişim Kodunu ve de Tek-Seferlik Şifre yöntemini ullanarak giriş yapmayı denedim ama başaramadım. Sorun ne?</h5>
         <p>Erişim Kodu ve Tek Seferlik Şifre yöntemleriyle aynı anda giriş yapamazınız. bu giriş yöntemlerinin kısa ömründen dolayı birkaç saniyede bir girişi yenilemeniz gerekir.</p>
 
         <h5>• Neden Özel ya da Enterprise Repolarımın Wikileri görünmüyor?</h5>
-        <p>FastHub GitHub\'ın wikilerini çektiği için uygulama Gizli repolar için gereken erişim kodlarını alamıyor.</p>
+        <p>OctoHub GitHub\'ın wikilerini çektiği için uygulama Gizli repolar için gereken erişim kodlarını alamıyor.</p>
 
         <h5>• Enterprise hesabıma giriş yaptım. Neden Enterprise GitHub dışında herhangi bir şeye erişemiyorum?</h5>
-        <p>Yani, mantıksal olarak da Enterprise dışında bir şeye erişemiyor olmanız lazım. FastHub bir çok izni almaya çalışıyor fakat ama çoğu zaman fazla da bir şey yapamaz çünkü zaten giriş bilgileriniz GitHub\'ın sunucularında saklanmıyor. Ama <b>bazı</b> durumlarda GitHub OAuth kodu işe yarayabilir.</p>
+        <p>Yani, mantıksal olarak da Enterprise dışında bir şeye erişemiyor olmanız lazım. OctoHub bir çok izni almaya çalışıyor fakat ama çoğu zaman fazla da bir şey yapamaz çünkü zaten giriş bilgileriniz GitHub\'ın sunucularında saklanmıyor. Ama <b>bazı</b> durumlarda GitHub OAuth kodu işe yarayabilir.</p>
 
         <h5>• Neden Issue\'leri ya da Pull Requestleri (PR) düzenlerken sorun yaşıyorum?</h5>
-        <p>Eğer bir organizasyonun açık bir reposundaki issue/PR\'ları düzenlerken sorun yaşıyorsanız organizasyonuzla FastHub\'a erişim sağlamaları yönünde görüşün. Alternatif olarak Erişim Kodu ile giriş yapabilirsiniz.</p>
+        <p>Eğer bir organizasyonun açık bir reposundaki issue/PR\'ları düzenlerken sorun yaşıyorsanız organizasyonuzla OctoHub\'a erişim sağlamaları yönünde görüşün. Alternatif olarak Erişim Kodu ile giriş yapabilirsiniz.</p>
 
         <h5>• Sorunlarım var! / Bir şeyler önermek istiyorum!</h5>
-        <p>https://github.com/HardcodedCat/FastHub-RE/issues/new adresine gidin ve herhangi bir hata ya da öneri için bir issue açın. Bundan önce de daha önce açılmış benzer bir issue var mı diye aramanızı da şiddetle tavsiye ederim. Kopya olarak işaretlenmiş issueler anında kapatılacaktır.</p>
+        <p>https://github.com/HardcodedCat/OctoHub/issues/new adresine gidin ve herhangi bir hata ya da öneri için bir issue açın. Bundan önce de daha önce açılmış benzer bir issue var mı diye aramanızı da şiddetle tavsiye ederim. Kopya olarak işaretlenmiş issueler anında kapatılacaktır.</p>
     ]]></string>
     <string name="faq">SSS</string>
     <string name="comments_added_successfully">Yorumlar başarıyla eklendi</string>
