@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:clickable="true"
-    android:fitsSystemWindows="true"
+    android:fitsSystemWindows="false"
     android:focusable="true"
     app:headerLayout="@layout/drawer_header"
     app:itemBackground="@color/transparent"
