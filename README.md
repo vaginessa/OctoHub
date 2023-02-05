@@ -1,17 +1,16 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Releases](https://img.shields.io/github/release/HardcodedCat/FastHub-RE.svg)](https://github.com/HardcodedCat/FastHub-RE/releases/latest)
 
-## This project is on hold due to no time to put on it. The project is not dead, just delayed. Meanwhile any PR and bug report will be still accepted and processed, release build will be available anytime if a important bug is addressed, just poke me. Let's hope for a better time to bring the app back from the death :)
-
-# FastHub-RE(vival)
+# OctoHub
 <p align="center"><img src=".github/assets/web_hi_res_512.png" width=256 alt="Logo"></p>
 
-**This fork aim to attempt the revival of the awesome FastHub application. The code base is based on a set of changes done on the original [FastHub repository](https://github.com/k0shk0sh/FastHub) by [thermatk](https://github.com/thermatk/FastHub-Libre)**. We can sum up these changes with:
+**This fork aim to attempt the revival of the awesome FastHub-RE application. The code base is based on a set of changes done on the original [FastHub repository](https://github.com/k0shk0sh/FastHub) by [thermatk](https://github.com/thermatk/FastHub-Libre) and [LightDestory](https://github.com/LightDestory/FastHub-RE)**. We can sum up these changes with:
 
 - **Porting to Kotlin and Gradle upgrade, all thanks to [zeromake](https://github.com/zeromake/FastHub), he is doing a god-like work!**
 - Cleaned from blobs (Removed firebase dependencies and analytic stuff);
 - Notifications works using native JobScheduler without any push messaging involved, although the minimum supported update interval becomes 20 minutes;
 - It's possible to unlock premium features, if needed, in a manner which nudges to still try to find a way and support upstream developers. **Once again, please find a way to financially support upstream developers**.
+
 
 The reasons behind the initial changes by thermatk are:
 
@@ -27,9 +26,9 @@ The reasons behind the initial changes by thermatk are:
     - The unlocking page and the way to this page is made respective and nudging to go and support
 
 
-Moreover, a set of fixes has been cherry picked from [KaustubhPatange](https://github.com/KaustubhPatange/FastHub)'s fork.
+Moreover, a set of fixes has been cherry picked from [KaustubhPatange](https://github.com/KaustubhPatange/FastHub) and [figonzal1](https://github.com/figonzal1/FastHub-RE/) forks.
 
-__My project, FastHub-RE, tries to continue the awesome job of the original and currently unmaintained FastHub and the good intentions of FastHub-Libre.__
+__My project, OctoHub, tries to continue the awesome job of the original and currently unmaintained FastHub and the good intentions of FastHub-Libre and FastHub-RE.__
 
 ## Description
 Yet another **open-source** GitHub client app based on FastHub looking forward for newer features.
