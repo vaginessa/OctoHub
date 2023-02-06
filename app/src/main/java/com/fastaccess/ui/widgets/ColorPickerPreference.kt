@@ -67,13 +67,22 @@ class ColorPickerPreference : Preference, OnChooseColorListener {
         colorPicker.setOnChooseColorListener(this)
         colorPicker.show()
     }
+    
+    // https://stackoverflow.com/a/49896254
+    //private String getThemeColorInHex(@NonNull Context context, @NonNull String colorName, @AttrRes int attribute) {
+       // TypedValue outValue = new TypedValue();
+      //  context.getTheme().resolveAttribute(attribute, outValue, true);
+     //   return String.format("#%06X", (0xFFFFFF & outValue.data));
+    //}
 
     override fun onBindViewHolder(holder: PreferenceViewHolder) {
         super.onBindViewHolder(holder)
         val colorButton = holder.findViewById(R.id.color) as Button
         colorButton.setBackgroundResource(R.drawable.circle_shape)
-        colorButton.background.colorFilter = BlendModeColorFilterCompat.createBlendModeColorFilterCompat(selectedColor, BlendModeCompat.SRC_IN)
+        //String accentColorHex = getThemeColorInHex(this, "colorAccent", R.attr.colorAccent);
+        colorButton.background.colorFilter = BlendModeColorFilterCompat.createBlendModeColorFilterCompat(R.attr.colorAccent, BlendModeCompat.SRC_IN)
     }
+
 
     private val selectedColor: Int
         get() {

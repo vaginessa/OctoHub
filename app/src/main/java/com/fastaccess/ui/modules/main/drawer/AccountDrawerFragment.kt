@@ -92,11 +92,9 @@ class AccountDrawerFragment : BaseFragment<MainMvp.View, BasePresenter<MainMvp.V
         }
         addAccLayout.setOnClickListener {
             postDelayedAndClose {
-                if (PrefGetter.isEnterpriseEnabled) {
-                    val intent = Intent(it.context, LoginChooserActivity::class.java)
-                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
-                    startActivity(intent)
-                }
+                val intent = Intent(it.context, LoginChooserActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+                startActivity(intent)
             }
         }
         repos.setOnClickListener {

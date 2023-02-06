@@ -88,9 +88,7 @@ class LoginChooserActivity : BaseActivity<LoginChooserMvp.View, LoginChooserPres
 
     internal fun onEnterpriseClicked() {
         if (LoginDao.hasNormalLogin().blockingGet()) {
-            if (PrefGetter.isEnterpriseEnabled) {
-                LoginActivity.start(this, isBasicAuth = true, isEnterprise = true)
-            }
+            LoginActivity.start(this, isBasicAuth = true, isEnterprise = true)
         } else {
             MessageDialogView.newInstance(
                 getString(R.string.warning), getString(R.string.enterprise_login_warning),

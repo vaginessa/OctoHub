@@ -8,7 +8,6 @@ import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.Toolbar
 import com.fastaccess.R
 import com.fastaccess.helper.*
@@ -81,20 +80,6 @@ class ThemeFragment : BaseFragment<ThemeFragmentMvp.View, ThemeFragmentPresenter
         }
     }
 
-    private val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        val data = result.data
-        if (result.resultCode == Activity.RESULT_OK && data != null) {
-            val productKey = data.getStringExtra(BundleConstant.ITEM)
-            productKey?.let {
-                when (it) {
-                    "placeholder" -> setTheme(getString(R.string.amlod_theme_mode))
-                    "placeholder" -> setTheme(getString(R.string.mid_night_blue_theme_mode))
-                    "placeholder" -> setTheme(getString(R.string.bluish_theme))    
-                }
-            }
-        }
-    }
-
     companion object {
         fun newInstance(style: Int): ThemeFragment {
             val fragment = ThemeFragment()
@@ -109,40 +94,14 @@ class ThemeFragment : BaseFragment<ThemeFragmentMvp.View, ThemeFragmentPresenter
         when (theme) {
             R.style.ThemeLight -> setTheme(getString(R.string.light_theme_mode))
             R.style.ThemeDark -> setTheme(getString(R.string.dark_theme_mode))
-            R.style.ThemeAmlod -> applyAmlodTheme()
-            R.style.ThemeBluish -> applyBluishTheme()
-            R.style.ThemeMidnight -> applyMidnightTheme()
+            R.style.ThemeAmlod -> setTheme(getString(R.string.amlod_theme_mode))
+            R.style.ThemeBluish -> setTheme(getString(R.string.bluish_theme))
+            R.style.ThemeMidnight -> setTheme(getString(R.string.mid_night_blue_theme_mode))
         }
-    }
-
-    private fun applyBluishTheme() {
-        if (!isGoogleSupported()) return
-        if (PrefGetter.isBluishEnabled) {
-            setTheme(getString(R.string.bluish_theme))
-        }
-    }
-
-    private fun applyAmlodTheme() {
-        if (!isGoogleSupported()) return
-        if (PrefGetter.isAmlodEnabled) {
-            setTheme(getString(R.string.amlod_theme_mode))
-        }
-    }
-
-    private fun applyMidnightTheme() {
-        if (!isGoogleSupported()) return        
-        setTheme(getString(R.string.mid_night_blue_theme_mode))
     }
 
     private fun setTheme(theme: String) {
         PrefHelper.putAny(mTheme, theme)
         themeListener?.onThemeApplied()
-    }
-
-    private fun isGoogleSupported(): Boolean {
-        if (AppHelper.isGoogleAvailable(requireContext())) {
-            return true
-        }
-        return false
     }
 }

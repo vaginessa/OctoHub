@@ -57,10 +57,6 @@ object PrefGetter {
     private const val SENT_VIA = "octohub_signature"
     private const val SENT_VIA_BOX = "sent_via_enabled"
     private const val PROFILE_BACKGROUND_URL = "profile_background_url"
-    private const val AMLOD_THEME_ENABLED = "amlod_theme_enabled"
-    private const val MIDNIGHTBLUE_THEME_ENABLED = "midnightblue_theme_enabled"
-    private const val BLUISH_THEME_ENABLED = "bluish_theme_enabled"
-    private const val ENTERPRISE_ITEM = "enterprise_item"
     private const val CODE_THEME = "code_theme"
     private const val ENTERPRISE_URL = "enterprise_url"
     private const val NOTIFICATION_SOUND_PATH = "notification_sound_path"
@@ -404,38 +400,6 @@ object PrefGetter {
 
     val isNotificationSoundEnabled: Boolean
         get() = PrefHelper.getBoolean("notificationSound")
-
-    fun enableAmlodTheme() {
-        PrefHelper.putAny(AMLOD_THEME_ENABLED, true)
-    }
-
-    val isAmlodEnabled: Boolean
-        get() = PrefHelper.getBoolean(AMLOD_THEME_ENABLED)
-
-    fun enableMidNightBlueTheme() {
-        PrefHelper.putAny(MIDNIGHTBLUE_THEME_ENABLED, true)
-    }
-
-    val isMidNightBlueThemeEnabled: Boolean
-        get() = PrefHelper.getBoolean(MIDNIGHTBLUE_THEME_ENABLED)
-
-    val isBluishEnabled: Boolean
-        get() = PrefHelper.getBoolean(BLUISH_THEME_ENABLED)
-
-    fun enableBluishTheme() {
-        PrefHelper.putAny(BLUISH_THEME_ENABLED, true)
-    }
-
-    fun setEnterpriseItem() {
-        PrefHelper.putAny(ENTERPRISE_ITEM, true)
-    }
-
-    val isEnterpriseEnabled: Boolean
-        get() = PrefHelper.getBoolean(ENTERPRISE_ITEM)
-
-    fun hasSupported(): Boolean {
-        return isAmlodEnabled || isBluishEnabled
-    }
 
     val codeTheme: String?
         get() = PrefHelper.getString(CODE_THEME)

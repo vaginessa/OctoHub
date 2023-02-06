@@ -75,7 +75,6 @@ object AppHelper {
         val builder = StringBuilder()
             .append("**OctoHub Version: ").append(BuildConfig.VERSION_NAME)
             .append(if (enterprise) " Enterprise**" else "**").append("  \n")
-            .append(if (!isInstalledFromPlaySore(App.getInstance())) "**APK Source: Unknown**  \n" else "")
             .append("**Android Version: ").append(Build.VERSION.RELEASE.toString())
             .append(" (SDK: ")
             .append(Build.VERSION.SDK_INT.toString()).append(")**").append("  \n")
@@ -160,30 +159,6 @@ object AppHelper {
                 || Build.MANUFACTURER.contains("Genymotion")
                 || Build.BRAND.startsWith("generic") && Build.DEVICE.startsWith("generic")
                 || "google_sdk" == Build.PRODUCT)
-
-    private fun isInstalledFromPlaySore(context: Context): Boolean {
-        return try {
-            val ipn: String? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                val sourceInfo = context.packageManager.getInstallSourceInfo(BuildConfig.GITHUB_APP_ID)
-                sourceInfo.installingPackageName
-            } else {
-                context.packageManager.getInstallerPackageName(BuildConfig.GITHUB_APP_ID)
-            }
-            !isEmpty(ipn)
-        } catch (e: PackageManager.NameNotFoundException) {
-            false
-        }
-    }
-
-    fun isGoogleAvailable(context: Context): Boolean {
-        var applicationInfo: ApplicationInfo? = null
-        try {
-            applicationInfo = context.packageManager.getApplicationInfo("com.google.android.gms", 0)
-        } catch (e: PackageManager.NameNotFoundException) {
-            e.printStackTrace()
-        }
-        return true
-    }
 
     @JvmStatic
     fun isDeviceAnimationEnabled(context: Context): Boolean {
