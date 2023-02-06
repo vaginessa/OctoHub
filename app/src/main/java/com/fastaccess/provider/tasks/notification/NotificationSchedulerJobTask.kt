@@ -259,7 +259,7 @@ class NotificationSchedulerJobTask : JobService() {
             applicationContext,
             0,
             Intent(applicationContext, NotificationActivity::class.java),
-            PendingIntent.FLAG_UPDATE_CURRENT
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) { PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT } else { PendingIntent.FLAG_UPDATE_CURRENT }
         )
         val builder = getNotification(
             thread.subject?.title!!, thread.repository?.fullName!!,
@@ -324,7 +324,7 @@ class NotificationSchedulerJobTask : JobService() {
         val intent = ReadNotificationService.start(applicationContext, id, url, true)
         return PendingIntent.getService(
             applicationContext, InputHelper.getSafeIntId(id) / 2, intent,
-            PendingIntent.FLAG_UPDATE_CURRENT
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) { PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT } else { PendingIntent.FLAG_UPDATE_CURRENT }
         )
     }
 
@@ -333,7 +333,7 @@ class NotificationSchedulerJobTask : JobService() {
         val intent = ReadNotificationService.start(applicationContext, id, url)
         return PendingIntent.getService(
             applicationContext, InputHelper.getSafeIntId(id), intent,
-            PendingIntent.FLAG_UPDATE_CURRENT
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) { PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT } else { PendingIntent.FLAG_UPDATE_CURRENT }
         )
     }
 
