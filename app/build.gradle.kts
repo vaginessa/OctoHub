@@ -227,7 +227,7 @@ dependencies {
 
     // androidx javax annotation
     implementation("org.glassfish:javax.annotation:10.0-b28")
-    implementation("androidx.annotation:annotation:1.4.0")
+    implementation("androidx.annotation:annotation:1.5.0")
 
 
     // shortbread
