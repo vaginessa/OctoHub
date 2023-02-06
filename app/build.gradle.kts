@@ -32,15 +32,15 @@ val config = loadConfig()
 
 android {
     namespace = "com.fastaccess"
-    compileSdk = 31
-    buildToolsVersion = "31.0.0"
+    compileSdk = 32
+    buildToolsVersion = "33.0.1"
     defaultConfig {
-        applicationId = "com.fastaccess.github.revival"
-        minSdk = 25
-        targetSdk = 31
+        applicationId = "com.fastaccess.github.octohub"
+        minSdk = 26
+        targetSdk = 32
         versionCode = 480
         versionName = "4.8.0"
-        buildConfigField("String", "GITHUB_APP_ID", "\"com.fastaccess.github.revival\"")
+        buildConfigField("String", "GITHUB_APP_ID", "\"com.fastaccess.github.octohub\"")
         buildConfigField("String", "GITHUB_CLIENT_ID", "\"${config["GITHUB_CLIENT_ID"]}\"")
         buildConfigField("String", "GITHUB_SECRET", "\"${config["GITHUB_SECRET"]}\"")
         buildConfigField("String", "IMGUR_CLIENT_ID", "\"${config["IMGUR_CLIENT_ID"]}\"")
@@ -113,6 +113,7 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     // androidx
+    implementation("androidx.core:core:1.8.0")
     implementation("androidx.appcompat:appcompat:1.4.2")
     implementation("androidx.fragment:fragment-ktx:1.5.0")
     implementation("com.google.android.material:material:1.6.1")

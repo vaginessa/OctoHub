@@ -3,8 +3,8 @@ package com.fastaccess.ui.widgets
 import android.app.Activity
 import android.content.Context
 import android.content.ContextWrapper
-import android.graphics.PorterDuff
-import android.graphics.PorterDuffColorFilter
+import androidx.core.graphics.BlendModeColorFilterCompat
+import androidx.core.graphics.BlendModeCompat
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.widget.Button
@@ -72,8 +72,7 @@ class ColorPickerPreference : Preference, OnChooseColorListener {
         super.onBindViewHolder(holder)
         val colorButton = holder.findViewById(R.id.color) as Button
         colorButton.setBackgroundResource(R.drawable.circle_shape)
-        val filter = PorterDuffColorFilter(selectedColor, PorterDuff.Mode.SRC_IN)
-        colorButton.background.colorFilter = filter
+        colorButton.background.colorFilter = BlendModeColorFilterCompat.createBlendModeColorFilterCompat(selectedColor, BlendModeCompat.SRC_IN)
     }
 
     private val selectedColor: Int

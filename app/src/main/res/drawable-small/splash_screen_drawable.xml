@@ -3,10 +3,7 @@
 
     <item android:drawable="?colorPrimary" />
     <item
-        android:insetRight="50dp"
-        android:insetTop="50dp"
-        android:insetLeft="50dp"
-        android:insetBottom="50dp"
+        android:tint="#FF000000"
         android:gravity="center"
         android:drawable="@drawable/ic_foreground" />
 
