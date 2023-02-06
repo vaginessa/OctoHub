@@ -214,8 +214,6 @@
     <string name="every">Интервал синхронизации</string>
     <string name="behavior">Поведение</string>
     <string name="customization">Персонализация</string>
-    <string name="recycler_view_animation_summary">Включить анимации списка</string>
-    <string name="recycler_view_animation_title">Анимации списка</string>
     <string name="back_button_summary">Отключить диалог, который предотвращал случайный выход из приложения</string>
     <string name="back_button_title">Откл. диалог при выходе</string>
     <string name="restore">Восстановить из рез. копии</string>

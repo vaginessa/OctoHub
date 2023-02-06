@@ -80,28 +80,6 @@ object AnimHelper {
         animator.scaleX(x).scaleY(x)
     }
 
-    @UiThread
-    private fun getBeats(view: View): List<ObjectAnimator> {
-        return listOf(
-            ObjectAnimator.ofFloat(view, "scaleY", 1f, 1.1f, 1f),
-            ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.1f, 1f)
-        )
-    }
-
-    @JvmStatic
-    @UiThread
-    fun startBeatsAnimation(view: View) {
-        view.clearAnimation()
-        if (view.animation != null) {
-            view.animation.cancel()
-        }
-        val animators = getBeats(view)
-        for (anim in animators) {
-            anim.setDuration(300).start()
-            anim.interpolator = interpolator
-        }
-    }
-
     @JvmStatic
     @UiThread
     fun revealPopupWindow(popupWindow: PopupWindow, from: View) {

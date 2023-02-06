@@ -200,8 +200,6 @@
     <string name="every">Всички</string>
     <string name="behavior">Поведение</string>
     <string name="customization">Персонализиране</string>
-    <string name="recycler_view_animation_summary">Включване на анимации на списъци</string>
-    <string name="recycler_view_animation_title">Анимации на списъци</string>
     <string name="back_button_summary">Изключване на диалог, който предпазва от случайно затваряне на приложението</string>
     <string name="back_button_title">Натисни Назад за изход</string>
     <string name="restore">Възстановяване</string>

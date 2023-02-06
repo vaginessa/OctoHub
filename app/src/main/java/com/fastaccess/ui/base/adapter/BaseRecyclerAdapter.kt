@@ -7,8 +7,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.fastaccess.helper.AnimHelper.startBeatsAnimation
-import com.fastaccess.helper.PrefGetter.isRVAnimationEnabled
 import com.fastaccess.ui.widgets.recyclerview.ProgressBarViewHolder
 import kotlin.math.abs
 
@@ -46,12 +44,6 @@ abstract class BaseRecyclerAdapter<M, VH : BaseViewHolder<M>, P : BaseViewHolder
             notifyDataSetChanged()
         }
     private var lastKnowingPosition = -1
-    private var isEnableAnimation = isRVAnimationEnabled
-        @SuppressLint("NotifyDataSetChanged")
-        set(enableAnimation) {
-            field = enableAnimation
-            notifyDataSetChanged()
-        }
     private var isShowedGuide = false
     private var guideListener: GuideListener<M>? = null
     var isProgressAdded = false
@@ -100,7 +92,6 @@ abstract class BaseRecyclerAdapter<M, VH : BaseViewHolder<M>, P : BaseViewHolder
                 layoutParams.isFullSpan = true
             }
         } else if (getItem(position) != null) {
-            animate(holder, position)
             onBindView(holder, position)
             onShowGuide(holder, position)
         }
@@ -124,13 +115,6 @@ abstract class BaseRecyclerAdapter<M, VH : BaseViewHolder<M>, P : BaseViewHolder
             val item = getItem(position)
             guideListener!!.onShowGuide(holder.itemView, item)
             isShowedGuide = true
-        }
-    }
-
-    private fun animate(holder: VH, position: Int) {
-        if (isEnableAnimation && position > lastKnowingPosition) {
-            startBeatsAnimation(holder.itemView)
-            lastKnowingPosition = position
         }
     }
 

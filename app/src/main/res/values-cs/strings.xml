@@ -198,8 +198,6 @@
     <string name="every">Každý</string>
     <string name="behavior">Chování</string>
     <string name="customization">Přizpůsobení</string>
-    <string name="recycler_view_animation_summary">Povolit animace seznamu</string>
-    <string name="recycler_view_animation_title">Animace seznamu</string>
     <string name="back_button_summary">Zakázat dialog zabraňující nechtěnému ukončení aplikace</string>
     <string name="back_button_title">Stiskněte tlačítko Zpět pro ukončení</string>
     <string name="restore">Obnovit</string>

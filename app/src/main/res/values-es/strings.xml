@@ -211,8 +211,6 @@
     <string name="every">Cada</string>
     <string name="behavior">Comportamiento</string>
     <string name="customization">Personalización</string>
-    <string name="recycler_view_animation_summary">Habilitar animación en las listas</string>
-    <string name="recycler_view_animation_title">Listas animadas</string>
     <string name="back_button_summary">Deshabilitar para prevenir cierre accidental</string>
     <string name="back_button_title">Cerrar presionando atrás</string>
     <string name="restore">Restaurar</string>

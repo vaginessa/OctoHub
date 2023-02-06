@@ -19,7 +19,6 @@ import androidx.fragment.app.FragmentManager
 import com.fastaccess.App
 import com.fastaccess.R
 import com.fastaccess.helper.CustomTabsHelper.getPackageNameToUse
-import com.fastaccess.helper.PrefGetter.isAppAnimationDisabled
 import com.fastaccess.helper.ViewHelper.getPrimaryColor
 import com.fastaccess.helper.ViewHelper.getTransitionName
 import com.fastaccess.ui.modules.main.drawer.AccountDrawerFragment
@@ -139,29 +138,11 @@ object ActivityHelper {
         intent: Intent?,
         sharedElement: View? = null
     ) {
-        if (!isAppAnimationDisabled && sharedElement != null) {
-            val options = ActivityOptionsCompat.makeClipRevealAnimation(
-                sharedElement, sharedElement.width / 2,
-                sharedElement.height / 2,
-                sharedElement.width, sharedElement.height
-            )
-            launcher.launch(intent, options)
-        } else {
-            launcher.launch(intent)
-        }
+        launcher.launch(intent)
     }
 
     fun startReveal(activity: Activity, intent: Intent?, sharedElement: View) {
-        if (!isAppAnimationDisabled) {
-            val options = ActivityOptionsCompat.makeClipRevealAnimation(
-                sharedElement, sharedElement.width / 2,
-                sharedElement.height / 2,
-                sharedElement.width, sharedElement.height
-            )
-            activity.startActivity(intent, options.toBundle())
-        } else {
-            activity.startActivity(intent)
-        }
+        activity.startActivity(intent)
     }
 
     @SafeVarargs

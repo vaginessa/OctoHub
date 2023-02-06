@@ -170,9 +170,6 @@ object PrefGetter {
             return isShowed
         }
 
-    val isRVAnimationEnabled: Boolean
-        get() = PrefHelper.getBoolean("recylerViewAnimation")
-
     val notificationTaskDuration: Int
         get() {
             if (

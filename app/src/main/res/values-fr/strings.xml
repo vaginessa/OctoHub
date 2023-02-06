@@ -199,8 +199,6 @@
     <string name="every">Chaque</string>
     <string name="behavior">Comportement</string>
     <string name="customization">Personnalisation</string>
-    <string name="recycler_view_animation_summary">Activer l\'animation des listes</string>
-    <string name="recycler_view_animation_title">Animation des listes</string>
     <string name="back_button_summary">Désactiver les fenêtres pop-up permettant d\'éviter la fermeture accidentelle de l\'application</string>
     <string name="back_button_title">Désactiver la confirmation de fermeture</string>
     <string name="restore">Restaurer</string>

@@ -99,10 +99,6 @@ class SettingsCategoryFragment : PreferenceFragmentCompat(), Preference.OnPrefer
                 }
                 return true
             }
-            preference.key.equals("recylerViewAnimation", ignoreCase = true) -> {
-                callback!!.onThemeChanged()
-                return true
-            }
             preference.key.equals("rect_avatar", ignoreCase = true) -> {
                 callback!!.onThemeChanged()
                 return true
@@ -230,7 +226,6 @@ class SettingsCategoryFragment : PreferenceFragmentCompat(), Preference.OnPrefer
 
     private fun addCustomization() {
         addPreferencesFromResource(R.xml.customization_settings)
-        findPreference("recylerViewAnimation").onPreferenceChangeListener = this
         findPreference("rect_avatar").onPreferenceChangeListener = this
         findPreference("appColor").onPreferenceChangeListener = this
     }

@@ -198,8 +198,6 @@
     <string name="every">항상</string>
     <string name="behavior">행동</string>
     <string name="customization">사용자 정의</string>
-    <string name="recycler_view_animation_summary">목록 효과 활성화</string>
-    <string name="recycler_view_animation_title">목록 효과</string>
     <string name="back_button_summary">앱 종료 확인 창를 비활성화합니다</string>
     <string name="back_button_title">앱 종료 확인 비활성화</string>
     <string name="restore">복원</string>

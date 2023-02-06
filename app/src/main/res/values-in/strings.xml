@@ -200,8 +200,6 @@
     <string name="every">Setiap</string>
     <string name="behavior">Tindakan</string>
     <string name="customization">Kustomisasi</string>
-    <string name="recycler_view_animation_summary">Aktifkan daftar animasi</string>
-    <string name="recycler_view_animation_title">Daftar animasi</string>
     <string name="back_button_summary">Nonaktifkan dialog yang mencegah penutupan aplikasi yang tidak disengaja</string>
     <string name="back_button_title">Tekan kembali untuk keluar</string>
     <string name="restore">Pulihkan</string>

@@ -236,8 +236,6 @@ CaptainTF @ Github 提议：
     <string name="every">所有</string>
     <string name="behavior">行为</string>
     <string name="customization">自定义</string>
-    <string name="recycler_view_animation_summary">启用列表动画</string>
-    <string name="recycler_view_animation_title">列表动画</string>
     <string name="back_button_summary">禁用用于防止意外退出的提示框</string>
     <string name="back_button_title">返回键直接退出</string>
     <string name="restore">恢复</string>

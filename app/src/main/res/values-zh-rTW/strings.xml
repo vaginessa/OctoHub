@@ -221,8 +221,6 @@ APP
     <string name="every">每個</string>
     <string name="behavior">行為</string>
     <string name="customization">個人化</string>
-    <string name="recycler_view_animation_summary">開啟列表動畫</string>
-    <string name="recycler_view_animation_title">動畫</string>
     <string name="back_button_summary">關閉返回鍵的確認提示，直接退出。</string>
     <string name="back_button_title">按返回直接退出 APP</string>
     <string name="restore">還原</string>

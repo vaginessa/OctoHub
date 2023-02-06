@@ -199,8 +199,6 @@
     <string name="every">毎回</string>
     <string name="behavior">動作</string>
     <string name="customization">カスタマイズ</string>
-    <string name="recycler_view_animation_summary">リストアニメーションを有効にします</string>
-    <string name="recycler_view_animation_title">リストアニメーション</string>
     <string name="back_button_summary">アプリの終了を妨げるダイアログを無効にします</string>
     <string name="back_button_title">終了確認ダイアログ</string>
     <string name="restore">復元</string>

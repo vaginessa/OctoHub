@@ -324,8 +324,6 @@
     <string name="every">Every</string>
     <string name="behavior">Behavior</string>
     <string name="customization">Customization</string>
-    <string name="recycler_view_animation_summary">Enable list animations</string>
-    <string name="recycler_view_animation_title">List Animation</string>
     <string name="back_button_summary">Disable dialog preventing accidental app closure</string>
     <string name="back_button_title">Disable Exit Confirmation</string>
     <string name="restore">Restore</string>

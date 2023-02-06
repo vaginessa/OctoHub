@@ -30,12 +30,4 @@
         android:summary="@string/app_animation_summary"
         android:title="@string/app_animation_title"/>
 
-
-    <SwitchPreference
-        android:defaultValue="false"
-        android:icon="@drawable/ic_filter"
-        android:key="recylerViewAnimation"
-        android:summary="@string/recycler_view_animation_summary"
-        android:title="@string/recycler_view_animation_title"/>
-
 </PreferenceScreen>

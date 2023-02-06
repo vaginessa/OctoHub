@@ -201,8 +201,6 @@
   <string name="every">A cada</string>
   <string name="behavior">Comportamento</string>
   <string name="customization">Personalização</string>
-  <string name="recycler_view_animation_summary">Activar animações das listas</string>
-  <string name="recycler_view_animation_title">Animações das listas</string>
   <string name="back_button_summary">Desactivar a confirmação de saída</string>
   <string name="back_button_title">Confirmação de saída</string>
   <string name="restore">Restaurar</string>

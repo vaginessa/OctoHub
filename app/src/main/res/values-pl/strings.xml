@@ -343,8 +343,6 @@
   <string name="recently_updated">Ostatnio zaktualizowane</string>
   <string name="rect_avatar_summary">Wyświetlaj awatary w kwadratowej ramce zamiast w okrągłej</string>
   <string name="rect_avatar_title">Kwadratowe awatary</string>
-  <string name="recycler_view_animation_summary">Odblokuj animacje list</string>
-  <string name="recycler_view_animation_title">Animacje list</string>
   <string name="released">Wydane</string>
   <string name="releases">Wydania</string>
   <string name="reload">Wczytaj ponownie</string>

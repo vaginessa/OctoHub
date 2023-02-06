@@ -199,8 +199,6 @@
     <string name="every">كل</string>
     <string name="behavior">تصرف</string>
     <string name="customization">تخصيص</string>
-    <string name="recycler_view_animation_summary">تمكين حركات القوائم</string>
-    <string name="recycler_view_animation_title">حركات القوائم</string>
     <string name="back_button_summary">تعطيل رسالة منع الإغلاق غير المقصود للبرنامج</string>
     <string name="back_button_title">إضغط زر العودة للخروج</string>
     <string name="restore">إستعادة</string>

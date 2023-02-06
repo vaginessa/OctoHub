@@ -197,8 +197,6 @@
     <string name="every">Kiekvieną/kas</string>
     <string name="behavior">Elgesys</string>
     <string name="customization">Pritaikymas tau</string>
-    <string name="recycler_view_animation_summary">Įgalinti sąrašo animacija</string>
-    <string name="recycler_view_animation_title">Sąrašo animacija</string>
     <string name="back_button_summary">Klausti ar noriu užverti „OctoHub“</string>
     <string name="back_button_title">Dar kart spausk atgal, jei nori užverti programą</string>
     <string name="restore">Parsiųsti atsarg. kopijos duomenis</string>

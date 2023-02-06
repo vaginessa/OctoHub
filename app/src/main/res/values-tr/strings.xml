@@ -187,8 +187,6 @@
     <string name="background_job_title">Bildirim senkronizasyon aralığı</string>
     <string name="every">Her</string>
     <string name="behavior">Görünüş</string>
-    <string name="recycler_view_animation_summary">Liste animasyonlarını etkinleştir</string>
-    <string name="recycler_view_animation_title">Liste animasyonları</string>
     <string name="back_button_summary">OctoHub\'dan yanlışlıkla çıkmayı engelleyen diyaloğu devre dışı bırak</string>
     <string name="back_button_title">Çıkmak için bir kez daha geri tuşuna basınız</string>
     <string name="unsaved_data_warning">Kaydedilmeyen değişiklikler göz ardı edilecektir</string>

@@ -203,8 +203,6 @@
     <string name="every">A cada</string>
     <string name="behavior">Comportamento</string>
     <string name="customization">Personalização</string>
-    <string name="recycler_view_animation_summary">Habilitar animações de lista</string>
-    <string name="recycler_view_animation_title">Animações de Lista</string>
     <string name="back_button_summary">Desabilitar diálogos para prevenir fechamento acidental do app</string>
     <string name="back_button_title">Toque em voltar para sair</string>
     <string name="restore">Restaurar</string>
