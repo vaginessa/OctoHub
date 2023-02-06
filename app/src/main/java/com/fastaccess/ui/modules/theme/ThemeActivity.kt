@@ -68,24 +68,9 @@ class ThemeActivity : BaseActivity<BaseMvp.FAView, BasePresenter<BaseMvp.FAView>
         }
         val cx = parentLayout.width / 2
         val cy = parentLayout.height / 2
-        if (parentLayout.isAttachedToWindow) {
-            val finalRadius = hypot(cx.toDouble(), cy.toDouble()).toFloat()
-            val anim =
-                ViewAnimationUtils.createCircularReveal(parentLayout, cx, cy, 0f, finalRadius)
-            anim.addListener(object : AnimatorListenerAdapter() {
-                override fun onAnimationEnd(animation: Animator?) {
-                    super.onAnimationEnd(animation)
-                    window?.statusBarColor = color
-                    changeNavColor(color)
-                }
-            })
-            parentLayout.setBackgroundColor(color)
-            anim.start()
-        } else {
-            parentLayout.setBackgroundColor(color)
-            window.statusBarColor = color
-            changeNavColor(color)
-        }
+        parentLayout.setBackgroundColor(color)
+        window.statusBarColor = color
+        changeNavColor(color)
     }
 
     private fun changeNavColor(color: Int) {

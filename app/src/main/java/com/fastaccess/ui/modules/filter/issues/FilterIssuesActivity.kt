@@ -22,7 +22,6 @@ import com.fastaccess.data.dao.MilestoneModel
 import com.fastaccess.data.entity.User
 import com.fastaccess.helper.*
 import com.fastaccess.helper.AnimHelper.animateVisibility
-import com.fastaccess.helper.AnimHelper.revealPopupWindow
 import com.fastaccess.helper.InputHelper.isEmpty
 import com.fastaccess.helper.InputHelper.toString
 import com.fastaccess.provider.timeline.CommentsHelper.heart
@@ -240,7 +239,6 @@ class FilterIssuesActivity :
             ViewHolder(LayoutInflater.from(this).inflate(R.layout.simple_list_dialog, null))
         setupPopupWindow(viewHolder)
         viewHolder.recycler!!.adapter = getLabelsAdapter()
-        revealPopupWindow(popupWindow!!, labels!!)
     }
 
     @SuppressLint("InflateParams")
@@ -251,7 +249,6 @@ class FilterIssuesActivity :
             ViewHolder(LayoutInflater.from(this).inflate(R.layout.simple_list_dialog, null))
         setupPopupWindow(viewHolder)
         viewHolder.recycler!!.adapter = getMilestonesAdapter()
-        revealPopupWindow(popupWindow!!, milestone!!)
     }
 
     @SuppressLint("InflateParams")
@@ -262,7 +259,6 @@ class FilterIssuesActivity :
             ViewHolder(LayoutInflater.from(this).inflate(R.layout.simple_list_dialog, null))
         setupPopupWindow(viewHolder)
         viewHolder.recycler!!.adapter = getAssigneesAdapter()
-        revealPopupWindow(popupWindow!!, assignee!!)
     }
 
     @SuppressLint("InflateParams")
@@ -289,7 +285,6 @@ class FilterIssuesActivity :
 
                 override fun onItemLongClick(position: Int, v: View?, item: String) {}
             })
-        revealPopupWindow(popupWindow!!, sort!!)
     }
 
     fun onClear(view: View) {

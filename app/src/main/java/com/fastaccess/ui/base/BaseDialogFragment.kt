@@ -14,8 +14,6 @@ import androidx.annotation.StringRes
 import androidx.appcompat.view.ContextThemeWrapper
 import com.evernote.android.state.StateSaver
 import com.fastaccess.R
-import com.fastaccess.helper.AnimHelper.dismissDialog
-import com.fastaccess.helper.AnimHelper.revealDialog
 import com.fastaccess.helper.AppHelper
 import com.fastaccess.helper.PrefGetter.isAppAnimationDisabled
 import com.fastaccess.ui.base.mvp.BaseMvp.FAView
@@ -70,21 +68,7 @@ abstract class BaseDialogFragment<V : FAView, P : BasePresenter<V>> : TiDialogFr
     }
 
     override fun dismiss() {
-        if (suppressAnimation) {
-            super.dismiss()
-            return
-        }
-        if (isAppAnimationDisabled) {
-            super.dismiss()
-        } else {
-            dismissDialog(this, resources.getInteger(android.R.integer.config_shortAnimTime),
-                object : AnimatorListenerAdapter() {
-                    override fun onAnimationEnd(animation: Animator) {
-                        super.onAnimationEnd(animation)
-                        super@BaseDialogFragment.dismiss()
-                    }
-                })
-        }
+        super.dismiss()
     }
 
     @SuppressLint("RestrictedApi")
@@ -105,15 +89,6 @@ abstract class BaseDialogFragment<V : FAView, P : BasePresenter<V>> : TiDialogFr
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = super.onCreateDialog(savedInstanceState)
-        if (!isAppAnimationDisabled && this !is ProgressDialogFragment && !suppressAnimation) {
-            val longAnimTime = resources.getInteger(android.R.integer.config_longAnimTime)
-            dialog.setOnShowListener {
-                revealDialog(
-                    dialog,
-                    longAnimTime
-                )
-            }
-        }
         return dialog
     }
 
