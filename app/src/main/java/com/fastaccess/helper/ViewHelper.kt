@@ -5,8 +5,8 @@ import android.content.res.ColorStateList
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.graphics.Color
-import android.graphics.PorterDuff
-import android.graphics.PorterDuffColorFilter
+import androidx.core.graphics.BlendModeColorFilterCompat
+import androidx.core.graphics.BlendModeCompat
 import android.graphics.Rect
 import android.graphics.drawable.*
 import android.graphics.drawable.shapes.RoundRectShape
@@ -120,8 +120,7 @@ object ViewHelper {
     }
 
     fun tintDrawable(drawable: Drawable, @ColorInt color: Int) {
-        val filter = PorterDuffColorFilter(color, PorterDuff.Mode.SRC_IN)
-        drawable.mutate().colorFilter = filter
+        drawable.mutate().colorFilter = BlendModeColorFilterCompat.createBlendModeColorFilterCompat(color, BlendModeCompat.SRC_IN)
     }
 
     fun getDrawableSelector(normalColor: Int, pressedColor: Int): Drawable {
