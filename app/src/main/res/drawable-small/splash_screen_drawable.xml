@@ -1,16 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
 
-        <shape>
-            <solid android:color="?colorPrimary"/>
-        </shape>
-    </item>
-
+    <item android:drawable="?colorPrimary" />
     <item
-        android:left="@dimen/keyline_1"
-        android:right="@dimen/keyline_1">
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/web_hi_res_512"/>
-    </item>
+        android:insetRight="50dp"
+        android:insetTop="50dp"
+        android:insetLeft="50dp"
+        android:insetBottom="50dp"
+        android:gravity="center"
+        android:drawable="@drawable/ic_foreground" />
+
 </layer-list>
