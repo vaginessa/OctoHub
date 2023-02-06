@@ -9,8 +9,8 @@ plugins {
 
 fun loadConfig(): HashMap<String, String> {
     val configs: HashMap<String, String> = HashMap()
-    configs["GITHUB_CLIENT_ID"] = "473e333123519beadd63"
-    configs["GITHUB_SECRET"] = "b2d158f949d3615078eaf570ff99eba81cfa1ff9"
+    configs["GITHUB_CLIENT_ID"] = "0033b88e2d83bece185f"
+    configs["GITHUB_SECRET"] = "c9840402bc9234f55ce2e5796e2d345cecddd5d3"
     configs["IMGUR_CLIENT_ID"] = "5fced7f255e1dc9"
     configs["IMGUR_SECRET"] = "03025033403196a4b68b48f0738e67ef136ad64f"
     configs["KEY_ALIAS"] = "alias"
