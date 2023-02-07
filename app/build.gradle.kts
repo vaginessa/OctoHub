@@ -246,7 +246,7 @@ dependencies {
 //    implementation("com.github.ben-manes.caffeine:caffeine:3.0.6")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-core:4.4.0")
+    testImplementation("org.mockito:mockito-core:5.1.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
     androidTestImplementation("org.mockito:mockito-core:4.4.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
