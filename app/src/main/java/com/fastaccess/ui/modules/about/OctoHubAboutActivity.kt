@@ -51,15 +51,17 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
         buildApp(context, appCardBuilder)
         val miscCardBuilder = MaterialAboutCard.Builder()
         buildMisc(context, miscCardBuilder)
+        val revivalAppCardBuilder = MaterialAboutCard.Builder()
+        buildRevivalApp(context, revivalAppCardBuilder)
+        val libreAppCardBuilder = MaterialAboutCard.Builder()
+        buildLibreApp(context, libreAppCardBuilder)
         val originalAppCardBuilder = MaterialAboutCard.Builder()
         buildOriginalApp(context, originalAppCardBuilder)
         val currentLogo = MaterialAboutCard.Builder()
-        val secondLogoAuthor = MaterialAboutCard.Builder()
-        val firstLogoAuthor = MaterialAboutCard.Builder()
-        buildLogo(context, currentLogo, secondLogoAuthor, firstLogoAuthor)
+        buildLogo(context, currentLogo)
         return MaterialAboutList(
-            appCardBuilder.build(), miscCardBuilder.build(), originalAppCardBuilder.build(),
-            currentLogo.build(), secondLogoAuthor.build(), firstLogoAuthor.build()
+            appCardBuilder.build(), miscCardBuilder.build(), revivalAppCardBuilder.build(),
+            libreAppCardBuilder.build(), originalAppCardBuilder.build(), currentLogo.build()
         )
     }
 
@@ -93,7 +95,7 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
                 }
                 .build())
             .addItem(MaterialAboutActionItem.Builder()
-                .text(R.string.open_repo_hint)
+                .text(R.string.app_name_full)
                 .subText(R.string.app_description)
                 .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
                 .setOnClickAction {
@@ -119,7 +121,7 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
             .addItem(MaterialAboutActionItem.Builder()
                 .text(R.string.open_source_libs)
                 .subText(R.string.open_source_libs_desc)
-                .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
+                .icon(ContextCompat.getDrawable(context, R.drawable.ic_license))
                 .setOnClickAction {
                     val builder = LibsBuilder()
                         .withSearchEnabled(true)
@@ -141,6 +143,88 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
                 .build())
     }
 
+    private fun buildRevivalApp(context: Context, revivalAppCardBuilder: MaterialAboutCard.Builder) {
+        revivalAppCardBuilder.title(R.string.revival_app_name)
+        revivalAppCardBuilder.addItem(MaterialAboutActionItem.Builder()
+            .text(R.string.revival_app_author)
+            .subText(R.string.revival_app_author_desc)
+            .icon(ContextCompat.getDrawable(context, R.drawable.ic_profile))
+            .setOnClickAction {
+                startActivity(
+                    context, "LightDestory",
+                    isOrg = false,
+                    isEnterprise = false,
+                    index = 0
+                )
+            }
+            .build())
+            .addItem(MaterialAboutActionItem.Builder()
+                .text(R.string.revival_app_name)
+                .subText(R.string.revival_app_desc)
+                .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
+                .setOnClickAction {
+                    startActivity(
+                        RepoPagerActivity.createIntent(
+                            this,
+                            "FastHub-RE",
+                            "LightDestory"
+                        )
+                    )
+                }
+                .build())
+            .addItem(
+                ConvenienceBuilder.createEmailItem(
+                    context,
+                    ContextCompat.getDrawable(context, R.drawable.ic_email),
+                    getString(R.string.send_email),
+                    true,
+                    getString(R.string.lightdestory_email),
+                    getString(R.string.question_concerning_octohub)
+                )
+            )
+    }
+
+    private fun buildLibreApp(context: Context, libreAppCardBuilder: MaterialAboutCard.Builder) {
+        libreAppCardBuilder.title(R.string.libre_app_name)
+        libreAppCardBuilder.addItem(MaterialAboutActionItem.Builder()
+            .text(R.string.libre_app_author)
+            .subText(R.string.libre_app_author_desc)
+            .icon(ContextCompat.getDrawable(context, R.drawable.ic_profile))
+            .setOnClickAction {
+                startActivity(
+                    context, "thermatk",
+                    isOrg = false,
+                    isEnterprise = false,
+                    index = 0
+                )
+            }
+            .build())
+            .addItem(MaterialAboutActionItem.Builder()
+                .text(R.string.libre_app_name)
+                .subText(R.string.libre_app_desc)
+                .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
+                .setOnClickAction {
+                    startActivity(
+                        RepoPagerActivity.createIntent(
+                            this,
+                            "FastHub-Libre",
+                            "thermatk"
+                        )
+                    )
+                }
+                .build())
+            .addItem(
+                ConvenienceBuilder.createEmailItem(
+                    context,
+                    ContextCompat.getDrawable(context, R.drawable.ic_email),
+                    getString(R.string.send_email),
+                    true,
+                    getString(R.string.thermatk_email),
+                    getString(R.string.question_concerning_octohub)
+                )
+            )
+    }
+
     private fun buildOriginalApp(context: Context, originalAppCardBuilder: MaterialAboutCard.Builder) {
         originalAppCardBuilder.title(R.string.original_app_state)
         originalAppCardBuilder.addItem(MaterialAboutActionItem.Builder()
@@ -158,7 +242,7 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
             .build())
             .addItem(MaterialAboutActionItem.Builder()
                 .text(R.string.original_app_name)
-                .subText(R.string.open_repo_hint)
+                .subText(R.string.original_app_desc)
                 .icon(ContextCompat.getDrawable(context, R.drawable.ic_github))
                 .setOnClickAction {
                     startActivity(
@@ -182,26 +266,15 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
             )
     }
 
-    private fun buildLogo(context: Context, currentLogo: MaterialAboutCard.Builder, secondLogoAuthor: MaterialAboutCard.Builder, firstLogoAuthor: MaterialAboutCard.Builder) {
-        currentLogo.title(getString(R.string.current_logo_designer, "Freepik"))
+    private fun buildLogo(context: Context, currentLogo: MaterialAboutCard.Builder) {
+        currentLogo.title(getString(R.string.current_logo_designer, "Benjamin J sperry"))
         currentLogo.addItem(MaterialAboutActionItem.Builder()
-            .text(R.string.website)
-            .icon(ContextCompat.getDrawable(context, R.drawable.ic_brower))
-            .setOnClickAction {
-                ActivityHelper.startCustomTab(
-                    this,
-                    "https://www.flaticon.com/premium-icon/octopus_3068012"
-                )
-            }
-            .build())
-        secondLogoAuthor.title(getString(R.string.old_logo_designer, "Cookicons"))
-        secondLogoAuthor.addItem(MaterialAboutActionItem.Builder()
             .text(R.string.twitter)
             .icon(ContextCompat.getDrawable(context, R.drawable.ic_twitter))
             .setOnClickAction {
                 ActivityHelper.startCustomTab(
                     this,
-                    "https://twitter.com/mcookie"
+                    "https://twitter.com/benjsperry"
                 )
             }
             .build())
@@ -211,28 +284,7 @@ class OctoHubAboutActivity : MaterialAboutActivity() {
                 .setOnClickAction {
                     ActivityHelper.startCustomTab(
                         this,
-                        "https://cookicons.co/"
-                    )
-                }
-                .build())
-        firstLogoAuthor.title(getString(R.string.old_logo_designer, "Kevin Aguilar"))
-        firstLogoAuthor.addItem(MaterialAboutActionItem.Builder()
-            .text(R.string.twitter)
-            .icon(ContextCompat.getDrawable(context, R.drawable.ic_twitter))
-            .setOnClickAction {
-                ActivityHelper.startCustomTab(
-                    this,
-                    "https://twitter.com/kevttob"
-                )
-            }
-            .build())
-            .addItem(MaterialAboutActionItem.Builder()
-                .text(R.string.website)
-                .icon(ContextCompat.getDrawable(context, R.drawable.ic_brower))
-                .setOnClickAction {
-                    ActivityHelper.startCustomTab(
-                        this,
-                        "https://dribbble.com/kevttob"
+                        "https://iconscout.com/icon/octocat"
                     )
                 }
                 .build())

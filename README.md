@@ -194,14 +194,19 @@ Then, create your own keystore and put it in `/app/keys_release.jks`.
 
 ## License
 
-**Upstream: FastHub**:
+**FastHub-RE**:
+> Copyright (C) 2022 LightDestory.  
+> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.  
+> (See the [LICENSE](https://github.com/LightDestory/FastHub-RE/blob/master/LICENSE) file for the whole license text.)
+
+**FastHub-Libre changes**:
+> Copyright (C) 2018 Ruslan Boitsov.
+> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.
+
+**[Discontinued] FastHub**:
 > Copyright (C) 2017 Kosh.  
 > Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.  
 > (See the [LICENSE](https://github.com/k0shk0sh/FastHub/blob/master/LICENSE) file for the whole license text.)
-
-**FastHub-Libre changes**:
-> Copyright (C) 2017 Ruslan Boitsov.
-> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.
 
 ## Screenshots
 
@@ -214,15 +219,5 @@ Then, create your own keystore and put it in `/app/keys_release.jks`.
 | <img src=".github/assets/third.png?raw=true"> | <img src=".github/assets/fourth.png?raw=true"> |
 
 
-## FastHub-RE Logo
-**FastHub-RE** logo is made by [Freepik](https://www.freepik.com) from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
-
-## FastHub Logo
-**FastHub** logo is designed by **Cookicons**.  
-[Twitter](https://twitter.com/mcookie)  
-Designer website [Cookicons](https://cookicons.co/).
-
-**OLD FastHub** logo was designed by **Kevin Aguilar**.  
-[Twitter](https://twitter.com/kevttob)  
-Designer at [Kevin Aguilar](http://kevaguilar.com/).  
-Laus Deo Semper
+## OctoHub Logo
+**Octocat Icon in Glyph Stylen** logo is made by [Benjamin J sperry](https://https://iconscout.com/contributors/benjamin-j-sperry) from <a href="https://www.iconscout.com/">Iconscout</a> and Licensed in MIT.

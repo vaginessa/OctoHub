@@ -3,10 +3,17 @@
 
     <string name="app_name" translatable="false">OctoHub</string>
     <string name="app_name_full" translatable="false">OctoHub for Android</string>
-    <string name="app_description" translatable="false">Revival attempt for FastHub the ultimate GitHub client for Android.</string>
+    <string name="app_description" translatable="false">Enhanced fork of FastHub-RE, the ultimate GitHub client for Android.</string>
     <string name="original_app_name" translatable="false">FastHub</string>
     <string name="original_app_state" translatable="false">[Abandoned] FastHub</string>
     <string name="original_app_author" translatable="false">Kosh Sergani (k0shk0sh)</string>
+    <string name="original_app_desc" translatable="false">FastHub the ultimate GitHub client for Android.</string>
+    <string name="libre_app_name" translatable="false">FastHub-Libre</string>
+    <string name="libre_app_author" translatable="false">Ruslan Boitsov (thermatk)</string>
+    <string name="libre_app_desc" translatable="false">Libre fork of FastHub, the ultimate GitHub client for Android.</string>
+    <string name="revival_app_name" translatable="false">FastHub-RE</string>
+    <string name="revival_app_author" translatable="false">Alessio Tudisco (LightDestory)</string>
+    <string name="revival_app_desc" translatable="false">Revival Attempt for FastHub the ultimate GitHub client for Android.</string>
     <string name="linear_layout_manager" translatable="false">com.fastaccess.ui.widgets.recyclerview.layout_manager.LinearManager</string>
     <string name="grid_layout_manager" translatable="false">com.fastaccess.ui.widgets.recyclerview.layout_manager.GridManager</string>
     <string name="staggered_layout_manager" translatable="false">com.fastaccess.ui.widgets.recyclerview.layout_manager.StaggeredManager</string>
@@ -54,6 +61,8 @@
     <string name="pr_review_event" translatable="false">Pull Request</string>
     <string name="repo_event" translatable="false">Repository</string>
     <string name="email_address" translatable="false">fastaccess.app@gmail.com</string>
+    <string name="thermatk_email" translatable="false">thermatk@thermatk.com</string>
+    <string name="lightdestory_email" translatable="false">apb231@gmail.com</string>
     <string name="forking" formatted="true" translatable="false">Forking %s</string>
     <string name="starring" formatted="true" translatable="false">Starring %s</string>
     <string name="un_starring" formatted="true" translatable="false">Unstarring %s</string>
@@ -121,6 +130,8 @@
 
     <!--Please DO NOT translate github terms, such as Pull Request, Issues, Commits & etc.-->
     <string name="original_app_author_desc" translatable="false">The original author of FastHub, now unmaintained</string>
+    <string name="libre_app_author_desc" translatable="false">The author of FastHub-Libre fork</string>
+    <string name="revival_app_author_desc" translatable="false">The author of FastHub-RE fork</string>
     <string name="in_progress">Loading, please wait…</string>
     <string name="action">Action</string>
     <string name="settings">Settings</string>
