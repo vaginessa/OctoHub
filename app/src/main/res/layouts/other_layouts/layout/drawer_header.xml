@@ -40,39 +40,28 @@
 
             <com.fastaccess.ui.widgets.FontTextView
                 android:id="@+id/navFullName"
-                style="@style/TextAppearance.AppCompat.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/inter_bold"
                 android:layout_marginStart="@dimen/spacing_xs_large"
                 android:layout_marginEnd="@dimen/spacing_xs_large"
                 android:ellipsize="marquee"
-                android:singleLine="true"
                 android:text="@string/app_name" />
 
             <com.fastaccess.ui.widgets.FontTextView
                 android:id="@+id/navUsername"
-                style="@style/TextAppearance.AppCompat.Caption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:textSize="12dp"
+                android:fontFamily="@font/inter_regular"
                 android:layout_marginStart="@dimen/spacing_xs_large"
                 android:layout_marginEnd="@dimen/spacing_xs_large"
                 android:ellipsize="marquee"
-                android:singleLine="true"
                 android:text="@string/app_name" />
         </LinearLayout>
-
-        <com.fastaccess.ui.widgets.FontTextView
-            android:id="@+id/proTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:rotation="270"
-            android:text="PRO"
-            android:textColor="?colorAccent"
-            android:visibility="gone" />
 
     </LinearLayout>
 

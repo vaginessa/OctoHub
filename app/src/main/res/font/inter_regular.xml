@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--
+100 Thin
+200 Extra Light
+300 Light
+400 Regular
+500 Medium
+600 Semi Bold
+700 Bold
+800 Extra Bold
+900 Black
+
+https://github.com/rsms/inter/
+https://stackoverflow.com/questions/46589519/how-to-use-specified-weights-for-fonts-in-xml
+-->
+
+    <font
+        android:font="@font/inter"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/inter"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+    <font
+        android:font="@font/inter_italic"
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        app:font="@font/inter_italic"
+        app:fontStyle="italic"
+        app:fontWeight="400" />
+
+</font-family>

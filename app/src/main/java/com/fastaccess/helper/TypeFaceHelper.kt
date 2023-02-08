@@ -12,7 +12,7 @@ object TypeFaceHelper {
 
     @JvmStatic
     fun generateTypeface(context: Context) {
-        typeface = Typeface.createFromAsset(context.assets, "fonts/app_font.ttf")
+        typeface = Typeface.createFromAsset(context.assets, "fonts/inter.ttf")
     }
 
     @JvmStatic
