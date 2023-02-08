@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Assemble debug build
           command: |
-            ./gradlew assembleDebug
+            ./gradlew assembleDebug --build-cache
 
       - android/save-gradle-cache
       - android/save-build-cache
