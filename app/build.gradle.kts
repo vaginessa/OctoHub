@@ -224,7 +224,7 @@ dependencies {
     implementation("com.airbnb.android:lottie:5.0.3")
 
     // mmkv
-    implementation("com.tencent:mmkv:1.2.12")
+    implementation("com.tencent:mmkv:1.2.15")
 
     // androidx javax annotation
     implementation("org.glassfish:javax.annotation:10.0-b28")
