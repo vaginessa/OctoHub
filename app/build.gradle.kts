@@ -215,7 +215,7 @@ dependencies {
     implementation("com.apollographql.apollo3:apollo-rx2-support:3.1.0")
 
     // device name
-    implementation("com.jaredrummler:android-device-names:2.1.0")
+    implementation("com.jaredrummler:android-device-names:2.1.1")
 
     // keyboard
     implementation("net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0")
