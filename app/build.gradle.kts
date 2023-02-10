@@ -4,7 +4,7 @@ plugins {
     id("kotlin-parcelize")
     id("kotlin-kapt")
     id("com.apollographql.apollo3").version("3.1.0")
-    id("com.mikepenz.aboutlibraries.plugin").version("10.0.1")
+    id("com.mikepenz.aboutlibraries.plugin").version("10.5.2")
 }
 
 fun loadConfig(): HashMap<String, String> {
