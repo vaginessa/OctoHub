@@ -160,7 +160,7 @@ dependencies {
     // okhttp3
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
 
     // stream
     implementation("com.annimon:stream:1.2.2")
