@@ -3,7 +3,7 @@
 
     <item android:drawable="?colorPrimary" />
     <item
-        android:fillColor="#FF000000"
+        android:tint="#FF000000"
         android:gravity="center"
         android:drawable="@drawable/ic_foreground" />
 
