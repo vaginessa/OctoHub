@@ -17,11 +17,11 @@
 
         <com.fastaccess.ui.widgets.AvatarLayout
             android:id="@+id/navAvatarLayout"
-            android:layout_width="@dimen/large_icon_zie"
-            android:layout_height="@dimen/large_icon_zie"
+            android:layout_width="@dimen/header_icon_zie"
+            android:layout_height="@dimen/header_icon_zie"
             android:layout_centerVertical="true"
             android:layout_marginStart="@dimen/spacing_xs_large"
-            android:layout_marginEnd="@dimen/spacing_xs_large" />
+            android:layout_marginEnd="@dimen/spacing_normal" />
 
     </RelativeLayout>
 
