@@ -182,6 +182,7 @@
     <string name="unknown">Desconhecido</string>
     <string name="commented_on_commit">Comentou no commit</string>
     <string name="switch_branch">Trocar de Branch</string>
+    <string name="switch_package_type">Tipo de Pacote</string>
     <string name="assignees">Administradores</string>
     <string name="edit">Editar</string>
     <string name="edited">\u2022 editado</string>
@@ -208,6 +209,8 @@
     <string name="restore">Restaurar</string>
     <string name="backup">Backup</string>
     <string name="backed_up">Backup feito com sucesso!</string>
+    <string name="backed_failed">Falha ao realizar backup!</string>
+    <string name="restore_up">Backup restaurado com sucesso!</string>
     <string name="select_backup">Selecionar backup para restaurar</string>
     <string name="permission_failed">Permissão não concedida.</string>
     <string name="backup_summary">Última atualização: %s</string>
@@ -225,6 +228,7 @@
     <string name="report_issue">Reportar um problema</string>
     <string name="report_issue_here">Tendo problemas? Reporte-o aqui</string>
     <string name="about">Sobre</string>
+    <string name="misc">Mais</string>
     <string name="notification_settings">Notificação</string>
     <string name="turn_off">Desligar</string>
     <string name="unauthorized_user">Usuário não autorizado</string>
@@ -238,6 +242,7 @@
     <string name="marking_as_read">Marcar notificação como lida</string>
     <string name="forking_gist">Forking gist</string>
     <string name="login_using_your_default_browser">Fazer login usando seu browser padrão (OAuth)</string>
+    <string name="login_using_your_PAT">Login utilizando seu token de acesso pessoal (Recomendado)</string>
     <string name="or_character">OU</string>
     <string name="mark_notification_title">Desabilitar o Estado de Leitura da Notificação</string>
     <string name="mark_notification_summary">Desabilite marcar como lido ao clicar na notificação.</string>
@@ -263,6 +268,7 @@
     <string name="no_followings">Seguindo ninguém</string>
     <string name="no_repos">Sem repositórios</string>
     <string name="no_starred_repos">Sem repositórios favoritados</string>
+    <string name="no_packages">Sem pacotes</string>
     <string name="no_commits">Sem commits</string>
     <string name="no_contributors">Sem contribuidores</string>
     <string name="no_releases">Sem lançamentos</string>
@@ -323,6 +329,7 @@
     <string name="wrap_code_summary">Envolva o código no visualizador de código por padrão</string>
     <string name="wrap_code_title">Envolver Código</string>
     <string name="open_source_libs">Bibliotecas de código aberto</string>
+    <string name="open_source_libs_desc">Lista de todas as dependências utilizadas para fazer a aplicação</string>
     <string name="enable_notification_sound_summary">Habilitar som de notificação sempre que receber uma notificação.</string>
     <string name="enable_notification_sound_title">Habilitar Som de Notificação</string>
     <string name="enable_notification_title">Habilitar Notificações</string>
@@ -458,4 +465,13 @@
     <string name="menu_label">Menu</string>
     <string name="commit_file_required">Sem alterações no arquivo</string>
     <string name="send_feedback">Enviar feedback</string>
+    <string name="auth_null_or_blank">As informações da autenticação anterior não foram encontradas</string>
+    <string name="static_disabled_message">desabilitar atalho</string>
+    <string name="my_issues">Issues</string>
+    <string name="private_wiki_error_msg">Infelizmente não podemos acessar wikis de repositórios privados</string>
+    <string name="file_history">Histórico de Arquivos</string>
+    <string name="download_setting_dialog">Selecionar downloader</string>
+    <string name="download_setting_title">Definit downloader</string>
+    <string name="show_contribution_graph">Exibir gráfico</string>
+    <string name="contributions_stats_text">Estatísticas de Contribuição:</string>
 </resources>
