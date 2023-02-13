@@ -180,7 +180,7 @@ dependencies {
 //    kapt("io.requery:requery-processor:1.6.0")
 
     // about lib
-    implementation("com.mikepenz:aboutlibraries-core:10.0.1")
+    implementation("com.mikepenz:aboutlibraries-core:10.5.2")
     implementation("com.mikepenz:aboutlibraries:10.0.1")
 
     // HtmlSpanner
