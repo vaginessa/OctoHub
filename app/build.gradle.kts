@@ -221,7 +221,7 @@ dependencies {
     implementation("net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0")
 
     // lottie
-    implementation("com.airbnb.android:lottie:5.0.3")
+    implementation("com.airbnb.android:lottie:5.2.0")
 
     // mmkv
     implementation("com.tencent:mmkv:1.2.15")
