@@ -218,7 +218,7 @@ dependencies {
     implementation("com.jaredrummler:android-device-names:2.1.1")
 
     // keyboard
-    implementation("net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0")
+    implementation("net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0")
 
     // lottie
     implementation("com.airbnb.android:lottie:5.2.0")
