@@ -138,7 +138,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
 
     // glide
-    implementation("com.github.bumptech.glide:glide:4.15.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
 
     // ShapedImageView
     implementation("cn.gavinliu:ShapedImageView:0.8.7")
