@@ -115,7 +115,7 @@ dependencies {
     // androidx
     implementation("androidx.core:core:1.8.0")
     implementation("androidx.appcompat:appcompat:1.4.2")
-    implementation("androidx.fragment:fragment-ktx:1.5.6")
+    implementation("androidx.fragment:fragment-ktx:1.5.7")
     implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
