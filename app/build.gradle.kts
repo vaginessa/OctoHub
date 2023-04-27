@@ -158,8 +158,8 @@ dependencies {
 //    implementation("com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1")
 
     // okhttp3
-    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
-    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.11.0"))
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
     // stream
