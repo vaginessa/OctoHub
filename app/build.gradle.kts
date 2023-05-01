@@ -186,7 +186,7 @@ dependencies {
     // HtmlSpanner
     implementation("com.github.NightWhistler:HtmlSpanner:0.4")
     // htmlcleaner !! 2.2> cause htmlparser to not work properly
-    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.27")
+    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.28")
 
 
     // commonmark
