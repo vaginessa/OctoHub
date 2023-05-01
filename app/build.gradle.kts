@@ -201,7 +201,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10")
 
     // jsoup
-    implementation("org.jsoup:jsoup:1.15.4")
+    implementation("org.jsoup:jsoup:1.16.1")
 
     // state
     implementation("com.evernote:android-state:1.4.1")
