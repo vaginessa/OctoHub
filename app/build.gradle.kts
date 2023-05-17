@@ -236,7 +236,7 @@ dependencies {
 //    kapt("com.github.matthiasrobbers:shortbread-compiler:1.4.0")
 
     // objectbox
-    implementation("io.objectbox:objectbox-kotlin:3.5.1")
+    implementation("io.objectbox:objectbox-kotlin:3.6.0")
     implementation("io.objectbox:objectbox-rxjava:3.5.1")
 //    debugImplementation("io.objectbox:objectbox-android-objectbrowser:3.1.2")
     implementation("io.objectbox:objectbox-android:3.6.0")
