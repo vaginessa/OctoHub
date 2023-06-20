@@ -115,15 +115,15 @@ dependencies {
     // androidx
     implementation("androidx.core:core:1.8.0")
     implementation("androidx.appcompat:appcompat:1.4.2")
-    implementation("androidx.fragment:fragment-ktx:1.5.5")
-    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.fragment:fragment-ktx:1.5.7")
+    implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
     implementation("androidx.legacy:legacy-preference-v14:1.0.0")
     implementation("androidx.browser:browser:1.4.0")
     implementation("androidx.palette:palette-ktx:1.0.0")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
-    implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation("androidx.core:core-splashscreen:1.0.1")
 
     // thirtyinch
     implementation("com.github.Grandcentrix.ThirtyInch:thirtyinch:v1.0.1")
@@ -158,9 +158,9 @@ dependencies {
 //    implementation("com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1")
 
     // okhttp3
-    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
-    implementation("com.squareup.okhttp3:okhttp:4.10.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.11.0"))
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
     // stream
     implementation("com.annimon:stream:1.2.2")
@@ -186,7 +186,7 @@ dependencies {
     // HtmlSpanner
     implementation("com.github.NightWhistler:HtmlSpanner:0.4")
     // htmlcleaner !! 2.2> cause htmlparser to not work properly
-    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.26")
+    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.28")
 
 
     // commonmark
@@ -201,7 +201,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10")
 
     // jsoup
-    implementation("org.jsoup:jsoup:1.15.4")
+    implementation("org.jsoup:jsoup:1.16.1")
 
     // state
     implementation("com.evernote:android-state:1.4.1")
@@ -224,7 +224,7 @@ dependencies {
     implementation("com.airbnb.android:lottie:6.0.0")
 
     // mmkv
-    implementation("com.tencent:mmkv:1.2.15")
+    implementation("com.tencent:mmkv:1.2.16")
 
     // androidx javax annotation
     implementation("org.glassfish:javax.annotation:10.0-b28")
@@ -236,19 +236,19 @@ dependencies {
 //    kapt("com.github.matthiasrobbers:shortbread-compiler:1.4.0")
 
     // objectbox
-    implementation("io.objectbox:objectbox-kotlin:3.5.1")
-    implementation("io.objectbox:objectbox-rxjava:3.5.1")
+    implementation("io.objectbox:objectbox-kotlin:3.6.0")
+    implementation("io.objectbox:objectbox-rxjava:3.6.0")
 //    debugImplementation("io.objectbox:objectbox-android-objectbrowser:3.1.2")
-    implementation("io.objectbox:objectbox-android:3.5.1")
+    implementation("io.objectbox:objectbox-android:3.6.0")
 
 
     // cache
 //    implementation("com.github.ben-manes.caffeine:caffeine:3.0.6")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-core:5.2.0")
+    testImplementation("org.mockito:mockito-core:5.3.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
-    androidTestImplementation("org.mockito:mockito-core:5.2.0")
+    androidTestImplementation("org.mockito:mockito-core:5.3.1")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test:rules:1.5.0")
     androidTestImplementation("androidx.test.espresso:espresso-intents:3.5.1")
