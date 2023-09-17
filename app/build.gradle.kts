@@ -186,7 +186,7 @@ dependencies {
     // HtmlSpanner
     implementation("com.github.NightWhistler:HtmlSpanner:0.4")
     // htmlcleaner !! 2.2> cause htmlparser to not work properly
-    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.28")
+    implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.29")
 
 
     // commonmark
@@ -221,10 +221,10 @@ dependencies {
     implementation("net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0")
 
     // lottie
-    implementation("com.airbnb.android:lottie:6.0.0")
+    implementation("com.airbnb.android:lottie:6.0.1")
 
     // mmkv
-    implementation("com.tencent:mmkv:1.2.16")
+    implementation("com.tencent:mmkv:1.3.0")
 
     // androidx javax annotation
     implementation("org.glassfish:javax.annotation:10.0-b28")
@@ -246,9 +246,9 @@ dependencies {
 //    implementation("com.github.ben-manes.caffeine:caffeine:3.0.6")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-core:5.3.1")
+    testImplementation("org.mockito:mockito-core:5.4.0")
     testImplementation("org.assertj:assertj-core:3.24.2")
-    androidTestImplementation("org.mockito:mockito-core:5.3.1")
+    androidTestImplementation("org.mockito:mockito-core:5.4.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test:rules:1.5.0")
     androidTestImplementation("androidx.test.espresso:espresso-intents:3.5.1")
